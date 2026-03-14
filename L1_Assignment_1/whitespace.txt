@@ -1,0 +1,7 @@
+   Leading spaces
+Trailing spaces   
+  Both sides   
+
+	Tabs and spaces	  
+   
+  Mixed	 whitespace  

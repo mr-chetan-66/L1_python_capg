@@ -1,0 +1,62 @@
+Objective:
+
+To work with database connectivity and classes and objects.
+
+
+
+Problem Description:
+
+Zaro Flight System wants to automate the process in their organization.  As a start-up, they need to automate the flight management system. Help them to develop this application.
+ You are provided with a class Flight with some private attributes along with appropriate setters and getters.
+
+A public 5 argument constructor with arguments - flight_id, source, destination, no_of_seats, and flight_fare - is also provided.   
+
+The private attributes are:
+
+flight_id  -  integer
+
+source  -  string
+
+destination  - string
+
+ no_of_seats  -  integer
+
+ flight_fare   -  float
+
+
+
+Use Database for manipulation. Assume Flight details are already available in the database.
+
+Write the below method in the file 'flight_management.py: 
+
+retrieve_flight_by_id(flight_Id, conn)  -  This method should accept a flight id and connection string as its parameters and search the flight with that id in the database. If a flight with that id is available retrieve that flight details and return them as a flight object.  Else return  None.
+
+When the 'retreive_flight_by_id(') method is invoked and if it returns a 'Flight' object, then display the details as specified in the sample input and output statements. 
+
+If no flight with that id is available in the database, display "Invalid Flight ID".
+
+To connect to the database you are provided with a 'database. properties' file and a flight_management.py for retrieving the data.  You are also provided with another file, flight.py for the model class for the flight.
+
+[in the sample input/output statements, any highlighted (bold) values are user inputs]
+
+To execute on your machine, you can make the necessary changes to the values of the connection URL, username, and password in the database.properties file. 
+
+
+Sample input and output 1:
+
+Enter the flight id:18224
+
+Flight details are:
+
+Flight ID: 18224
+Source: Dubai
+Destination: Kochi
+No of seats: 25
+Flight Fare: 50000.0
+
+
+
+Sample input and output 2:
+
+Enter the flight id:1890
+Invalid Flight ID

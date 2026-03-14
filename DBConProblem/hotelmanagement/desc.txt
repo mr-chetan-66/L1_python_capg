@@ -1,0 +1,77 @@
+
+Objective:
+
+To work with Database Connectivity
+
+Problem Description:
+
+A1 Hotel Management wants to automate the process in their hotel.  As a part of this process, the hotel is in need of an application to store and retrieve the details of the customer name, address , phone number and no of days staying in the hotel.
+You are provided with a class Hotel with some private attributes along with appropriate setters and getters.
+
+A constructor with 6 arguments - room_no, cust_name, address, phone_number, from_date, to_date is also provided.   
+
+The private attributes are:
+
+room_no  -  integer
+
+cust_name -  string
+
+address  - string
+
+phone number -  number
+
+from_date   -  date
+
+to_date   -  date
+
+Use Database for manipulation. Assume Hotel details are already available in the database.
+
+Write the below method in the file 'hotel_management.py: 
+
+retrieve_customer_details(address, conn)  -  This method should accept an address and a connection string as its parameters.  This method should search for a customer from that address (city) who has stayed more than 3 days in that hotel. If any customer is found, then retrieve that customer's details and return it as a list of hotel objects. 
+
+
+To connect to the database you are provided with a 'database. properties' file and a hotel _management.py file for implementing the functionality.
+
+When the 'retrieve_customer_details()' method is invoked and if it returns a 'list of hotel objects, then display the details as specified in the sample input and output statements. 
+If an address is not available in the database, it will display "Invalid Address."
+
+
+
+[in the sample input/output statements, any highlighted (bold) values are user inputs]
+
+To execute on your machine, you can make the necessary changes to the values of the connection URL, username, and password in the database.properties file. 
+
+
+
+Sample Input and Output 1:
+
+Enter the Address: Singapore
+
+Customer details 1
+
+Room no: 104
+
+Customer Name: Maddy
+
+Phone Number: 9988770055
+
+No of days: 4
+
+Customer details 2
+
+Room no: 107
+
+Customer Name: Manuj
+
+Phone Number: 8997612345
+
+No of days: 9
+
+
+
+Sample Input and Output 2:
+
+Enter the Address:Mumbai
+
+Invalid Address

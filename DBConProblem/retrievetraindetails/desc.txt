@@ -1,0 +1,144 @@
+Objective:
+
+To work with Database Connectivity
+
+Scenario:
+
+Indian Railways Department wants to automate a process in their system. The train details are available in the database.  A train can have various coach types among AC1, AC2, AC3, Sleeper, and Seater. 
+The user should have a facility to  view the trains based on the below fields :
+
+Availability of a specific coach type, along with the place from where it starts (source place) and where the journey ends (destination place). 
+
+You being their software consultant have been approached by them to develop an application that can be used for managing their business. You need to implement a Python program to view all the train which runs between a source and a destination with a particular coach type. Display the trains in a sorted order based on train number.
+
+You are provided with a public class Train with the following private attributes :
+
+
+train_number  -  integer
+
+train_name  -  string
+
+source  -  string
+
+destination  -  string
+
+ac1  -  integer
+
+ac2  -  integer
+
+ac3  -  integer
+
+sleeper  -  integer
+
+seater  -  integer
+
+Appropriate setter and getter are written.
+
+A 9 argument constructor with arguments - train_number, train_name, source, destination,ac1,ac2,ac3,sleeper and seater is also provided.   
+
+Requirements:
+
+Retrieve all the trains between source and destination with the required coach type.
+
+The user should have a facility to view the trains which run between a source and a destination with a particular coach type. Hence the system should fetch all the train details for the given source and destination which contains the given coach type, from the database.
+
+There can be more than one train which suits the given requirement. So, all those train details should be retrieved in a sorted order based on the train number. Add all those train details into a list and return the same.
+
+Create a class TrainManagementSystem which has the following method.  Use Database for manipulation.
+
+retrieve_train_details (coach_type, source, destination) - This method should accept a coach_type, source, and destination as parameters and retrieve all the trains with the given coach type that runs between the source and destination from the database in ascending order based on train number. Return these details as a list of 'Train' objects.
+
+
+
+To connect to the database you are provided with a database. properties file. (Do not change any values in the database.properties file)
+
+A train is assumed to have a specific coach type if the value of that coach type is greater than 0. For example in train number 14645, the value of ac1 is 0. It means ac1 is not present in that train. 
+
+The main.py is used to get the inputs like source, destination, and coach_type from the user. The coach_type should be anyone among AC1, AC2, AC3, Sleeper, and Seater (Case Insensitive). If coach_type is valid, then call retreive_train_details() method in TrainManagementSystem class. Otherwise, display the output as "Invalid coach type".
+
+Display the details of the train such as train number and train name for all the train objects returned as  a list by the method view_train_details() in TrainManagementSystem class.  The returned list should contain the train object in the sorted order of the train numbers.
+
+If no train is available as per the requirement, the output should be "No trains found".
+
+Guidlines:
+
+In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the remaining text represents the output.
+Already few records are inserted in the database as shown in the above table. So no need to write the code for adding records to the database. Just do the retrieval of records.
+Ensure to follow object-oriented specifications provided in the question description.
+Ensure to provide the names for classes, attributes, and methods as specified in the question description.
+Write the program adhere to the code template, if provided.
+In database, the coach type of train is given as separate columns. This represents the number of respective coaches available on the train.
+The following Sample Inputs/Outputs are generated based on the above mentioned Sample records are given in the train table.
+ 
+
+Sample Input  and  Output 1:
+
+Enter the source
+
+Howrah
+
+Enter the destination
+
+Dehradun
+
+Enter the coach type
+
+AC2
+
+13009  Doon Express
+
+ 
+
+Sample Input  and Output 2:
+
+Enter the source
+
+Mumbai
+
+Enter the destination
+
+Pune
+
+Enter the coach type
+
+Sleeper
+
+12123  Deccan Queen
+
+22119  Pune Express
+
+ 
+
+Sample Input  and Output 3:
+
+Enter the source
+
+Okha
+
+Enter the destination
+
+Guwahati
+
+Enter the coach type
+
+AC
+
+Invalid Coach Type
+
+ 
+
+Sample Input and Output 4:
+
+Enter the source
+
+Okha
+
+Enter the destination
+
+Guwahati
+
+Enter the coach type
+
+AC1
+
+No trains found

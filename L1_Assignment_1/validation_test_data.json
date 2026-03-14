@@ -1,0 +1,44 @@
+{
+  "emails": [
+    "valid@example.com",
+    "user.name+tag@domain.co.in",
+    "invalid@domain",
+    "noatsymbol.com",
+    "bad@@example.com"
+  ],
+  "phones": [
+    "9123456780",
+    "8123456789",
+    "6123456789",
+    "987654321",
+    "98765432101"
+  ],
+  "pans": [
+    "ABCDE1234F",
+    "abcde1234f",
+    "ABCDE123F4",
+    "ABCD12345F",
+    "ABCDE12345"
+  ],
+  "passwords": [
+    "StrongPass1",
+    "weak",
+    "alllowercase1",
+    "ALLUPPERCASE1",
+    "NoDigitsHere"
+  ],
+  "vehicle_numbers": [
+    "KA01AB1234",
+    "KA1AB1234",
+    "KA01A1234",
+    "DL04CD5678",
+    "KA01AB123"
+  ],
+  "booking_codes": [
+    "BOOK1234",
+    "BOOK0123",
+    "B00K1234",
+    "BOOK123",
+    "BOOK12345"
+  ]
+}
