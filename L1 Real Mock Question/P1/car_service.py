@@ -25,7 +25,7 @@ class CarService:
 
     def read_data(self, file_obj):
         for line in file_obj:
-            info = line.strip().split(",")
+            info = line.split(",")
             car_number = info[1]
             
             if ut.validate_car_number(car_number):
@@ -82,14 +82,12 @@ class CarService:
         cur = conn.cursor()
         cur.execute(query)
         rows = cur.fetchall()
-        top={}
-        for row in rows:
-            top[row[0]]=row[1]
+        
             
         cur.close()
         conn.close()
-        return top  ##TODO: RETURN VALUE AS PER THE DESCRIPTION
-
+        return {car_number:cnt for (car_number,cnt) in rows}
+    
     def find_closing_date(self, start_date, end_date):
         # Write your code
         query = "SELECT * FROM Car WHERE no_of_days>3 AND rental_date BETWEEN :1 AND :2"

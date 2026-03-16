@@ -31,6 +31,8 @@ def main():
         for k,v in resDict.items():
             print("f{k} : {v}")
     
+    f_obj.close()
+    
     # Write the appropriate code here as per the specifications
     
 if __name__ == "__main__":

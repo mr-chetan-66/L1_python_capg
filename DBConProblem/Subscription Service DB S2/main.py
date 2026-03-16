@@ -5,7 +5,7 @@ import db_config as db
 import subscription_dao as dao_module
 import subscription_util as util
 from subscription_dao import (InvalidPlanTypeException,
-                               SubscriptionNotFoundException,
+                                SubscriptionNotFoundException,
                                SubscriptionAlreadyActiveException,
                                SubscriptionInactiveException)
 

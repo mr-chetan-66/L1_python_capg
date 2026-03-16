@@ -4,9 +4,7 @@ import re
 
 
 def access_file(file):
-    with open(file) as f:
-        return f
-
+    return open(file)
 
 def validate_car_number(car_number):
     # Write your code here
@@ -20,5 +18,4 @@ def validate_car_number(car_number):
 def convert_date(str_date):
     # Write your code here
     date_obj = datetime.strptime(str_date, "%d/%m/%Y")
-
     return date_obj  # TODO CHANGE THIS RETURN VALUE

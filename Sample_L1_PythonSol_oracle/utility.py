@@ -14,9 +14,6 @@ def read_file(file):
             lst.append(vals)
     return lst
 
-
-
-
 def validate_service_id(service_id):
     try:
         ## Write your code here

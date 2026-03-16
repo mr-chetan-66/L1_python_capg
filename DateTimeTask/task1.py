@@ -1,7 +1,7 @@
 from datetime import datetime,date,timedelta
-
+from dateutil import parser
 def convert(s):
-    return datetime.strptime(s,"%d-%m-%Y")
+    return parser.parse(s)
 def main():
     s="09-03-2026"
     print("Before: "+s)

@@ -10,10 +10,6 @@ class ITService:
         self.__base_charge = base_charge
         self.__service_charge  = 0.0
     
-    
-    
-    
-    
     ## Getters and Setters
     def set_service_id(self, service_id):
         self.__service_id = service_id
