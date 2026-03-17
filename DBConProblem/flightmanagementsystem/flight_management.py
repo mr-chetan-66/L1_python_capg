@@ -1,6 +1,6 @@
 ### DO NOT ALTER THE GIVEN TEMPLATE.  FILL THE CODE ONLY IN THE PROVIDED PLACES ALONE
 import flight as fl
-import cx_Oracle
+import oracledb
  
 db=""
 with open('database.properties') as f:
@@ -8,7 +8,11 @@ with open('database.properties') as f:
     db = {key.strip(): value.strip() for key, value in lines}
    
 #Creating Connection String
-conn=cx_Oracle.connect(db['DB_USERNAME'],db['DB_PASSWORD'],db['DSN'])
+conn = oracledb.connect(
+    user=db['DB_USERNAME'],
+    password=db['DB_PASSWORD'],
+    dsn=db['DSN']
+)
  
  
  
@@ -22,7 +26,7 @@ def retrieve_flight_by_id(flight_id,conn):
         flight_obj = fl.Flight(row[0],row[1],row[2],row[3],row[4])
         return flight_obj
     else:
-        return row
+        return None
  
  
  
