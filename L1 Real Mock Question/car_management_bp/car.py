@@ -1,10 +1,10 @@
 # Please do not change the skelecton code given here.
 # Write your code only in the provided places alone
-
+from datetime import date
 class Car:
     
     # Define the arguments parameterized constructor here
-    def __init__(self,rental_id, car_number, customer_name, basic_cost, no_of_days, rental_date):
+    def __init__(self, rental_id :str,car_number :str,customer_name :str, basic_cost:float, no_of_days:int, rental_date:date):
         self.__rental_id=rental_id
         self.__car_number=car_number
         self.__customer_name=customer_name
@@ -60,13 +60,11 @@ class Car:
         # Write the code here
         rd=self.__no_of_days
         total=self.__basic_cost*self.__no_of_days
-        d=0
+        dis=0
         if rd>3:
-            d=total*0.04
-            total*=0.96
-        elif rd>=1:
-            d=total*0.02
-            total*=0.98
+            dis=total*0.04
+        elif rd>1:
+            dis=total*0.04
             
-        self.__total_amount=round(total,2)
-        return round(d,2)
+        self.__total_amount=total-dis
+        return dis

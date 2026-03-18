@@ -2,83 +2,92 @@
 # You can add any number of methods and attributes as you required without changing the given template
 import utility as ut
 import car as cr
-import sqlite3
 from datetime import datetime,timedelta
+import cx_Oracle
 
+db={}
+with open("database.properties") as f:
+    lines=[line.strip().split("=") for line in f if not line.startswith("#") and line.strip()]
+    db={k.strip():v.strip() for k,v in lines}
+    conn=cx_Oracle.connect(db["DB_USERNAME"],db["DB_PASSWORD"],db["DSN"])
+    
 class CarService:
     
     def __init__(self):
         self.__discount_dict={}
     
     def read_data(self,file_obj):
-        for line in file_obj.readlines():
-            l=line.split(",")
-            cn=l[1]
-            if not ut.validate_car_number(cn):
-                continue
-            obj=cr.Car(l[0],cn,l[2],round(float(l[3]),2),int(l[4]),l[5])
-            d=obj.calculate_total_amount()
+        for line in file_obj:
+            part=line.strip().split(",")
+            if ut.validate_car_number(part[1]):
+                d=ut.convert_date(part[5])
+                obj=cr.Car(part[0],part[1],part[2],float(part[3]),int(part[4]),d)
+                dis=obj.calculate_total_amount()
+                self.add_car_details(obj)
+                if obj.get_no_of_days()>1:
+                    self.__discount_dict[obj.get_rental_id()]=dis
             
-            if d!=0:
-                self.__discount_dict[obj.get_rental_id()]=d
-            self.add_car_details(obj)
+        return None
             
     def add_car_details(self,o):
-        conn = sqlite3.connect("cardatabase.db")
-        cursor = conn.cursor()
-
-        query = """
-        INSERT INTO Car (rental_id, car_number, customer_name, basic_cost, no_of_days, rental_date, total_amount)
-        VALUES (?,?,?,?,?,?,?)
-        """
-        l=[o.get_rental_id(),o.get_car_number(),o.get_customer_name(),o.get_basic_cost(),o.get_no_of_days(),o.get_rental_date(),o.get_total_amount()]
-        cursor.execute(query,l)
-        conn.commit()
-        conn.close()
+        with conn.cursor() as cur:
+            q='insert into Car values(:1,:2,:3,:4,:5,:6)'
+            l=[o.get_rental_id(),o.get_car_number(),o.get_customer_name(),o.get_basic_cost(),o.get_no_of_days(),o.get_rental_date(),o.get_total_amount()]
+            cur.execute(q,l)
+            conn.commit()
+            return None
         
     def find_top3_rentals(self):
-        conn = sqlite3.connect("cardatabase.db")
-        cursor = conn.cursor()
-
-        query = """
-            SELECT car_number,COUNT(*) as cnt
-            FROM Car 
-            GROUP BY car_number
-            ORDER BY cnt DESC, car_number ASC
-            LIMIT 3
-        """
-        
-        cursor.execute(query)
-        f=cursor.fetchall()
-        conn.close()
-        return {car_num: cnt for (car_num, cnt) in f}
-    
-    
-    def find_closing_date(self,start_date,end_date):
-        conn = sqlite3.connect("cardatabase.db")
-        cursor = conn.cursor()
-
-        query = """
-            SELECT c.rental_id, c.no_of_days, c.rental_date
-            FROM Car AS c
-            WHERE date(c.rental_date) BETWEEN date(?) AND date(?)
-            AND c.car_number IN (
-                SELECT car_number
-                FROM Car
-                GROUP BY car_number
-                HAVING COUNT(*) > 3
+        with conn.cursor() as cur:
+            q="""with freq as (
+                select car_number,count(*) as cnt
+                from Car 
+                group by car_number
+            ),
+            rank as(
+                select car_number,cnt
+                DENSE_RANK() OVER(order by cnt desc)as rnk
+                from freq
             )
-        """
-        l=[start_date,end_date]
-        cursor.execute(query,l)
-        f=cursor.fetchall()
+            select car_number, cnt from rank
+            where rnk<=3"""
+            
+            cur.execute(q)
+            
+            row=cur.fetchall()
+            return {car_number:cnt for car_number,cnt in row}
+            # carDict = {}
+            # for row in rows:
+            #     if row[1] in carDict:
+            #         carDict[row[1]]+=1
+            #     else:
+            #         carDict[row[1]]=1
+            
+            # sortedDict = dict(sorted(carDict.items(),key= lambda x:x[1],reverse=True))
+
+            # resDict = {}
+            # i = 0
+            # prev = 0
+            # for x,y in sortedDict.items():
+            #     if y!=prev:
+            #         prev = y
+            #         i+=1
+            #     #resDict[x] = y
+            #     if i > 3:
+            #         break
+            #     resDict[x] = y
         
-        ans = {}
-        for (r_id, days, rental_date_iso) in f:
-            d0 = ut.convert_date(rental_date_iso)
-            closing = d0 + timedelta(days=int(days))
-            ans[r_id] = closing                           # correct: key is rental_id
-        return ans
+
+    def find_closing_date(self,start_date,end_date):
+        with conn.cursor() as cur:
+            q="""select rental_id,rental_date,no_of_days from Car where no_of_days>3
+            and rental_date between :1 and :2"""
+            
+            cur.execute(q,(start_date,end_date))
+            
+            row=cur.fetchall()
+            
+            return {id:(d+timedelta(days=nd)) for id,d,nd in row}
 
     
     
