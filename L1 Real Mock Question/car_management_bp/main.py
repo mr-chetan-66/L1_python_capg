@@ -24,7 +24,7 @@ def main():
     
     print("The closing rental date of cars with th specified rental date is/are:")
     for k,v in cd.items():
-        print(f"{k} : {v} 00:00:00")
+        print(f"{k} : {v}")
     
     f.close()
     

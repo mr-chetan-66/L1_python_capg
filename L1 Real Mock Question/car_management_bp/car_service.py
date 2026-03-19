@@ -3,13 +3,14 @@
 import utility as ut
 import car as cr
 from datetime import datetime,timedelta
-import cx_Oracle
+import oracledb
+import invalid_exception as ex
 
 db={}
 with open("database.properties") as f:
     lines=[line.strip().split("=") for line in f if not line.startswith("#") and line.strip()]
     db={k.strip():v.strip() for k,v in lines}
-    conn=cx_Oracle.connect(db["DB_USERNAME"],db["DB_PASSWORD"],db["DSN"])
+    conn=oracledb.connect(user=db["DB_USERNAME"],password=db["DB_PASSWORD"],dsn=db["DSN"])
     
 class CarService:
     
@@ -17,21 +18,26 @@ class CarService:
         self.__discount_dict={}
     
     def read_data(self,file_obj):
+        with conn.cursor() as cur:
+            cur.execute("TRUNCATE TABLE Car")
         for line in file_obj:
             part=line.strip().split(",")
-            if ut.validate_car_number(part[1]):
+            try:
+                ut.validate_car_number(part[1])
                 d=ut.convert_date(part[5])
                 obj=cr.Car(part[0],part[1],part[2],float(part[3]),int(part[4]),d)
                 dis=obj.calculate_total_amount()
                 self.add_car_details(obj)
                 if obj.get_no_of_days()>1:
                     self.__discount_dict[obj.get_rental_id()]=dis
+            except ex.InvalidCarNumberException as e:
+                print(e.get_message())
             
         return None
             
     def add_car_details(self,o):
         with conn.cursor() as cur:
-            q='insert into Car values(:1,:2,:3,:4,:5,:6)'
+            q='insert into Car values(:1,:2,:3,:4,:5,:6,:7)'
             l=[o.get_rental_id(),o.get_car_number(),o.get_customer_name(),o.get_basic_cost(),o.get_no_of_days(),o.get_rental_date(),o.get_total_amount()]
             cur.execute(q,l)
             conn.commit()
@@ -39,43 +45,33 @@ class CarService:
         
     def find_top3_rentals(self):
         with conn.cursor() as cur:
-            q="""with freq as (
-                select car_number,count(*) as cnt
-                from Car 
-                group by car_number
-            ),
-            rank as(
-                select car_number,cnt
-                DENSE_RANK() OVER(order by cnt desc)as rnk
-                from freq
-            )
-            select car_number, cnt from rank
-            where rnk<=3"""
+            q="select * from Car"
             
             cur.execute(q)
             
-            row=cur.fetchall()
-            return {car_number:cnt for car_number,cnt in row}
-            # carDict = {}
-            # for row in rows:
-            #     if row[1] in carDict:
-            #         carDict[row[1]]+=1
-            #     else:
-            #         carDict[row[1]]=1
+            rows=cur.fetchall()
+            carDict = {}
+            for row in rows:
+                if row[1] in carDict:
+                    carDict[row[1]]+=1
+                else:
+                    carDict[row[1]]=1
             
-            # sortedDict = dict(sorted(carDict.items(),key= lambda x:x[1],reverse=True))
+            sortedDict = dict(sorted(carDict.items(),key= lambda x:x[1],reverse=True))
 
-            # resDict = {}
-            # i = 0
-            # prev = 0
-            # for x,y in sortedDict.items():
-            #     if y!=prev:
-            #         prev = y
-            #         i+=1
-            #     #resDict[x] = y
-            #     if i > 3:
-            #         break
-            #     resDict[x] = y
+            resDict = {}
+            i = 0
+            prev = 0
+            for x,y in sortedDict.items():
+                if y!=prev:
+                    prev = y
+                    i+=1
+                #resDict[x] = y
+                if i > 3:
+                    break
+                resDict[x] = y
+                
+            return resDict
         
 
     def find_closing_date(self,start_date,end_date):

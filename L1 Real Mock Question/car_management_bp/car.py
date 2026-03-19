@@ -64,7 +64,7 @@ class Car:
         if rd>3:
             dis=total*0.04
         elif rd>1:
-            dis=total*0.04
+            dis=total*0.02
             
         self.__total_amount=total-dis
         return dis
