@@ -2,20 +2,18 @@
 # Write your code only in the provided places alone
 
 class InvalidMedCodeException(Exception):
-
     def __init__(self, message):
-        # Write your code here
-        pass
-
+        super().__init__(message)
+        self.__message=message
+        
     def get_message(self):
         return self.__message
 
 
 class InvalidStockIdException(Exception):
-
     def __init__(self, message):
-        # Write your code here
-        pass
-
+        super().__init__(message)
+        self.__message=message
+        
     def get_message(self):
         return self.__message

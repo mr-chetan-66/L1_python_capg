@@ -4,19 +4,19 @@ from datetime import date
 
 class Medicine:
 
-    def __init__(self, stock_id:str, med_code:str, med_name:str, category:str,
-                 unit_price:float, quantity:int, manufacture_date:date, expiry_date:date):
-        self.__stock_id = stock_id
-        self.__med_code = med_code
-        self.__med_name = med_name
-        self.__category = category
-        self.__unit_price = unit_price
-        self.__quantity = quantity
-        self.__manufacture_date = manufacture_date
-        self.__expiry_date = expiry_date
-        self.__margin_amount = 0.0
-        self.__selling_price = 0.0
-        self.__total_stock_value = 0.0
+    def __init__(self,stock_id:str,med_code:str,med_name:str,category:str,unit_price:float,quantity:int,manufacture_date:date,expiry_date:date,status:str):
+        self.__stock_id=stock_id
+        self.__med_code=med_code
+        self.__med_name=med_name
+        self.__category=category
+        self.__unit_price=unit_price
+        self.__quantity=quantity
+        self.__manufacture_date=manufacture_date
+        self.__expiry_date=expiry_date
+        self.__status=status
+        self.__margin_amount=0.0
+        self.__selling_price=0.0
+        self.__total_stock_value=0.0
 
     def get_stock_id(self): return self.__stock_id
     def get_med_code(self): return self.__med_code
@@ -26,6 +26,7 @@ class Medicine:
     def get_quantity(self): return self.__quantity
     def get_manufacture_date(self): return self.__manufacture_date
     def get_expiry_date(self): return self.__expiry_date
+    def get_status(self): return self.__status
     def get_margin_amount(self): return self.__margin_amount
     def get_selling_price(self): return self.__selling_price
     def get_total_stock_value(self): return self.__total_stock_value
@@ -38,19 +39,22 @@ class Medicine:
     def set_quantity(self, v): self.__quantity = v
     def set_manufacture_date(self, v): self.__manufacture_date = v
     def set_expiry_date(self, v): self.__expiry_date = v
+    def set_status(self, v): self.__status = v
     def set_margin_amount(self, v): self.__margin_amount = v
     def set_selling_price(self, v): self.__selling_price = v
     def set_total_stock_value(self, v): self.__total_stock_value = v
 
     def calculate_selling_price(self):
-        # Write your code here
-        # Business Rule — Margin % by category:
-        #   Tablet   -> 12%
-        #   Capsule  -> 18%
-        #   Syrup    -> 10%
-        #   (any other) -> 8%
-        # margin_amount = unit_price * margin_rate
-        # selling_price = unit_price + margin_amount
-        # total_stock_value = selling_price * quantity
-        # Set all three fields. Return margin_amount.
-        pass
+        
+        if self.__category=='Tablet':
+            self.__margin_amount=self.__unit_price*0.12
+        elif self.__category=='Capsule':
+            self.__margin_amount=self.__unit_price*0.18
+        elif self.__category=='Syrup':
+            self.__margin_amount=self.__unit_price*0.10
+        else:
+            self.__margin_amount=self.__unit_price*0.08
+            
+        self.__selling_price=self.__unit_price+self.__margin_amount
+        
+        self.__total_stock_value=self.__selling_price*self.__quantity

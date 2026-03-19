@@ -1,39 +1,33 @@
 # Please do not change the skeleton code given here.
 # Write your code only in the provided places alone
-from datetime import datetime
+from datetime import datetime,timedelta
 import freight_exception as fe
 import re
 
 def read_file(file):
-    # Write your code here
-    # Read the file and return only lines where:
-    #   1. status (index 7) == 'Dispatched'
-    #   2. (dispatch_date - booking_date).days <= 30
-    # Return a list of valid line strings.
-    pass
+    record=[]
+    with open(file) as f:
+        for line in f:
+            part=line.strip().split(",")
+            if part[7]=='Dispatched':
+                dd=convert_date(part[5])
+                bd=convert_date(part[8])
+                if((dd - bd).days)<=30:
+                    record.append(line)
+        
+    return record          
 
 def validate_freight_id(freight_id):
-    # Write your code here
-    # Business Rule: Freight ID must be exactly 10 characters.
-    #   - Starts with 'FRT-'
-    #   - Followed by exactly 4 digits
-    #   - Followed by '-'
-    #   - Last 2 characters must be uppercase letters [A-Z]
-    # Pattern: FRT-DDDD-AA  (D=digit, A=uppercase letter)
-    # If invalid: raise InvalidFreightIdException with message: "Invalid Freight Id: <freight_id>"
-    # If valid: return True
-    pass
+    if re.fullmatch(r"^FRT-\d{4}-[A-Z]{2}$",freight_id):
+        return True
+    else:
+        raise fe.InvalidFreightIdException(f"Invalid Freight Id: {freight_id}")
 
 def validate_shipment_id(shipment_id):
-    # Write your code here
-    # Business Rule: Shipment ID must be at least 5 characters.
-    #   - Must start with 'SH' followed by 3 or more digits
-    # If length < 5 OR pattern mismatch: raise InvalidShipmentIdException("Invalid Shipment Id")
-    # If valid: return True
-    pass
+    if re.fullmatch(r"^SH\d{3,}$",shipment_id):
+        return True
+    else:
+        raise fe.InvalidShipmentIdException("Invalid Shipment Id")
 
 def convert_date(str_date):
-    # Write your code here
-    # Convert date string DD/MM/YYYY to a Python date object.
-    # Do NOT use pandas.
-    pass
+    return datetime.strptime(str_date,"%d/%m/%Y").date()

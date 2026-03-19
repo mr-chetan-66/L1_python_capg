@@ -4,8 +4,8 @@
 class InvalidFreightIdException(Exception):
 
     def __init__(self, message):
-        # Write your code here
-        pass
+        super().__init__(message)
+        self.__message=message
 
     def get_message(self):
         return self.__message
@@ -14,8 +14,8 @@ class InvalidFreightIdException(Exception):
 class InvalidShipmentIdException(Exception):
 
     def __init__(self, message):
-        # Write your code here
-        pass
+        super().__init__(message)
+        self.__message=message
 
     def get_message(self):
         return self.__message
