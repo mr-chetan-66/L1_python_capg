@@ -5,18 +5,19 @@ from datetime import date
 class HotelBooking:
 
     # Parameterized constructor is already defined - do NOT modify it
-    def __init__(self, booking_id:str, room_number:str, guest_name:str,
-                 room_rate:float, no_of_nights:int, check_in_date:date, room_type:str):
-        self.__booking_id = booking_id
-        self.__room_number = room_number
-        self.__guest_name = guest_name
-        self.__room_rate = room_rate
-        self.__no_of_nights = no_of_nights
-        self.__check_in_date = check_in_date
-        self.__room_type = room_type
-        self.__base_amount = 0.0
-        self.__tax_amount = 0.0
-        self.__total_amount = 0.0
+    def __init__(self,booking_id:str,room_number:str,guest_name:str,room_rate:float,no_of_nights:int,check_in_date:date,room_type:str,status:str,booking_date:date):
+        self.__booking_id=booking_id
+        self.__room_number=room_number
+        self.__guest_name=guest_name
+        self.__room_rate=room_rate
+        self.__no_of_nights=no_of_nights
+        self.__check_in_date=check_in_date
+        self.__room_type=room_type
+        self.__status=status
+        self.__booking_date=booking_date
+        self.__base_amount=0.0
+        self.__tax_amount=0.0
+        self.__total_amount=0.0
 
     def get_booking_id(self):
         return self.__booking_id
@@ -38,6 +39,12 @@ class HotelBooking:
 
     def get_room_type(self):
         return self.__room_type
+    
+    def get_status(self):
+        return self.__status
+    
+    def get_booking_date(self):
+        return self.__booking_date
 
     def get_base_amount(self):
         return self.__base_amount
@@ -69,6 +76,12 @@ class HotelBooking:
     def set_room_type(self, room_type):
         self.__room_type = room_type
 
+    def set_status(self, status):
+        self.__status = status
+        
+    def set_booking_date(self, booking_date):
+        self.__booking_date = booking_date
+
     def set_base_amount(self, base_amount):
         self.__base_amount = base_amount
 
@@ -78,9 +91,19 @@ class HotelBooking:
     def set_total_amount(self, total_amount):
         self.__total_amount = total_amount
 
-    def calculate_base_amount(self):
-        # Write your code here
-        # Business Rule:
-        # base_amount = room_rate * no_of_nights
-        # Set base_amount and return it
-        pass
+    def calculate_all_amount(self):
+        base=self.__room_rate*self.__no_of_nights
+        self.__base_amount=base
+        
+        r=0
+        if self.__room_type=='Suite':
+            r=0.18
+        elif self.__room_type=='Deluxe':
+            r=0.12
+        elif self.__room_type=='Standard':
+            r=0.08
+        self.__tax_amount=self.__base_amount*r
+        self.__total_amount=self.__base_amount+self.__tax_amount
+
+        
+    
