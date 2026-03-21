@@ -119,7 +119,7 @@ class MedService:
             
             q3="""update Medicine 
             set selling_price=unit_price+margin_amount,
-            total_stock_value=unit_price+margin_amount*quantity
+            total_stock_value=(unit_price+margin_amount)*quantity
             where category=:1"""
             
             cur.execute(q3,(category,))

@@ -4,21 +4,6 @@ from datetime import date
 
 class JobApplication:
 
-    def __init__(self, application_id:str, job_code:str, applicant_name:str,
-                 experience_grade:str, years_exp:int, application_date:date,
-                 closing_date:date, job_title:str):
-        self.__application_id = application_id
-        self.__job_code = job_code
-        self.__applicant_name = applicant_name
-        self.__experience_grade = experience_grade
-        self.__years_exp = years_exp
-        self.__application_date = application_date
-        self.__closing_date = closing_date
-        self.__job_title = job_title
-        self.__base_salary = 0.0
-        self.__experience_bonus = 0.0
-        self.__offered_salary = 0.0
-
     def get_application_id(self): return self.__application_id
     def get_job_code(self): return self.__job_code
     def get_applicant_name(self): return self.__applicant_name
