@@ -1,0 +1,1770 @@
+Pi-->THON NOTES::
+
+What a @classmethod really is
+A class method:
+
+Receives the class itself as the first argument (cls)
+Can access or modify class variables
+Can create alternative constructors
+Can implement logic that belongs to the class as a whole, not a specific object
+
+
+class MyClass:
+    count = 0
+
+    @classmethod
+    def increment_count(cls):
+        cls.count += 1
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    @classmethod
+    def from_birth_year(cls, name, birth_year):
+        return cls(name, 2024 - birth_year)
+``
+p = Person.from_birth_year("Hari", 2000)
+
+
+class Car:
+    count = 0
+
+    def __init__(self):
+        Car.count += 1
+
+    @classmethod
+    def get_count(cls):
+        return cls.count
+
+
+class Base:
+    kind = "base"
+
+    @staticmethod
+    def static_get_kind():
+        # Hard-codes Base, not subclass aware
+        return Base.kind
+
+    @classmethod
+    def class_get_kind(cls):
+        # Respects subclass override
+        return cls.kind
+
+class Child(Base):
+    kind = "child"
+
+print(Child.static_get_kind())  # "base"  (wrong for subclass)
+print(Child.class_get_kind())   # "child" (correct)
+
+
+class A:
+    value = 1
+
+a1 = A()
+a2 = A()
+A.value = 42
+
+print(a1.value)  # 42
+print(a2.value)  # 42
+
+But if one instance shadows it:
+a1.value = 99    # shadows
+print(a1.value)  # 99
+print(a2.value)  # 42
+
+
+class A:
+    def fly(self):
+        print(" A fly")
+        
+class B:
+    def fly(self):
+        print(" B fly")
+
+class C(A,B):
+    def fly(self):
+        super().fly()
+        super().fly()
+        print(" C fly")
+        
+c=C()
+c.fly()
+
+A fly
+A fly
+C fly
+
+
+name = "Chetan Awari"
+rev = name[::-1]              # Pythonic slicing
+print(rev)
+
+``
+
+
+name = "Chetan Awari"
+rev = ' '.join(name.split()[::-1])
+print(rev)
+
+
+name = "Chetan Awari"
+rev = ' '.join(word[::-1] for word in name.split())
+print(rev)
+
+
+arr = np.array([1, 2, 3, 4, 5])
+# Create a 2D array (matrix)
+matrix = np.array([[1, 2], [3, 4]])
+# Access elements
+print(arr[0]) # Output: 1
+print(matrix[1,0]) # Output: 3
+
+
+NumPy arrays are homogeneous and support vectorized operations, making them very fast for
+calculations.
+
+
+import numpy as np
+# import os
+# print(os.path.exists("name.txt"))
+
+arr=np.array([2,0,1,0,2,0,0,2])
+print(np.sort(arr))
+print(np.sort(arr)[::-1])
+
+arr2=np.zeros((2,3))
+arr2[1,1]=2
+print(arr2[:1])
+
+arr = np.arange(1, 10) # [1 2 3 4 5 6 7 8 9]
+reshaped = arr.reshape(3, 3)
+print(reshaped)
+
+np.min(a, axis) Minimum value (axis=0:means column wise min/max, whereas axis=1:means row wise min/max{calculate via comparing value in rows i. e. column by column}) simplify = 0: vertical
+		    1: horizontal
+np.max(a, axis) Maximum value
+np.argmin(a) Index of minimum value
+np.argmax(a) Index of maximum value
+
+np.sort(arr) Sort array
+np.argsort(arr) Indices that would sort
+array
+
+
+np.round(a, decimals)
+Round elements to given
+decimals
+
+
+LIST
+sort() Sort in-place lst.sort()
+reverse() Reverse in-place lst.reverse()
+
+# Sort in descending order and take first 3
+largest_three = sorted(lst, reverse=True)[:3]
+print(largest_three) # Output: [9, 7, 5]
+
+
+lst = [5, 1, 9, 3, 7, 2]
+largest = []
+for _ in range(3):
+ max_val = max(lst)
+ largest.append(max_val)
+ lst.remove(max_val) # Remove it so next max can be found
+print(largest) # Output: [9, 7, 5]
+
+STRING
+name="abChetanAwariabc"
+print(name.strip("abc"))
+
+ChetanAwari (bcz:first from left side a and b is remove then from right side a,b and c is removed)
+
+string.replace(old, new, count)
+
+
+separator. Join(iterable)
+
+
+nums = [1, 2, 3]
+print(",".join(map(str, nums)))
+
+1,2,3
+
+string.find(substring, start, end)
+string.rfind(substring, start, end)
+
+
+text = "banana"
+print(text.count("a"))
+print(text.count("a", 2, 5))
+
+
+swapcase() Reverse case
+
+
+text = "aabbcde"
+for ch in text:
+ if text.count(ch) == 1:
+ print(ch)
+ break
+
+s1 = "listen"
+s2 = "silent"
+print(sorted(s1) == sorted(s2))
+
+print(a is b)
+print(2 in [1, 2, 3])
+
+
+
+# def summation(*n):
+#     t=0
+#     for x in n:
+#         t+=x
+#     return t,len(n)
+
+# sum, l=summation(1,2,3,4,5,6,7,8,9,0)
+# print(f"{sum}:{l}")
+
+def summation(**n):
+    for k,v in n.items():
+        print(f"{k}:{v}")
+
+summation(name="Chetan",age=23,company="Capgemini")
+
+
+try:
+    process_data()
+except (ValueError, TypeError, KeyError) as e:
+    print(f'Data error occurred: {e}')
+
+
+class InsufficientFundsError(Exception):
+    pass
+ 
+# Usage:
+def withdraw(balance, amount):
+    if amount > balance:
+        raise InsufficientFundsError('Not enough balance!')
+    return balance - amount
+ 
+try:
+    withdraw(100, 200)
+except InsufficientFundsError as e:
+    print(f'Transaction failed: {e}')
+ 
+# Output: Transaction failed: Not enough balance!
+
+
+class InsufficientFundsError(Exception):
+    def __init__(self, balance, amount):
+        self.balance = balance
+        self.amount  = amount
+        self.deficit = amount - balance
+        message = (f'Cannot withdraw {amount}. '
+                   f'Balance: {balance}, Deficit: {self.deficit}')
+        super().__init__(message)
+ 
+# Usage:
+try:
+    raise InsufficientFundsError(100, 250)
+except InsufficientFundsError as e:
+    print(e)
+    print(f'You need {e.deficit} more.')
+ 
+# Output:
+# Cannot withdraw 250. Balance: 100, Deficit: 150
+# You need 150 more.
+
+
+name=['C','H','E','T','A','N']
+for pos,ele in enumerate(name):
+ print(pos+" "+ele)
+
+
+numbers = [1, 2, 3, 4, 5, 6]
+even_numbers = [x for x in numbers if x % 2 == 0]
+print(even_numbers)
+
+
+numbers = [1, 2, 3, 4, 5]
+even_odd = ["even" if x % 2 == 0 else "odd" for x in numbers]
+print(even_odd)
+
+
+nums = [1, 2, 3, 4, 5, 6, 7, 8]
+filtered = [x for x in nums if x > 3 if x % 2 == 0]
+print(filtered)
+
+
+pairs = [(x, y) for x in range(3) for y in range(3)]
+print(pairs)
+
+
+name.pop() #remove elem from last pos
+del name[2] # remove elem from that pos
+
+
+name.sort(reverse=True) # sort original list and return none
+name2=sorted(name,reverse=True) #it return list so no in place sorting
+
+
+All numeric types (int, float, complex, bool) are immutable.
+Once created, their value cannot be changed.
+
+x = 10
+print(id(x))  # memory address of the int object
+
+x = x + 1
+print(id(x))  # different address → new object
+
+
+
+import csv
+
+# Writing CSV
+data = [["Name", "Age"], ["Alice", 30], ["Bob", 25]]
+
+with open("people.csv", "w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerows(data)
+
+# Reading CSV
+with open("people.csv", "r") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)
+
+
+2) List & Dict Comprehensions (with if and if…else)
+
+
+Comprehensions are compact syntaxes to build containers:
+
+List comprehension → [ ... ]
+Set comprehension → { ... }
+Dict comprehension → {key: value for ...}
+Generator expression → ( ... ) (like what you saw above)
+
+A) List Comprehensions
+Basic:
+nums = [1, 2, 3, 4, 5]
+squares = [x * x for x in nums]          # [1, 4, 9, 16, 25]
+
+With a trailing if (filter):
+even_squares = [x * x for x in nums if x % 2 == 0]  # [4, 16]
+The if at the end filters which items are included.
+
+With if…else (conditional expression in the value position):
+
+labels = ["even" if x % 2 == 0 else "odd" for x in nums]
+# ["odd", "even", "odd", "even", "odd"]
+
+The if…else is part of the expression, not a filter.
+You can not combine both forms in the same spot; but you can use both like this:
+
+Combining value if…else + trailing if (filter):
+
+# Label only the positive numbers; skip non-positives
+labels_pos = ["even" if x % 2 == 0 else "odd" for x in nums if x > 0]
+``
+
+Multiple if filters (AND behavior):
+
+
+# Keep numbers that are even AND > 2
+filtered = [x for x in nums if x % 2 == 0 if x > 2]   # [4]
+# Equivalent to: [x for x in nums if (x % 2 == 0 and x > 2)]
+
+
+B) Dict Comprehensions
+Basic:
+
+words = ["apple", "bee", "carrot", "do"]
+lengths = {w: len(w) for w in words}
+# {'apple': 5, 'bee': 3, 'carrot': 6, 'do': 2}
+
+With a trailing if (filter):
+
+long_words = {w: len(w) for w in words if len(w) > 3}
+# {'apple': 5, 'carrot': 6}
+
+With if…else for values:
+parity = {x: ("even" if x % 2 == 0 else "odd") for x in range(5)}
+# {0: 'even', 1: 'odd', 2: 'even', 3: 'odd', 4: 'even'}
+
+With if…else for keys (less common, but valid):
+mapped = {(x if x % 2 == 0 else -x): x*x for x in range(5)}
+# {0: 0, -1: 1, 2: 4, -3: 9, 4: 16}
+
+C) Generator Expressions vs List Comprehensions
+
+List comprehension ([...]) builds the whole list in memory (O(n) space).
+Generator expression ((...)) yields items lazily (O(1) extra space), perfect for streaming operations like sum(), any(), all(), min(), max().
+
+
+# List comp: builds a list first (uses memory)
+sum_of_squares = sum([x*x for x in range(10_000_000)])  # heavier
+
+# Generator expr: streams values to sum (better memory profile)
+sum_of_squares = sum(x*x for x in range(10_000_000))
+
+
+
+How database connectivity & execution works (in brief)
+
+Connect: sqlite3.connect(path) opens a database file (creates it if absent).
+Cursor: con.cursor() prepares a cursor to execute SQL.
+Execute: cursor.execute(sql, params) sends the query and parameters to the engine. The engine parses, plans, and executes the statement.
+Fetch: For SELECT, use fetchone(), fetchall(), or iterate the cursor.
+Transactions:
+
+By default, sqlite3 starts a transaction when you execute DML (INSERT/UPDATE/DELETE) and waits for con.commit() to persist changes.
+You can call con.rollback() on errors.
+
+
+Close: Always close cursor and connection (or better, use context managers).
+
+
+cur.executemany("""
+    INSERT INTO service (service_id, customer_name, service_date, service_type, base_charge, service_charge)
+    VALUES (?, ?, ?, ?, ?, ?)
+""", [
+    (
+      obj.get_service_id(),
+      obj.get_customer_name(),
+      obj.get_service_date().isoformat(),
+      obj.get_service_type(),
+      obj.get_base_charge(),
+      obj.get_service_charge()
+    )
+    for obj in self.__service_list
+])
+
+
+
+DATE AND TIME MANUIPUATION IN PYTHON:
+from datetime import date, time, datetime, timedelta
+
+
+# Today (date only)
+d = date.today()  # e.g., 2026-03-06
+
+# Now (naive, local)
+now_naive = datetime.now()
+
+
+
+# Construct explicit date/time/datetime
+d = date(2026, 3, 6)
+t = time(14, 30, 0, 123456)
+dt_naive = datetime(2026, 3, 6, 14, 30, 0)
+
+Parse → datetime
+dt = datetime.strptime("2026-03-06 14:30:00", "%Y-%m-%d %H:%M:%S")
+
+Format → string
+dt.strftime("%Y-%m-%d %H:%M:%S")      # "2026-03-06 14:30:00"
+
+
+Python uses timedelta for day/time arithmetic:
+
+today = date.today()
+tomorrow = today + timedelta(days=1)
+two_hours_later = datetime.now() + timedelta(hours=2)
+diff = (date(2026, 3, 10) - date(2026, 3, 6)).days
+
+
+from dateutil.relativedelta import relativedelta
+
+d = date(2026, 1, 31)
+d_plus_1_month = d + relativedelta(months=1)  # 2026-02-29 (leap handling)
+
+from datetime import date, timedelta
+
+start = date(2026, 3, 1)
+end   = date(2026, 3, 10)
+
+dates = [start + timedelta(days=i) for i in range((end - start).days + 1)]
+
+# Business days (Mon-Fri)
+biz = [d for d in dates if d.weekday() < 5]
+
+Extracting Year, Month, Day
+d = date.today()
+print(d.year)
+print(d.month)
+print(d.day)
+
+
+d1 = date(2026, 3, 1)
+d2 = date(2026, 3, 6)
+
+difference = d2 - d1
+print(difference.days)
+
+from datetime import datetime
+
+dt = datetime(2026, 3, 6)
+
+print(dt.strftime("%Y"))  # 2026
+print(dt.strftime("%y"))  # 26
+
+from datetime import datetime
+
+dt = datetime(2026, 3, 6)  # 6 March 2026 is a Friday
+
+print(dt.strftime("%a"))  # Fri
+print(dt.strftime("%A"))  # Friday
+
+from datetime import datetime
+
+dt = datetime(2026, 3, 6)
+
+print(dt.strftime("%b"))  # Mar
+print(dt.strftime("%B"))  # March
+
+
+class InvalidPlaceException(Exception):
+    def __init__(self, message):
+        self.__message = message
+        super().__init__(self.__message)
+
+    def get_message(self):
+        return self.__message
+
+
+price_per_day = Passenger.PLACE_PRICES.get(place, 0)
+.get(key, default) is a dictionary method that:
+
+Looks up the value for the given key (place here).
+If the key exists, it returns the associated value.
+If the key doesn’t exist, it returns the default value (here 0) instead of raising an error.
+
+
+
+UPDATE BANK
+SET ACC_BALANCE =
+  CASE
+    WHEN ACC_TYPE = 'Savings' AND ACC_BALANCE > 15000 THEN ACC_BALANCE * 1.07
+    WHEN ACC_TYPE = 'Savings' AND ACC_BALANCE < 15000 THEN ACC_BALANCE * 1.05
+    WHEN ACC_TYPE = 'Current' AND ACC_BALANCE > 15000 THEN ACC_BALANCE * 1.06
+    WHEN ACC_TYPE = 'Current' AND ACC_BALANCE < 15000 THEN ACC_BALANCE * 1.04
+    ELSE ACC_BALANCE  -- e.g., when balance = 15000 or unhandled types
+  END
+WHERE ACC_TYPE = :acc;
+
+
+
+if (today.month, today.day) < (bds.month, bds.day):
+
+Is (3,11) < (4,5)? → Yes
+↳ Birthday is still in the future → Not reached → Subtract 1 from age.
+
+
+PI-Thon NOtes
+
+name_list=[] 
+
+with open('student_marks.txt','r') as file_obj:
+    student_list=file_obj.readlines()
+    
+    
+for i in range(0,len(student_list),2):
+    charnum=(student_list[i]).strip()
+
+    mark=(int)(student_list[i+1].strip())
+    if mark>=80:
+        name_list.append(student_list[i])
+        
+for i in name_list:
+    print(i)
+
+
+
+Method	Returns
+fetchone()	One tuple
+fetchmany(n)	List of n tuples
+fetchall()	List of all tuples
+
+
+
+These methods retrieve query results.
+
+fetchone()
+
+Returns one row at a time
+
+Example result:
+
+row = cursor.fetchone()
+
+Return value:
+
+(row1_col1, row1_col2, row1_col3)
+
+Example:
+
+(101,'Chetan','Delhi')
+
+If no rows:
+
+None
+fetchall()
+
+Returns all rows
+
+rows = cursor.fetchall()
+
+Result:
+
+[
+ (101,'Chetan','Delhi'),
+ (102,'Rahul','Mumbai'),
+ (103,'Priya','Pune')
+]
+
+Type:
+
+list of tuples
+fetchmany(size)
+
+Returns specified number of rows
+
+rows = cursor.fetchmany(2)
+
+Result:
+
+[
+ (101,'Chetan','Delhi'),
+ (102,'Rahul','Mumbai')
+]
+
+
+You simply create two named placeholders in the query.
+
+Query
+query = """
+SELECT * 
+FROM flight 
+WHERE source = :param1 
+AND destination = :param2
+"""
+Execute
+cursor.execute(query, param1=source, param2=destination)
+
+Example:
+
+source = "Delhi"
+destination = "Mumbai"
+
+cursor.execute(query, param1=source, param2=destination)
+
+
+Visual flow of SQL execution
+cursor.execute()  → run query
+        ↓
+fetchone()        → one row
+fetchmany()       → few rows
+fetchall()        → all rows
+
+{avg:.2f}
+
+avg=np.mean(pxl)// max,min.argmax,argmin,sort,argsort
+
+exit()-->normal exit
+return()--> function exit
+print(s, m)
+
+ou can change the comma behavior using sep.
+
+print(s, m, sep="-")
+
+
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def calculate_area(self):
+        pass
+
+
+class Circle:
+    def area(self):
+        print(self)
+
+When you do:
+
+c:Shape = Circle()
+c.area()
+
+Python internally calls:
+
+Circle.area(c)
+
+So self is the object calling the method.
+
+f = open("data.txt", "r")
+
+while True:
+    line = f.readline()
+    if not line:
+        break
+    print(line.strip())
+
+f.close()
+
+f = open("data.txt", "r")
+
+lines = f.readlines()
+
+for line in lines:
+    print(line.strip())
+
+f.close()
+
+the best and most Pythonic way is
+with open("data.txt", "r") as f:
+    for line in f:
+        print(line.strip())
+
+
+SavingAccount.balance: Way to access class variables be it inside declare class or outside it 
+
+
+self.__premium = None : in constructor when we don't have initial assign value
+
+
+ super().__init__(name,age)    : way to call parent constructor
+
+
+Multiple dispatch means:
+
+The function that gets executed is decided based on the types of all arguments passed.
+
+
+Python checks:
+
+How many arguments?
+
+What are their types?
+
+So the function is chosen based on all parameter types.
+
+
+Single dispatch means:
+
+The method is selected based on the type of only the first argument.
+
+
+from functools import singledispatch
+
+1️⃣ Using csv.reader() (Normal Reader)
+import csv
+
+with open("OneDayInternational.csv", "r") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)
+
+🔹 What it returns:
+Each row is returned as a list.
+
+Example output:
+
+['Team', 'Score', 'Overs']
+['India', '320', '50']
+['Australia', '280', '50']
+
+So:
+
+row[0] → First column
+
+row[1] → Second column
+
+You must access data using index numbers.
+
+2️⃣ Using csv.DictReader() (Dictionary Reader)
+import csv
+
+with open("OneDayInternational.csv", "r") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        print(row)
+
+🔹 What it returns:
+Each row is returned as a dictionary.
+
+Example output:
+
+{'Team': 'India', 'Score': '320', 'Overs': '50'}
+{'Team': 'Australia', 'Score': '280', 'Overs': '50'}
+
+Now you access values using column names:
+
+row['Team']
+row['Score']
+3️⃣ Using pandas.read_csv() (Most Powerful Way)
+import pandas as pd
+
+df = pd.read_csv("OneDayInternational.csv")
+print(df.head())
+
+🔹 Returns a DataFrame (very useful for data analysis).
+
+
+ data = json.load(file)
+Important Difference
+
+json.load(file) → Reads JSON from a file
+
+json.loads(string) → Reads JSON from a string
+
+import json
+
+with open("sample.json", "r") as file:
+    data = json.load(file)
+
+print(data)
+
+{
+  'name': 'Chetan',
+  'age': 22,
+  'skills': ['Java', 'Python', 'Kotlin']
+}
+
+1️⃣ If JSON starts with { } → It becomes a Python Dictionary
+JSON
+{
+  "name": "Chetan",
+  "age": 22
+}
+After json.load(file)
+type(data)  # <class 'dict'>
+
+So data is a dict.
+
+✅ 2️⃣ If JSON starts with [ ] → It becomes a Python List
+JSON
+[
+  {"name": "Chetan"},
+  {"name": "Rahul"}
+]
+After json.load(file)
+type(data)  # <class 'list'>
+
+So data is a list.
+
+
+class MultithreadingDemo(threading.Thread):
+
+
+def __init__(self):
+    threading.Thread.__init__(self) or super().__init__()
+    self.__name = None
+
+Cleaner Python Way (Like Runnable in Java)
+import threading
+
+def task():
+    print(threading.current_thread().name, "is running")
+
+t1 = threading.Thread(target=task)
+t1.start()
+
+
+
+def __init__(self, base, height):
+        self.__base = float(base) 
+        self.__height = float(height) 
+ def set_base(self, base):
+        self.__base = float(base)
+
+    def set_height(self, height):
+        self.__height = float(height)
+
+import math
+return math.pi * self.__radius ** 2
+
+
+.split()
+
+split() divides the string into parts based on spaces.
+
+"10 20".split()
+
+Result:
+
+["10", "20"]
+
+Now we have a list of strings.
+
+
+map(int, ...)
+
+map() applies a function to every element.
+
+Here:
+
+map(int, ["10", "20"])
+
+means:
+
+int("10") → 10
+int("20") → 20
+
+Result (internally):
+
+10, 20
+
+Actually it returns a map object (iterator) that produces integers.
+
+
+Input:
+
+10 a
+
+Flow:
+
+input()        → "10 a"
+split()        → ["10","a"]
+map(int, ...)  
+
+Now Python tries:
+
+int("10") → 10
+int("a")  → ❌ ERROR
+
+You get:
+
+ValueError: invalid literal for int() with base 10: 'a'
+
+Because "a" cannot be converted to an integer.
+
+⚡ Visual Summary
+User Input:      10 20
+                  │
+input()        → "10 20"
+                  │
+split()        → ["10","20"]
+                  │
+map(int,...)   → 10,20
+                  │
+a,b assignment → a=10 , b=20
+⚠️ One More Important Case
+
+If input is:
+
+10 20 30
+
+Then Python throws:
+
+ValueError: too many values to unpack
+
+Because you only declared two variables (a,b).
+
+User Input:      10 20
+                  │
+input()        → "10 20"
+                  │
+split()        → ["10","20"]
+                  │
+map(int,...)   → 10,20
+                  │
+a,b assignment → a=10 , b=20
+
+
+If input is:
+
+10 20 30
+
+Then Python throws:
+
+ValueError: too many values to unpack
+
+Because you only declared two variables (a,b).
+
+
+def checkAn(n):
+    num=n
+    sum=0
+    while(num>0):
+        d=num%10
+        sum+=(d**3)
+        num//=10
+    
+    return n==sum
+
+bmi=round(BMI,1)
+
+ id[3:].isdigit()
+
+for i in range(1,num+1)
+
+
+import re
+
+text = "My email is example@gmail.com"
+match = re.search(r"(\w+)@(\w+)\.(\w+)", text)
+
+if match:
+    print(match.group())    # Full match -> example@gmail.com
+    print(match.group(1))   # Username -> example
+    print(match.group(2))   # Domain -> gmail
+    print(match.group(3))   # TLD -> com
+
+
+if isinstance(e, DatabaseError):
+        print(f"Caught DatabaseError: {e}, DB: {e.db_name}")
+    elif isinstance(e, NetworkError):
+        print(f"Caught NetworkError: {e}, Host: {e.host}")
+
+
+Normally, print() ends with a newline (\n), which moves the cursor to the next line.
+When you use end, you replace the newline with something else.
+
+print(g.message, end=" ")
+
+Here:
+
+g.message → the value being printed
+
+end=" " → after printing, add a space instead of moving to a new line
+
+rev=str[::-1]
+
+
+name = match.group(1).capitalize()
+    print("Name:", name)
+
+
+SELECT train_number, train_name, source, destination,
+                       ac1, ac2, ac3, sleeper, seater
+                FROM train
+                WHERE LOWER(source) = :source
+                  AND LOWER(destination) = :destination
+                  AND {coach_column} > 0
+                ORDER BY train_number
+
+return odd_sum,even_sum
+    
+    
+my_tuple=(20,5,70,9,100)
+sum_value=operation(my_tuple)
+
+print("Sum of odd numbers :",sum_value[0])
+print("Sum of even numbers :",sum_value[1])
+
+
+from multipledispatch import dispatch
+
+@dispatch(int, int)
+
+
+swapcase() Swap upper ↔ lower "PyThOn".swapcase()
+print(np.sum(arr)) # Sum of elements → 15
+print(np.mean(arr)) # Mean → 3.0
+print(np.std(arr)) # Standard deviation
+print(np.max(arr)) # Maximum → 5
+print(np.min(arr)) # Minimum → 1
+
+
+tell()
+Returns current cursor position.
+
+  seek(position)
+Move cursor to position.
+
+
+rows = cursor.fetchall()
+[
+ (101,'Chetan','Delhi'),
+ (102,'Rahul','Mumbai'),
+ (103,'Priya','Pune')
+]
+list of tuples
+
+Limit Rows
+SELECT ... LIMIT 10	
+SELECT ... WHERE ROWNUM <= 10
+
+
+Current Date		SYSDATE  (includes time)
+Current Date Only	TRUNC(SYSDATE)
+
+SELECT SYSDATE 
+FROM dual;
+Example Output
+SYSDATE
+-------------------
+10-MAR-26 10:32:45
+
+SELECT TRUNC(SYSDATE) 
+FROM dual;
+Example Output
+TRUNC(SYSDATE)
+----------------
+10-MAR-26 00:00:00
+
+SELECT *
+FROM orders
+WHERE order_date <= SYSDATE;
+
+➡ Returns orders before the current moment.
+
+SELECT *
+FROM orders
+WHERE TRUNC(order_date) = TRUNC(SYSDATE);
+
+➡ Returns all orders placed today regardless of time.
+
+TO_DATE('01-JAN-2024','DD-MON-YYYY')
+
+CASE WHEN ... END  (same)
+
+
+Top N rows	
+LIMIT N	
+FETCH FIRST N ROWS ONLY (12c+)
+
+
+String length	
+LENGTH(col)	
+LENGTH(col)  (same)
+
+Upper/Lower	
+UPPER(), LOWER()	
+UPPER(), LOWER()  (same)
+
+
+SUBSTR(column_name, start_position, length)
+SELECT name, SUBSTR(name,1,3) AS short_name
+FROM students;
+Output
+name	short_name
+Ramesh	Ram
+Suresh	Sur
+Mahesh	Mah
+
+In Oracle Database, there is no native BOOLEAN type in SQL tables, so developers usually use NUMBER(1) or CHAR(1) to represent true/false values.
+CREATE TABLE employees (
+    emp_id NUMBER,
+    emp_name VARCHAR2(50),
+    is_active NUMBER(1)
+);
+Insert Data
+INSERT INTO employees VALUES (1, 'Rahul', 1); -- TRUE
+INSERT INTO employees VALUES (2, 'Amit', 0);  -- FALSE
+
+SELECT * FROM employees WHERE is_active = 1;
+
+
+
+CREATE TABLE users (
+    user_id NUMBER,
+    username VARCHAR2(50),
+    is_verified CHAR(1)
+);
+Insert Data
+INSERT INTO users VALUES (1, 'chetan', 'Y');
+INSERT INTO users VALUES (2, 'rohit', 'N');
+Query
+SELECT * FROM users WHERE is_verified = 'Y';
+
+
+In Oracle, DATE stores:
+
+Year
+
+Month
+
+Day
+
+Hour
+
+Minute
+
+Second
+
+CREATE TABLE orders (
+    order_id NUMBER,
+    order_date DATE
+);
+
+
+INSERT INTO orders VALUES (101, TO_DATE('10-03-2026 14:30:00','DD-MM-YYYY HH24:MI:SS'));
+
+CREATE TABLE student (
+    name VARCHAR2(50),
+    gender CHAR(1),
+    description CLOB
+);
+
+NUMBER
+
+VARCHAR2
+
+CHAR
+
+DATE
+
+TIMESTAMP
+
+CLOB
+
+
+SELECT ADD_MONTHS(SYSDATE, 1) AS next_month
+FROM dual;
+
+
+SELECT ADD_MONTHS(SYSDATE, 6) AS six_months_later
+FROM dual;
+
+SELECT EMP_ID,
+       JOIN_DATE,
+       ADD_MONTHS(JOIN_DATE, 12) AS probation_end
+FROM EMPLOYEE;
+
+Extracts specific parts of a date such as YEAR, MONTH, DAY.
+
+Syntax
+EXTRACT(part FROM date)
+
+
+SELECT EXTRACT(YEAR FROM SYSDATE) AS current_year
+FROM dual;
+
+
+SELECT EXTRACT(MONTH FROM SYSDATE) AS current_month
+FROM dual;
+
+SELECT EMP_ID,
+       JOIN_DATE,
+       EXTRACT(YEAR FROM JOIN_DATE) AS joining_year
+FROM EMPLOYEE;
+
+
+SELECT EXTRACT(YEAR FROM ADD_MONTHS(SYSDATE, 6)) AS year_after_6_months
+FROM dual;
+
+SELECT SYSDATE + 30 FROM DUAL;
+
+
+
+In Oracle Database, DUAL is a special one-row, one-column dummy table used when you want to run a query without referencing any real table.
+
+SELECT 'Hello World' FROM dual;
+
+
+-- Pagination (skip 10, get next 5)
+SELECT * FROM employees
+ORDER BY salary DESC
+OFFSET 10 ROWS FETCH NEXT 5 ROWS ONLY;
+
+
+Position of string	
+POSITION('a' IN col)	
+INSTR(col, 'a')
+
+
+Trim whitespace	
+TRIM(col)	
+TRIM(col)  (same)
+
+Replace	
+REPLACE(col, 'a', 'b')	
+REPLACE(col, 'a', 'b')  (same)
+
+REGEXP_LIKE(col, 'pattern')
+
+
+SELECT table_name FROM user_tables;
+
+CREATE TABLE students (
+    student_id    NUMBER PRIMARY KEY,
+    student_name  VARCHAR2(100) NOT NULL,
+    marks         NUMBER CHECK (marks BETWEEN 0 AND 100),
+    enrol_date    DATE DEFAULT SYSDATE
+);
+
+-- Average marks with 2 decimal places
+SELECT ROUND(AVG(marks), 2) AS avg_marks FROM students;
+
+
+# Known format
+dt = datetime.strptime('15-03-2024', '%d-%m-%Y')
+dt = datetime.strptime('March 15, 2024', '%B %d, %Y')
+
+# Flexible / unknown format (requires python-dateutil)
+from dateutil import parser
+dt = parser.parse('March 15, 2024')
+dt = parser.parse('15/03/2024')
+dt = parser.parse('2024-03-15T10:30:00')
+dt = parser.parse('next Friday')        # Natural language
+
+timedelta doesn't support months/years directly. Use relativedelta from dateutil:
+
+from dateutil.relativedelta import relativedelta
+
+now = datetime.now()
+
+next_month     = now + relativedelta(months=1)
+next_year      = now + relativedelta(years=1)
+three_months   = now + relativedelta(months=3)
+one_year_ago   = now - relativedelta(years=1)
+
+# Age calculation
+birthday = date(1990, 6, 15)
+age = relativedelta(date.today(), birthday).years
+print(age)  # e.g., 33
+
+ rd = relativedelta(max(d1, d2), min(d1, d2))
+
+
+from datetime import datetime
+from dateutil.relativedelta import relativedelta  # pip install python-dateutil
+
+def convert(s: str) -> datetime:
+    return datetime.strptime(s, "%d-%m-%Y")
+
+def main():
+    d1 = convert(input("Enter date 1 (DD-MM-YYYY): "))
+    d2 = convert(input("Enter date 2 (DD-MM-YYYY): "))
+
+    rd = relativedelta(max(d1, d2), min(d1, d2))
+    # You can get total months as:
+    total_months = rd.years * 12 + rd.months
+    print("Whole calendar months between (ignoring leftover days):", total_months)
+    print("Breakdown -> years:", rd.years, "months:", rd.months, "days:", rd.days)
+
+if __name__ == "__main__":
+    main()
+``
+
+
+datetime.timedelta only supports:
+
+days
+seconds
+microseconds
+milliseconds
+minutes
+hours
+weeks
+
+It does not support:
+
+❌ months
+❌ years
+
+
+from dateutil.relativedelta import relativedelta
+from datetime import datetime
+
+d = datetime(2026, 3, 9)
+print(d + relativedelta(months=1))
+
+d1.update(d2)
+d2|d1-> d1 (right side win in conflict)
+
+
+return datetime.strptime(str_date.strip(), "%Y-%m-%d").date()
+
+executemany(q,t,batcherrors=True)
+
+for error in cur.getbatcherrors():
+	print(error.message,error.offset)
+
+self.emp_reimbursement_list: List[EmpReimbursement] = []
+
+cursor.rowcount — number of rows affected by the last DML statement; key exam topic.
+
+
+For Oracle drivers (cx_Oracle / python-oracledb), cursor.rowcount returns the number of rows affected by the last DML operation:
+
+INSERT → number of rows inserted
+UPDATE → number of rows updated
+DELETE → number of rows deleted
+
+So INSERT definitely updates rowcount, including executemany().
+
+When using Python’s DB-API (which cx_Oracle / python-oracledb follows), the parameters for placeholders (:1, :2, etc.) can be passed as:
+
+a tuple
+a list
+a dictionary (if using named placeholders like :name)
+
+Placeholder TypeAllowed Parameter TypePositional (:1, :2)Tuple or ListNamed (:name, :age)Dictionary
+
+
+from datetime import datetime
+
+date_str = '2023-09-01'
+parsed_date = datetime.strptime(date_str, '%Y-%m-%d').date()
+
+cursor.execute("""
+    UPDATE employees
+       SET hire_date = :hire_date
+     WHERE employee_id = :emp_id
+""", {"hire_date": parsed_date, "emp_id": 302})
+
+
+cursor.execute("""
+    UPDATE employees
+       SET hire_date = TO_DATE(:hire_date_str, 'YYYY-MM-DD')
+     WHERE employee_id = :emp_id
+""", {"hire_date_str": "2023-10-10", "emp_id": 303})
+
+
+UPDATE employees SET salary = salary * (1 + p_percent/100)
+
+cursor.callproc("proc_name", [arg1, arg2]) — calls an Oracle stored procedure.
+
+
+cursor.callfunc("func_name", return_type, [args]) — the return type is mandatory.
+Return type constants: cx_Oracle.NUMBER, cx_Oracle.STRING, cx_Oracle.DATE.
+
+
+
+import cx_Oracle
+
+conn   = cx_Oracle.connect("hr", "hr123", "localhost:1521/ORCL")
+cursor = conn.cursor()
+
+def get_employees_by_filters(min_salary=None, dept_id=None):
+    query  = "SELECT employee_id, first_name, salary FROM employees WHERE 1=1"
+    params = {}
+
+    if min_salary is not None:
+        query += " AND salary >= :min_salary"
+        params["min_salary"] = min_salary
+
+    if dept_id is not None:
+        query += " AND department_id = :dept_id"
+        params["dept_id"] = dept_id
+
+    query += " ORDER BY salary DESC"
+
+    cursor.execute(query, params)
+    return cursor.fetchall()
+
+# Usage
+results = get_employees_by_filters(min_salary=10000, dept_id=60)
+for r in results:
+    print(f"ID: {r[0]} | Name: {r[1]} | Salary: ₹{r[2]}")
+
+cursor.close()
+conn.close()
+
+
+import cx_Oracle
+
+with cx_Oracle.connect("hr", "hr123", "localhost:1521/ORCL") as conn:
+    with conn.cursor() as cursor:
+
+        cursor.execute("""
+            SELECT d.department_name,
+                   COUNT(e.employee_id)   AS emp_count,
+                   ROUND(AVG(e.salary),2) AS avg_salary
+            FROM departments d
+            LEFT JOIN employees e ON d.department_id = e.department_id
+            GROUP BY d.department_name
+            HAVING COUNT(e.employee_id) > 0
+            ORDER BY avg_salary DESC
+        """)
+
+        print(f"{'Department':<25} {'Headcount':>10} {'Avg Salary':>12}")
+        print("-" * 50)
+        for dept, count, avg_sal in cursor:
+            print(f"{dept:<25} {count:>10} {avg_sal:>12.2f}")
+
+
+SELECT
+        employee_id,
+        first_name,
+        hire_date,
+        SYSDATE                                                AS today,
+        ROUND(MONTHS_BETWEEN(SYSDATE, hire_date) / 12, 1)    AS years_of_service,
+        ADD_MONTHS(hire_date, 6)                              AS probation_end,
+        TRUNC(hire_date, 'YEAR')                              AS hire_year_start,
+        TRUNC(hire_date, 'MONTH')                             AS hire_month_start,
+        LAST_DAY(hire_date)                                   AS last_day_of_hire_month,
+        NEXT_DAY(hire_date, 'MONDAY')                        AS first_monday_after_hire
+    FROM employees
+    WHERE department_id = 90
+
+
+
+class datetime.date
+Attributes: year, month, and day.
+
+class datetime.time
+Attributes: hour, minute, second, microsecond,
+
+
+class datetime.datetime
+ Attributes: year, month, day, hour, minute, second, microsecond
+
+class datetime.timedelta(days=0, seconds=0, microseconds=0, milliseconds=0, minutes=0, hours=0, weeks=0)
+
+
+DATE:
+
+Operation
+
+Result
+
+date2 = date1 + timedelta
+
+date2 will be timedelta.days days after date1. (1)
+
+date2 = date1 - timedelta
+
+Computes date2 such that date2 + timedelta == date1. (2)
+
+timedelta = date1 - date2
+
+(3)
+
+date1 == date2
+date1 != date2
+Equality comparison. (4)
+
+date1 < date2
+date1 > date2
+date1 <= date2
+date1 >= date2
+Order comparison. (5)
+
+
+
+date.weekday()
+Return the day of the week as an integer, where Monday is 0 and Sunday is 6. For example, date(2002, 12, 4).weekday() == 2, a Wednesday
+
+date.isoweekday()
+Return the day of the week as an integer, where Monday is 1 and Sunday is 7. For example, date(2002, 12, 4).isoweekday() == 3, a Wednesday.
+
+
+DATETIME:
+
+TIMESTAMP
+
+
+d_date  = row[6].date() if hasattr(row[6], 'date') else row[6]
+
+evt_dt = row[2] if isinstance(row[2], datetime) else datetime.strptime(str(row[2]), "%Y-%m-%d %H:%M:%S")
+
+
+not to forgot 
+()
+self
+
+
+
+return min(doctor_list, key=lambda d: d.get_consultation_fee())
+return max(doctor_list, key=lambda d: d.get_experience_years())
+
+total = sum(e.get_salary() for e in employee_list)
+    return round(total / len(employee_list), 2)
+
+passed = sum(1 for r in result_list if r.get_grade() != 'F')
+    failed = sum(1 for r in result_list if r.get_grade() == 'F')
+
+return genre.lower() in VALID_GENRES
+
+WHERE LOWER(genre) = LOWER(:1)
+
+
+UPDATE book
+        SET available_copies = available_copies - 1,
+            issued_copies    = issued_copies    + 1
+        WHERE book_id = :1
+
+
+today = date.today()
+    expiry = product.get_expiry_date().date() if hasattr(product.get_expiry_date(), 'date') else product.get_expiry_date()
+    return (expiry - today).days
+
+AND expiry_date > SYSDATE
+
+
+return max(vehicle_list, key=lambda v: get_days_overdue(v))
+
+
+try:
+        start_date = date.fromisoformat(start_str)
+        end_date   = date.fromisoformat(end_str)
+    except ValueError:
+        print("Invalid Date Format")
+        return
+
+WHERE LOWER(source) = :source
+                  AND LOWER(destination) = :destination
+                  AND {coach_column} > 0
+                ORDER BY train_number
+
+
+return sum(1 for s in subscription_list
+               if get_expiry_status(s.get_end_date()) == 'Active')
+
+"Yes" if subscription.get_is_active() == 1 else "No")
+
+f.write(f"Status          : {status}\n")
+
+return sum(1 for r in attendance_list if r.get_status().lower() == 'present')
+return sum(1 for r in attendance_list if r.get_status().lower() == 'absent')
+return max(attendance_list, key=lambda r: (
+        r.get_attendance_date().date()
+        if hasattr(r.get_attendance_date(), 'date')
+        else r.get_attendance_date()
+    ))
+
+
+self
+()
+list compression
+dict compression
+generator expression
+if hasattr
+.date()
+UPPER() OR LOWER() IN SQL QUERY WHILE COMPARING 
+min max sort with reverse
+
+
+SELECT COUNT(*),
+                   SUM(CASE WHEN LOWER(status) = 'present' THEN 1 ELSE 0 END)
+            FROM attendance
+            WHERE student_id = :1
+
+
+
+result = []
+        for row in rows:
+            # Safely handle Oracle datetime vs date
+            b_date = row[6].date() if hasattr(row[6], 'date') else row[6]
+            obj    = pf.Portfolio(row[0], row[1], row[2], row[3],
+                                  row[4], float(row[5]), b_date)
+            result.append(obj)
+
+        return result
+
+
+
+REVISE
+
+LIST OF INT -l.pop(x) || l.remove() || del l[x]
+
+
+np.sort(arr,axis=1(row)|| axis=1(row))[::-1]
+
+
+use discard(x) with set instead of remove if we dont want  error
+
+
+map.get(key,def)
+map.pop("key") || popitem() // pop last 
+del map["key"]
+
+
+SQL
+TO_NUMBER('5')
+TO_DATE(:1,'format') || TO_CHAR()
+OFFSET m ROWS FETCH NEXT n ROWS ONLY
+FETCH FIRST N ROWS ONLY || ROWNUM
+
+SUMSTR()
+INSTR()
+
+SELECT * FROM student WHERE sname LIKE 'A%' or sname LIKE '%A_a%'//anayan
+
+
+
+
+SELECT *
+FROM products
+WHERE code LIKE 'A\_%' ESCAPE '\';
+
+But maybe you want only codes that literally contain _ after A.
+
+WHERE name LIKE '50\%%' ESCAPE '\'
+WHERE UPPER(last_name) LIKE UPPER(:search)
+|| — Oracle string concatenation operator (not + like Python).
+
+SYSDATE                                               AS today,
+        ROUND(MONTHS_BETWEEN(SYSDATE, hire_date) / 12, 1)   AS years_of_service,
+
+
+marks <> 0
+
+id IN (1,2,3)
+
+
+SELECT *
+FROM employees
+WHERE email IS NULL;
+
+SELECT *
+FROM employees
+WHERE email IS NOT NULL;
+
+LOGICAL OP--AND OR NOT
+NOT (marks > 80)
+
+
+SELECT * FROM students ORDER BY marks DESC, student_name ASC;
+SELECT ROUND(AVG(marks), 2) AS avg_marks FROM students;
+
+
+HAVING COUNT(*) > 5;
+HAVING AVG(salary) > 60000;
+
+TO_DATE(:6, 'YYYY-MM-DD')
+cursor.callfunc("get_annual_salary", oracledb.NUMBER, [101])
+
+
+writer = csv.writer(file)
+    writer.writerows(data)
+
+person = {"name": "Alice", "age": 30, "skills": ["Python", "SQL"]}
+
+with open("person.json", "w") as file:
+    json.dump(person, file)
+
+
+
+Code	Meaning	Example
+%Y	4-digit year	2024
+%y	2-digit year	24
+%m	Month (zero-padded)	03
+%B	Full month name	March
+%b	Abbreviated month	Mar
+%d	Day (zero-padded)	15
+%A	Full weekday name	Friday
+%a	Abbreviated weekday	Fri
+%H	Hour 24h	10
+%I	Hour 12h	10
+%M	Minute	30
+%S	Second	00
+%p	AM/PM	AM
+%Z	Timezone name	UTC
+%j	Day of year	075
+%w	Weekday number (0=Sun)	5
+
+
+from dateutil.relativedelta import relativedelta
+rel = relativedelta(d2, d1)
+print(rel.years, rel.months, rel.days)  # calendar difference
+
+ print("Current Date:", d, "(", convert(d).strftime("%A"), ")")
+
+
+
+d.isoformat()          # '2026-03-10'
+f"{d:%Y-%m-%d}"        # '2026-03-10' (same as strftime)
+d.strftime("%Y-%m-%d") # '2026-03-10'
+
+
+t = (5, 2, 9, 1)
+sorted_t = tuple(sorted(t))     # (1, 2, 5, 9)
