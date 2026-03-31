@@ -428,23 +428,6 @@ You can call con.rollback() on errors.
 Close: Always close cursor and connection (or better, use context managers).
 
 
-cur.executemany("""
-    INSERT INTO service (service_id, customer_name, service_date, service_type, base_charge, service_charge)
-    VALUES (?, ?, ?, ?, ?, ?)
-""", [
-    (
-      obj.get_service_id(),
-      obj.get_customer_name(),
-      obj.get_service_date().isoformat(),
-      obj.get_service_type(),
-      obj.get_base_charge(),
-      obj.get_service_charge()
-    )
-    for obj in self.__service_list
-])
-
-
-
 DATE AND TIME MANUIPUATION IN PYTHON:
 from datetime import date, time, datetime, timedelta
 
@@ -527,15 +510,6 @@ print(dt.strftime("%b"))  # Mar
 print(dt.strftime("%B"))  # March
 
 
-class InvalidPlaceException(Exception):
-    def __init__(self, message):
-        self.__message = message
-        super().__init__(self.__message)
-
-    def get_message(self):
-        return self.__message
-
-
 price_per_day = Passenger.PLACE_PRICES.get(place, 0)
 .get(key, default) is a dictionary method that:
 
@@ -564,9 +538,12 @@ Is (3,11) < (4,5)? → Yes
 ↳ Birthday is still in the future → Not reached → Subtract 1 from age.
 
 
-PI-Thon NOtes
+PI-Thon Notes
 
 name_list=[] 
+
+
+
 
 with open('student_marks.txt','r') as file_obj:
     student_list=file_obj.readlines()
