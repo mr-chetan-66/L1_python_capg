@@ -1,0 +1,644 @@
+
+
+except- list,set and dict all other are immutable 
+
+bool is subtype if int so True*1000=1000 or isinstance(true,int) # True # isinstance works with inheritance
+isinstance() respects inheritance, type() does not.
+
+# type() does NOT check subclasses
+print(type(True) == int)   # False
+print(type(True) == bool)  # True
+
+Also: isinstance() can check multiple types at once:
+isinstance(x, (int, float))  # True if x is int OR float
+
+
+z = 1.5e3    # = 1500.0 (scientific notation)
+
+
+z = 3 + 4j
+print(z.real)  # 3.0
+print(z.imag)  # 4.0
+print(abs(z))  
+
+
+'type' is the metaclass of all classes.
+
+# Multiple assignment
+a = b = c = 0
+
+# Tuple unpacking
+x, y, z = 1, 2, 3
+
+__name__  → VALID (but it's a special dunder variable!)
+It's called a dunder variable (double underscore) because it starts and ends with __.
+Python automatically sets the value of __name__ for every file (module) that is run or imported.
+__file__
+x.__clas__
+
+__init__() → constructor of a class
+__str__(), __repr__() → string representations
+__len__() → length
+__getitem__() → indexing
+__enter__(), __exit__() → with context manager
+__call__() → allow the object to behave like a function
+__iter__() → makes object iterable
+
+These are dunder methods (special functions), not variables.
+
+__doc__ = "This is my module documentation"
+
+def add(a, b):
+    """Adds two numbers"""
+    return a + b
+
+
+import mymodule
+
+print(mymodule.__doc__)    # prints module documentation
+print(mymodule.add.__doc__)  # prints function documentation
+
+y = .5        # valid! same as 0.5
+z = 1_000_000.0  # underscores for readability (Python 3.6+)
+
+r_string = r"\n is not a newline here"  # raw string
+
+  3.14_15_92     # float with underscores
+
+Real multi-line comments do not exist in Python.
+
+print(2 ** 10)  # 1024
+print(2 ** 0.5) # 1.4142... (square root!)
+
+print(-10 % 3)  # 2  (Python modulo follows sign of divisor)
+
+
+Example: -10 % 3
+
+-10 / 3 = -3.33
+floor → -4
+-4 * 3 = -12
+-10 - (-12) = 2
+
+
+# Expression     Dividend   Divisor   Result Sign   Python Result
+# ------------------	--------------	----------		--------------
+# 10 % -3        		10         -3        		Negative    		  -2
+# -10 % -3      		 -10        -3       		 Negative     	 -1
+# 10 % 3         		10         3         		Positive    		  1
+# -10 % 3       			 -10        3       		  Positive     	 2
+
+hidden trick : whenever both operand have same sign result will be normal modulo but with same sign 
+on the other hand if one of them have sign then use formula and whichever sign on right hand side operand that will be followed with output
+
+
+Python uses FLOOR division (rounds towards negative infinity).
+-7 / 2 = -3.5 → floor(-3.5) = -4
+
+Compare with int() truncation (towards zero):
+  int(-7/2) = int(-3.5) = -3
+
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(a == b)   # True  (same values)
+print(a is b)   # False (different objects)
+
+c = a
+print(a is c)   # True  (same object!)
+
+
+AND: returns first falsy value, or last value if all truthy
+  print(1 and 2)        # 2
+  print(0 and 2)        # 0
+  print([] and 'hello') # []
+
+OR: returns first truthy value, or last value if all falsy
+  print(1 or 2)         # 1
+  print(0 or 2)         # 2
+  print(0 or '')        # '' (last falsy)
+
+
+list((1,2,3))  # [1, 2, 3]
+tuple([1,2,3]) # (1, 2, 3)
+
+
+print('Pass' if marks >= 50 else 'Fail')
+
+# Python 3.10+ match-case (structural pattern matching)
+command = 'quit'
+match command:
+    case 'quit':
+        print('Quitting...')
+
+
+# range is lazy — doesn't create list in memory
+r = range(1000000)    # Takes almost no memory!
+list(range(5))        # [0, 1, 2, 3, 4]
+A lazy object does NOT store all values in memory.
+Instead, it generates each value only when needed.
+It generates each number on the fly when you loop through it.
+
+range(1_000_000) takes the same tiny amount of memory as range(5).
+
+len(range(3, 3)) == 0  # True
+len(range(5,3,-1) == 0 # False len=2(5,4)
+
+# Start index at 1
+for i, fruit in enumerate
+
+names  = ['Alice', 'Bob', 'Charlie']
+scores = [85, 92, 78]
+
+for name, score in zip(names, scores):
+    print(f'{name}: {score}')
+zip() — iterate multiple lists together
+
+
+# zip stops at the SHORTEST iterable
+a = [1, 2, 3, 4]
+b = ['x', 'y']
+list(zip(a, b))  # [(1, 'x'), (2, 'y')]  — 3 and 4 are dropped! (list of tuple)
+
+continue does NOT trigger the else block.
+Only break prevents the else from running.
+
+# Practical use: search with for-else
+def find_prime(numbers):
+    for n in numbers:
+        for i in range(2, int(n**0.5)+1):
+            if n % i == 0:
+                break       # n is NOT prime
+        else:
+            print(f'{n} is prime')  # no break happened
+
+find_prime([4, 7, 9, 11])
+# 7 is prime
+# 11 is prime
+
+for i, (name, score) in enumerate(zip(names, scores), 1):
+    print(f'{i}. {name}: {score}')
+# 1. Alice: 90
+# 2. Bob: 85
+
+# Nested list comprehension
+matrix = [[i*j for j in range(1,4)] for i in range(1,4)]
+# [[1,2,3],[2,4,6],[3,6,9]]
+
+# Flatten a nested list
+nested = [[1,2],[3,4],[5,6]]
+flat = [x for sub in nested for x in sub]
+# [1, 2, 3, 4, 5, 6]
+
+
+# Generator expression — round brackets
+# Creates a lazy iterator — computes ON DEMAND
+Use generators when you process one item at a time (e.g. sum, max)
+
+
+nums = [3, 5, 2, 8, 7]
+
+increases = (a < b for a, b in zip(nums, nums[1:]))
+print(list(increases))  
+# [True, False, True, False]
+
+print('\n'.join('FizzBuzz' if i%15==0 else 'Fizz' if i%3==0 else 'Buzz' if i%5==0 else str(i) for i in range(1,101)))
+
+# Pyramid
+for i in range(1, n+1):
+    print(' '*(n-i) + '* '*i)
+
+Strings in Python are immutable sequences of Unicode characters. 
+
+result = text.replace("apple", "fruit", 2
+
+bablu -> ba lu
+result = " ".join(text.rsplit("b", 1))
+
+s = 'hello'
+  s = 'H' + s[1:]   # 'Hello'
+  # or
+  s = s.replace('h', 'H')  # 'Hello'
+  # or
+  s = list(s); s[0]='H'; s = ''.join(s)
+
+
+print('Python'[1:-1:2])? == yh
+
+
+isdigit()	All digit chars (0-9)
+isnumeric()	All numeric chars (incl. fractions)
+
+isidentifier()	Valid Python identifier?	"for".isidentifier()	True
+
+# Debugging with = (Python 3.8+)
+print(f"{name = }")   # name = Alice  (shows variable name too!)
+
+Example with non-ASCII:
+  s = 'café'
+  f'{s!a}'  → "'caf\\xe9'"  (é is escaped)
+
+print('Banana' < 'apple')   # True  (B=66 < a=97 in ASCII/Unicode)
+
+
+def is_palindrome(s):
+    s = s.lower().replace(' ', '')  # normalize
+    return s == s[::-1]
+
+
+from collections import Counter
+
+def is_anagram_v2(s1, s2):
+    return Counter(s1.lower()) == Counter(s2.lower())
+
+return each char frequency
+
+
+
+
+from collections import Counter
+print(Counter("chetanshrihariawari"))
+print("\n")
+print(Counter(sorted("chetanshrihariawari")))
+print("\n")
+print(dict(Counter(sorted("chetanshrihariawari"))))
+print("\n")
+print(sorted(dict(Counter("chetanshrihariawari")).items(),key=lambda x:x[0]))
+
+def is_rotation(s1, s2):
+    if len(s1) != len(s2):
+        return False
+    return s2 in (s1 + s1)   # genius one-liner!
+
+print(is_rotation('abcde', 'cdeab'))  # True
+print(is_rotation('abcde', 'abced'))  # False
+
+
+KEY INSIGHT: When separator appears consecutively ('ll'),
+split() produces an empty string '' between them.
+  'aXXb'.split('X') → ['a', '', 'b']
+
+
+'hello'.center(11, '-')  → '---hello---'
+                           (3 dashes each side = total 11)
+
+'hi'.center(5)           → ' hi  '
+                           (odd padding: extra space goes RIGHT)
+
+'toolong'.center(3)      → 'toolong'
+                           (string longer than width — returned unchanged!)
+
+
+isidentifier() checks SYNTAX only — not if it's a keyword!
+'for', 'class', 'if' all return True from isidentifier()
+because they ARE valid identifier characters.
+
+
+To also exclude keywords:
+import keyword
+def is_valid_name(s):
+    return s.isidentifier() and not keyword.iskeyword(s)
+
+is_valid_name('for')    → False
+is_valid_name('myVar')  → True
+
+## LIST
+nums[1:3] = [200, 300]     # replace elements   [10, 200, 300, 40, 50]
+nums[1:3] = []             # delete elements    [10, 40, 50] -- Setting slice to an empty list removes them.
+nums[1:1] = [15, 18]       # insert without removing   [10, 15, 18, 40, 50] (before one was previous list)
+
+
+a.append([4, 5])   → [1, 2, 3, [4, 5]]  (adds list AS ONE ELEMENT)
+a.extend([4, 5])   → [1, 2, 3, 4, 5]    (adds each element)
+append([4,5]) makes the list NESTED.
+
+  a = [1, 2]; a += [3, 4]  → [1, 2, 3, 4]  (extends)
+  a = [1, 2]; a += 'hi'    → [1, 2, 'h', 'i']  (extends char by char!)
+
+
+sort() sorts IN-PLACE and returns None.
+sorted() returns a NEW sorted list.
+in list
+same with reverse
+
+sorted(a, key=abs)          # sort by absolute value
+
+words.sort(key=len)
+
+# Sort list of dicts by a key
+students = [{'name':'Alice','score':85}, {'name':'Bob','score':92}]
+students.sort(key=lambda s: s['score'], reverse=True)
+
+shallow = original.copy()        # change in shallow affect original
+deep = copy.deepcopy(original)
+
+## TUPLE
+t1 = (1, 2, 3)
+t2 = 1, 2, 3       # parentheses optional!
+
+x, y, *rest = (1,2,3,4,5)  # extended unpacking
+# x=1, y=2, rest=[3,4,5]
+
+a, b = 5, 10
+a, b = b, a    # a=10, b=5  (Pythonic swap!)
+
+Tuples are immutable — but can a tuple contain mutable objects like tuple of list we cant remove list, replace or add list but we can do list operation of list elements
+
+
+## SET
+
+Sets are unordered collections of UNIQUE elements. 
+
+
+# Frozenset — immutable set (can be used as dict key)
+fs = frozenset([1, 2, 3])
+fs.add(4)  # AttributeError: frozenset has no add()
+
+
+print({1,2}.issubset({1,2,3}))    # True
+print({1,2,3}.issuperset({1,2}))  # True
+
+# Union — all elements from both
+print(a | b)          # {1,2,3,4,5,6,7}
+
+# Intersection — common elements
+print(a & b)          # {3,4,5}
+
+# Difference — in a but NOT in b
+print(a - b)          # {1,2}
+
+# Symmetric difference — in a OR b but NOT both
+print(a ^ b)          # {1,2,6,7}
+
+Can a set contain a list? What about a tuple?
+✅ Answer: 
+s = {[1,2], [3,4]}  # TypeError: unhashable type: 'list'
+
+Sets can only contain HASHABLE objects.
+
+s = {(1,2), (3,4)}  # works! tuples are hashable (if contents are)
+
+set can contains element, tuple or frozenset
+
+## Dictionary
+
+Keys must be unique and hashable.
+
+# fromkeys — create dict with default value
+keys = ['a', 'b', 'c']
+d = dict.fromkeys(keys, 0)  # {'a':0, 'b':0, 'c':0}
+
+d.pop('age', None)        # safe pop — no error if missing
+# Delete
+del d['city']             # raises KeyError if missing
+
+d['z']       → KeyError! (key doesn't exist)
+d.get('z')   → None      (no error!)
+
+ALSO: setdefault() is useful to initialize missing keys:
+  d.setdefault('count', 0)
+
+d = {'a':1, 'b':2} for k in d:     d['c'] = 3
+✅ Answer: 
+RuntimeError: dictionary changed size during iteration
+
+You CANNOT add/remove keys from a dict while iterating over it.
+Same as list modification during iteration.
+
+c is Counter(dict) class object
+# Most common
+c.most_common(2)    # [(1,3),(2,2)]  — top 2
+c.most_common()[-1] # least common element
+
+# Arithmetic on counters
+c1 = Counter('aab')
+c2 = Counter('abc')
+print(c1 + c2)  # Counter({'a':3,'b':2,'c':1})
+
+od = OrderedDict()
+od.move_to_end('a')         # move 'a' to end
+od.move_to_end('c', last=False)  # move 'c' to front
+
+def append_item(item, lst=[]):   # lst is created ONCE
+    lst.append(item)
+    return lst
+
+print(append_item(1))   # [1]
+print(append_item(2))   # [1, 2]  ← NOT [2]!
+print(append_item(3))   # [1, 2, 3]  ← keeps growing!
+? Default values are evaluated ONCE when the function is defined,
+not on each call. The list object is shared across all calls.
+
+what happen if we pass my list at first pass
+[10, 20, 1]      ← your custom list (on first pass add to my list)
+[2]              ← default list first use (on  second call it will initialate the default one and then shared with all)
+[2, 3]           ← same default list grows
+
+*args collects extra positional arguments into a TUPLE.
+def total(*nums):
+
+
+**kwargs collects extra keyword arguments into a DICT.
+
+def func(pos, default=1, *args, **kwargs):  ← CORRECT
+def func(*args, pos, default=1, **kwargs):  ← SyntaxError!
+
+Rule: positional → default → *args → keyword-only → **kwargs
+
+A lambda is an anonymous (nameless) function defined in a single line. It can have any number of parameters but only ONE expression.
+is_even = lambda n: 'Even' if n % 2 == 0 else 'Odd'  ## only ternary allowed not regular conditional statement
+print(is_even(4))   # Even 
+
+
+⚠ TRICKY: Can a function modify a global variable?
+x = 10
+
+def wrong():
+    x = 99   # creates a NEW local x, does NOT modify global
+
+def correct():
+    global x
+    x = 99   # modifies the global x
+
+wrong()
+print(x)   # 10 ← unchanged
+
+correct()
+print(x)   # 99 ← changed
+
+KEY: Without 'global', assignment creates a local variable.
+
+⚠ TRICKY: Reading global without 'global' — works. Writing without it — doesn't.
+count = 0
+
+def show():
+    print(count)   # OK — reading global
+
+def increment():
+    count += 1     # UnboundLocalError!
+    # Python sees assignment, treats count as local,
+    # but it hasn't been assigned yet locally.
+
+def increment_correct():
+    global count
+    count += 1     # Now works
+
+
+def counter():
+    count = 0
+
+    def increment():
+        nonlocal count    # modify enclosing variable
+        count += 1
+        return count
+
+    return increment
+
+c = counter()
+print(c())   # 1
+print(c())   # 2
+print(c())   # 3
+
+This is a real closure — inner() remembers the enclosing scope even after outer() has finished. Very common in decorators and factory functions.
+
+⚠ TRICKY: global vs nonlocal — what's the difference?
+global  → refers to the module-level variable
+nonlocal → refers to the nearest enclosing function's variable
+
+x = 'global'
+
+def outer():
+    x = 'outer'
+
+    def inner():
+        nonlocal x
+        x = 'inner'
+        print(x)    # inner
+
+    inner()
+    print(x)        # inner (modified by nonlocal)
+
+outer()
+print(x)            # global (unchanged)
+
+nonlocal does NOT affect the global x.
+
+result1 = list(map(lambda x: x**2, nums))
+result2 = [x**2 for x in nums]
+
+# List comprehension is more Pythonic and readable.
+
+
+A module is simply a Python file (.py) that contains code — variables, functions, classes — that can be reused in other Python programs. 
+
+# from fastapi.response import HTMLResponse
+# fastpi == library
+# response == package 
+# HTMLResponse == module
+
+def process():
+    import json          # valid — local import
+    return json.dumps({'a': 1})
+
+math	Mathematical functions: sqrt, pi, ceil, floor, factorial
+
+myproject/
+    main.py
+    mypackage/
+        __init__.py       ← makes it a package
+        geometry.py
+        strings.py
+
+# mypackage/__init__.py
+from .geometry import circle_area, rect_area
+from .strings import reverse, is_palindrome
+
+# Now in main.py you can do:
+from mypackage import circle_area   # instead of from mypackage.geometry
+print(circle_area(5))              # 78.5
+
+
+The sys module provides access to Python interpreter internals — runtime info, path, command-line args, and more.
+
+SYS - path,version,cli,exit
+
+
+The os module provides a way to interact with the operating system — file paths, directories, environment variables, and process management.
+
+
+os.path.exist(),chdir(path),getcwd().listdir(.)
+
+: NumPy slices are VIEWS not copies 
+
+a = np.array([1, 2, 3, 4, 5])
+b = a[1:4]          # b = [2, 3, 4]
+
+b[0] = 99
+print(a)            # [1, 99, 3, 4, 5] ← ORIGINAL CHANGED!
+
+WHY? NumPy slices share memory with the original array.
+
+readline have "\n" in last need to use strip()
+write() does NOT add newline automatically
+writelines() does NOT add newlines between items
+
+# Opening two files at once (very useful for copy operations)
+with open('input.txt', 'r') as src, open('output.txt', 'w') as dst:
+    for line in src:
+        dst.write(line.upper())
+
+reader = csv.reader(f)       # returns iterator of lists
+    header = next(reader)        # skip header row
+    print('Header:', header)     # ['Name', 'Age', 'Grade']
+
+
+    reader = csv.DictReader(f)   # uses header row as keys
+
+💡 DictReader is more readable than csv.reader — you access fields by name, not by index. Much safer when CSV column order might change.
+
+    writer = csv.writer(f)
+    writer.writerows(students)   # write all rows at once
+
+with open('output.csv', 'w', newline='') as f:  # CORRECT
+
+On Windows, Python adds \r\n at end of each line by default.
+The csv module also adds \r\n.
+
+import csv
+
+students = [
+    {'Name': 'Alice', 'Age': 20, 'Grade': 'A'},
+    {'Name': 'Bob',   'Age': 22, 'Grade': 'B'},
+]
+
+with open('output.csv', 'w', newline='') as f:
+    fieldnames = ['Name', 'Age', 'Grade']
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()         # write Name,Age,Grade
+    writer.writerows(students)   # write all rows
+
+
+ user = {'name': 'Chetan', 'age': 25, 'active': True}
+
+with open('user.json', 'w') as f:
+    json.dump(user, f, indent=4)   # indent for pretty printing
+
+data = {'created': datetime.now()}
+json.dumps(data)   # TypeError: Object of type datetime is not JSON serializable
+
+Fix option 1: convert to string first
+data = {'created': str(datetime.now())}
+
+
+re.search(r'file\.txt', text)  # Matches ONLY 'file.txt' (literal dot)
+
+
+
+
+
+
+
+
+
+
+
