@@ -1,0 +1,3238 @@
+[
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "relativedelta",
+        "importPath": "dateutil.relativedelta",
+        "description": "dateutil.relativedelta",
+        "isExtraImport": true,
+        "detail": "dateutil.relativedelta",
+        "documentation": {}
+    },
+    {
+        "label": "utility",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "utility",
+        "description": "utility",
+        "detail": "utility",
+        "documentation": {}
+    },
+    {
+        "label": "talent_exception",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "talent_exception",
+        "description": "talent_exception",
+        "detail": "talent_exception",
+        "documentation": {}
+    },
+    {
+        "label": "talent_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "talent_service",
+        "description": "talent_service",
+        "detail": "talent_service",
+        "documentation": {}
+    },
+    {
+        "label": "oracledb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "oracledb",
+        "description": "oracledb",
+        "detail": "oracledb",
+        "documentation": {}
+    },
+    {
+        "label": "job_application",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "job_application",
+        "description": "job_application",
+        "detail": "job_application",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "hotel_booking",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hotel_booking",
+        "description": "hotel_booking",
+        "detail": "hotel_booking",
+        "documentation": {}
+    },
+    {
+        "label": "hotel_exception",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hotel_exception",
+        "description": "hotel_exception",
+        "detail": "hotel_exception",
+        "documentation": {}
+    },
+    {
+        "label": "hotel_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hotel_service",
+        "description": "hotel_service",
+        "detail": "hotel_service",
+        "documentation": {}
+    },
+    {
+        "label": "freight_exception",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "freight_exception",
+        "description": "freight_exception",
+        "detail": "freight_exception",
+        "documentation": {}
+    },
+    {
+        "label": "shipment_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shipment_service",
+        "description": "shipment_service",
+        "detail": "shipment_service",
+        "documentation": {}
+    },
+    {
+        "label": "shipment",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shipment",
+        "description": "shipment",
+        "detail": "shipment",
+        "documentation": {}
+    },
+    {
+        "label": "med_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "med_service",
+        "description": "med_service",
+        "detail": "med_service",
+        "documentation": {}
+    },
+    {
+        "label": "med_exception",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "med_exception",
+        "description": "med_exception",
+        "detail": "med_exception",
+        "documentation": {}
+    },
+    {
+        "label": "medicine",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "medicine",
+        "description": "medicine",
+        "detail": "medicine",
+        "documentation": {}
+    },
+    {
+        "label": "exception",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "exception",
+        "description": "exception",
+        "detail": "exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidLendingIdException",
+        "importPath": "exception",
+        "description": "exception",
+        "isExtraImport": true,
+        "detail": "exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidLendingIdException",
+        "importPath": "exception",
+        "description": "exception",
+        "isExtraImport": true,
+        "detail": "exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidRequestIdException",
+        "importPath": "exception",
+        "description": "exception",
+        "isExtraImport": true,
+        "detail": "exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidRequestIdException",
+        "importPath": "exception",
+        "description": "exception",
+        "isExtraImport": true,
+        "detail": "exception",
+        "documentation": {}
+    },
+    {
+        "label": "patient_billing_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "patient_billing_service",
+        "description": "patient_billing_service",
+        "detail": "patient_billing_service",
+        "documentation": {}
+    },
+    {
+        "label": "patient_billing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "patient_billing",
+        "description": "patient_billing",
+        "detail": "patient_billing",
+        "documentation": {}
+    },
+    {
+        "label": "shipment_order",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shipment_order",
+        "description": "shipment_order",
+        "detail": "shipment_order",
+        "documentation": {}
+    },
+    {
+        "label": "loan_application",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "loan_application",
+        "description": "loan_application",
+        "detail": "loan_application",
+        "documentation": {}
+    },
+    {
+        "label": "loan_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "loan_service",
+        "description": "loan_service",
+        "detail": "loan_service",
+        "documentation": {}
+    },
+    {
+        "label": "scholarship_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scholarship_service",
+        "description": "scholarship_service",
+        "detail": "scholarship_service",
+        "documentation": {}
+    },
+    {
+        "label": "scholarship_application",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scholarship_application",
+        "description": "scholarship_application",
+        "detail": "scholarship_application",
+        "documentation": {}
+    },
+    {
+        "label": "book_lending",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "book_lending",
+        "description": "book_lending",
+        "detail": "book_lending",
+        "documentation": {}
+    },
+    {
+        "label": "cx_Oracle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cx_Oracle",
+        "description": "cx_Oracle",
+        "detail": "cx_Oracle",
+        "documentation": {}
+    },
+    {
+        "label": "book_lending_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "book_lending_service",
+        "description": "book_lending_service",
+        "detail": "book_lending_service",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "car",
+        "description": "car",
+        "detail": "car",
+        "documentation": {}
+    },
+    {
+        "label": "invalid_exception",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "invalid_exception",
+        "description": "invalid_exception",
+        "detail": "invalid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "car_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "car_service",
+        "description": "car_service",
+        "detail": "car_service",
+        "documentation": {}
+    },
+    {
+        "label": "emp_reimbursement",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "emp_reimbursement",
+        "description": "emp_reimbursement",
+        "detail": "emp_reimbursement",
+        "documentation": {}
+    },
+    {
+        "label": "emp_reimbursement_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "emp_reimbursement_service",
+        "description": "emp_reimbursement_service",
+        "detail": "emp_reimbursement_service",
+        "documentation": {}
+    },
+    {
+        "label": "it_service",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "it_service",
+        "description": "it_service",
+        "detail": "it_service",
+        "documentation": {}
+    },
+    {
+        "label": "it_service_management",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "it_service_management",
+        "description": "it_service_management",
+        "detail": "it_service_management",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "db_setup",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "db_setup",
+        "description": "db_setup",
+        "detail": "db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "customer_entity",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "customer_entity",
+        "description": "customer_entity",
+        "detail": "customer_entity",
+        "documentation": {}
+    },
+    {
+        "label": "attendance_db_setup",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "attendance_db_setup",
+        "description": "attendance_db_setup",
+        "detail": "attendance_db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "attendance_entity",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "attendance_entity",
+        "description": "attendance_entity",
+        "detail": "attendance_entity",
+        "documentation": {}
+    },
+    {
+        "label": "book_entity",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "book_entity",
+        "description": "book_entity",
+        "detail": "book_entity",
+        "documentation": {}
+    },
+    {
+        "label": "books_db_setup",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "books_db_setup",
+        "description": "books_db_setup",
+        "detail": "books_db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "customer_db_setup",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "customer_db_setup",
+        "description": "customer_db_setup",
+        "detail": "customer_db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "flight",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "flight",
+        "description": "flight",
+        "detail": "flight",
+        "documentation": {}
+    },
+    {
+        "label": "hotel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hotel",
+        "description": "hotel",
+        "detail": "hotel",
+        "documentation": {}
+    },
+    {
+        "label": "train_management",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "train_management",
+        "description": "train_management",
+        "detail": "train_management",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "train",
+        "description": "train",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "customer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "customer",
+        "description": "customer",
+        "detail": "customer",
+        "documentation": {}
+    },
+    {
+        "label": "convert",
+        "kind": 2,
+        "importPath": "DateTimeTask.task1",
+        "description": "DateTimeTask.task1",
+        "peekOfCode": "def convert(s):\n    return parser.parse(s)\ndef main():\n    s=\"09-03-2026\"\n    print(\"Before: \"+s)\n    d=convert(s)\n    print(\"After: \"+d.strftime(\"%Y/%m/%d\"))\nif __name__==\"__main__\":\n    main()",
+        "detail": "DateTimeTask.task1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DateTimeTask.task1",
+        "description": "DateTimeTask.task1",
+        "peekOfCode": "def main():\n    s=\"09-03-2026\"\n    print(\"Before: \"+s)\n    d=convert(s)\n    print(\"After: \"+d.strftime(\"%Y/%m/%d\"))\nif __name__==\"__main__\":\n    main()",
+        "detail": "DateTimeTask.task1",
+        "documentation": {}
+    },
+    {
+        "label": "convert",
+        "kind": 2,
+        "importPath": "DateTimeTask.task2",
+        "description": "DateTimeTask.task2",
+        "peekOfCode": "def convert(s):\n    return datetime.strptime(s,\"%d-%m-%Y\")\ndef main():\n    d1=input(\"Enter date 1 (DD-MM-YYYY ): \")\n    d2=input(\"Enter date 2 (DD-MM-YYYY ): \")\n    d1=convert(d1)\n    d2=convert(d2)\n    no_of_day=abs((d1-d2).days)\n    print(no_of_day)\nif __name__==\"__main__\":",
+        "detail": "DateTimeTask.task2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DateTimeTask.task2",
+        "description": "DateTimeTask.task2",
+        "peekOfCode": "def main():\n    d1=input(\"Enter date 1 (DD-MM-YYYY ): \")\n    d2=input(\"Enter date 2 (DD-MM-YYYY ): \")\n    d1=convert(d1)\n    d2=convert(d2)\n    no_of_day=abs((d1-d2).days)\n    print(no_of_day)\nif __name__==\"__main__\":\n    main()",
+        "detail": "DateTimeTask.task2",
+        "documentation": {}
+    },
+    {
+        "label": "convert",
+        "kind": 2,
+        "importPath": "DateTimeTask.task3",
+        "description": "DateTimeTask.task3",
+        "peekOfCode": "def convert(s):\n    return datetime.strptime(s, \"%Y-%m-%d\").date()\ndef main():\n    d = \"2026-03-09\"\n    n = 30\n    print(\"Current Date:\", d, \"(\", convert(d).strftime(\"%A\"), \")\")\n    d = convert(d)\n    d = d + timedelta(days=n)\n    print(\"After 30 Days:\", d.strftime(\"%Y-%m-%d\"), \"(\", d.strftime(\"%A\"), \")\")\nif __name__ == \"__main__\":",
+        "detail": "DateTimeTask.task3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DateTimeTask.task3",
+        "description": "DateTimeTask.task3",
+        "peekOfCode": "def main():\n    d = \"2026-03-09\"\n    n = 30\n    print(\"Current Date:\", d, \"(\", convert(d).strftime(\"%A\"), \")\")\n    d = convert(d)\n    d = d + timedelta(days=n)\n    print(\"After 30 Days:\", d.strftime(\"%Y-%m-%d\"), \"(\", d.strftime(\"%A\"), \")\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "DateTimeTask.task3",
+        "documentation": {}
+    },
+    {
+        "label": "convert",
+        "kind": 2,
+        "importPath": "DateTimeTask.task4",
+        "description": "DateTimeTask.task4",
+        "peekOfCode": "def convert(s):\n    return datetime.strptime(s,\"%Y-%m-%d\").date()\ndef main():\n    dates = [\"2026-03-01\", \"2026-03-09\", \"2026-03-10\", \"2026-02-28\"]\n    start = \"2026-03-01\"\n    end = \"2026-03-10\"\n    s=convert(start)\n    e=convert(end)\n    res=[d for d in dates if s<=convert(d)<=e]\n    for d in res:",
+        "detail": "DateTimeTask.task4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DateTimeTask.task4",
+        "description": "DateTimeTask.task4",
+        "peekOfCode": "def main():\n    dates = [\"2026-03-01\", \"2026-03-09\", \"2026-03-10\", \"2026-02-28\"]\n    start = \"2026-03-01\"\n    end = \"2026-03-10\"\n    s=convert(start)\n    e=convert(end)\n    res=[d for d in dates if s<=convert(d)<=e]\n    for d in res:\n        print(d)\nif __name__==\"__main__\":",
+        "detail": "DateTimeTask.task4",
+        "documentation": {}
+    },
+    {
+        "label": "to_date",
+        "kind": 2,
+        "importPath": "DateTimeTask.task5",
+        "description": "DateTimeTask.task5",
+        "peekOfCode": "def to_date(s: str) -> date:\n    return date.fromisoformat(s)\ndef main():\n    dates = [\"2026-03-01\", \"2026-03-09\", \"2026-03-10\", \"2026-02-28\"]\n    start = \"2026-03-01\"\n    end = \"2026-03-10\"\n    s = to_date(start)\n    e = to_date(end)\n    in_range = [to_date(d) for d in dates if s <= to_date(d) <= e]\n    if not in_range:",
+        "detail": "DateTimeTask.task5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DateTimeTask.task5",
+        "description": "DateTimeTask.task5",
+        "peekOfCode": "def main():\n    dates = [\"2026-03-01\", \"2026-03-09\", \"2026-03-10\", \"2026-02-28\"]\n    start = \"2026-03-01\"\n    end = \"2026-03-10\"\n    s = to_date(start)\n    e = to_date(end)\n    in_range = [to_date(d) for d in dates if s <= to_date(d) <= e]\n    if not in_range:\n        print(\"No dates in the specified range\")\n        return",
+        "detail": "DateTimeTask.task5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DateTimeTask.task6",
+        "description": "DateTimeTask.task6",
+        "peekOfCode": "def main():\n    phonebook = {\"Alice\": \"555-0100\", \"Bob\": \"555-0101\"}\n    name=input(\"Enter name: \")\n    if name in phonebook:\n        print(phonebook[name])\n    else:\n        print(\"Not found\")\nif __name__==\"__main__\":\n    main()",
+        "detail": "DateTimeTask.task6",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DateTimeTask.task7",
+        "description": "DateTimeTask.task7",
+        "peekOfCode": "def main():\n    d1={\"a\":1,\"b\":2}\n    d2={\"b\":20,\"c\":3}\n    # merged=d2|d1\n    # print(merged)\n    d3=d1\n    for k in d2.keys():\n        if k not in d3.keys():\n            d3[k]=d2[k]\n    print(d3)",
+        "detail": "DateTimeTask.task7",
+        "documentation": {}
+    },
+    {
+        "label": "firstWay",
+        "kind": 2,
+        "importPath": "DateTimeTask.task8",
+        "description": "DateTimeTask.task8",
+        "peekOfCode": "def firstWay(d):\n    i={}\n    for k,v in d.items():\n        if v in i.keys():\n            raise ValueError(f\"Duplicate value detected: {v!r}\")\n        i[v]=k\n    return i\ndef secondWay(d):\n    if len(set(d.values())) != len(d):\n        raise ValueError(f\"Duplicate value detected\")",
+        "detail": "DateTimeTask.task8",
+        "documentation": {}
+    },
+    {
+        "label": "secondWay",
+        "kind": 2,
+        "importPath": "DateTimeTask.task8",
+        "description": "DateTimeTask.task8",
+        "peekOfCode": "def secondWay(d):\n    if len(set(d.values())) != len(d):\n        raise ValueError(f\"Duplicate value detected\")\n    return {v:k for k,v in d.items()}\ndef main():\n    d={\"a\": 1, \"b\": 2}\n    print(firstWay(d))\n    print(secondWay(d))\nif __name__==\"__main__\":\n    main()",
+        "detail": "DateTimeTask.task8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DateTimeTask.task8",
+        "description": "DateTimeTask.task8",
+        "peekOfCode": "def main():\n    d={\"a\": 1, \"b\": 2}\n    print(firstWay(d))\n    print(secondWay(d))\nif __name__==\"__main__\":\n    main()",
+        "detail": "DateTimeTask.task8",
+        "documentation": {}
+    },
+    {
+        "label": "convert",
+        "kind": 2,
+        "importPath": "DateTimeTask.task9",
+        "description": "DateTimeTask.task9",
+        "peekOfCode": "def convert(s: str) -> datetime:\n    return datetime.strptime(s, \"%d-%m-%Y\")\ndef main():\n    d1 = convert(input(\"Enter date 1 (DD-MM-YYYY): \"))\n    d2 = convert(input(\"Enter date 2 (DD-MM-YYYY): \"))\n    rd = relativedelta(max(d1, d2), min(d1, d2))\n    # You can get total months as:\n    total_months = rd.years * 12 + rd.months\n    print(\"Whole calendar months between (ignoring leftover days):\", total_months)\n    print(\"Breakdown -> years:\", rd.years, \"months:\", rd.months, \"days:\", rd.days)",
+        "detail": "DateTimeTask.task9",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DateTimeTask.task9",
+        "description": "DateTimeTask.task9",
+        "peekOfCode": "def main():\n    d1 = convert(input(\"Enter date 1 (DD-MM-YYYY): \"))\n    d2 = convert(input(\"Enter date 2 (DD-MM-YYYY): \"))\n    rd = relativedelta(max(d1, d2), min(d1, d2))\n    # You can get total months as:\n    total_months = rd.years * 12 + rd.months\n    print(\"Whole calendar months between (ignoring leftover days):\", total_months)\n    print(\"Breakdown -> years:\", rd.years, \"months:\", rd.months, \"days:\", rd.days)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "DateTimeTask.task9",
+        "documentation": {}
+    },
+    {
+        "label": "JobApplication",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem10_TalentBridge.job_application",
+        "description": "DBConProblem.Problem10_TalentBridge.job_application",
+        "peekOfCode": "class JobApplication:\n    def __init__(self,application_id:str,job_code:str,applicant_name:str,experience_grade:str,years_exp:int,application_date:date,closing_date:date,job_title:str,status:str):\n        self.__application_id=application_id\n        self.__job_code=job_code\n        self.__applicant_name=applicant_name\n        self.__experience_grade=experience_grade\n        self.__years_exp=years_exp\n        self.__application_date=application_date\n        self.__closing_date=closing_date\n        self.__job_title=job_title",
+        "detail": "DBConProblem.Problem10_TalentBridge.job_application",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem10_TalentBridge.main",
+        "description": "DBConProblem.Problem10_TalentBridge.main",
+        "peekOfCode": "def display(o):\n   print(\"\\n\")\n   print(f\"Application Id: {o.get_application_id()}\")\n   print(f\"Job Code: {o.get_job_code()}\")\n   print(f\"Applicant Name: {o.get_applicant_name()}\")\n   print(f\"Experience Grade: {o.get_experience_grade()}\")\n   print(f\"Years Experience: {o.get_years_exp()}\")\n   print(f\"Job Title: {o.get_job_title()}\")\n   print(f\"Base Salary: {o.get_base_salary()}\")\n   print(f\"Experince Bonus: {o.get_experience_bonus()}\")",
+        "detail": "DBConProblem.Problem10_TalentBridge.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem10_TalentBridge.main",
+        "description": "DBConProblem.Problem10_TalentBridge.main",
+        "peekOfCode": "def main():\n   record=ut.read_file(\"JobApplications.txt\")\n   obj=sr.TalentService()\n   obj_l=obj.read_data(record)\n   obj.add_application_details(obj_l)\n   print(\"Top 3 Job Codes:\")\n   top=obj.find_top3_jobs()\n   for k,v in top.items():\n      print(f\"{k} : {v}\")\n   aid=input(\"Enter the application id to search: \")",
+        "detail": "DBConProblem.Problem10_TalentBridge.main",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidJobCodeException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem10_TalentBridge.talent_exception",
+        "description": "DBConProblem.Problem10_TalentBridge.talent_exception",
+        "peekOfCode": "class InvalidJobCodeException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message\nclass InvalidApplicationIdException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message",
+        "detail": "DBConProblem.Problem10_TalentBridge.talent_exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidApplicationIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem10_TalentBridge.talent_exception",
+        "description": "DBConProblem.Problem10_TalentBridge.talent_exception",
+        "peekOfCode": "class InvalidApplicationIdException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message",
+        "detail": "DBConProblem.Problem10_TalentBridge.talent_exception",
+        "documentation": {}
+    },
+    {
+        "label": "TalentService",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem10_TalentBridge.talent_service",
+        "description": "DBConProblem.Problem10_TalentBridge.talent_service",
+        "peekOfCode": "class TalentService:\n    def __init__(self):\n        self.__jobObj_lst=[]\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Job')\n        for line in records:\n            part=line.strip().split(\",\")\n            try:\n                ut.validate_job_code(part[1])",
+        "detail": "DBConProblem.Problem10_TalentBridge.talent_service",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem10_TalentBridge.talent_service",
+        "description": "DBConProblem.Problem10_TalentBridge.talent_service",
+        "peekOfCode": "db = {}\nwith open(\"database.properties\") as f:\n    lines = [line.strip().split(\"=\") for line in f if not line.startswith(\"#\") and line.strip()]\n    db = {k.strip(): v.strip() for k, v in lines}\nconn = oracledb.connect(user=db[\"DB_USERNAME\"], password=db[\"DB_PASSWORD\"], dsn=db[\"DSN\"])\nclass TalentService:\n    def __init__(self):\n        self.__jobObj_lst=[]\n    def read_data(self, records):\n        with conn.cursor() as cur:",
+        "detail": "DBConProblem.Problem10_TalentBridge.talent_service",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem10_TalentBridge.talent_service",
+        "description": "DBConProblem.Problem10_TalentBridge.talent_service",
+        "peekOfCode": "conn = oracledb.connect(user=db[\"DB_USERNAME\"], password=db[\"DB_PASSWORD\"], dsn=db[\"DSN\"])\nclass TalentService:\n    def __init__(self):\n        self.__jobObj_lst=[]\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Job')\n        for line in records:\n            part=line.strip().split(\",\")\n            try:",
+        "detail": "DBConProblem.Problem10_TalentBridge.talent_service",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem10_TalentBridge.utility",
+        "description": "DBConProblem.Problem10_TalentBridge.utility",
+        "peekOfCode": "def read_file(file):\n    with open(file) as f:\n        record=[]\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[8]=='Shortlisted':\n                ad=convert_date(part[5])\n                cd=convert_date(part[6])\n                if (ad-cd).days<=15:\n                    record.append(line)",
+        "detail": "DBConProblem.Problem10_TalentBridge.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_job_code",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem10_TalentBridge.utility",
+        "description": "DBConProblem.Problem10_TalentBridge.utility",
+        "peekOfCode": "def validate_job_code(job_code):\n    if re.fullmatch(r\"^JOB-[A-Z]{2}-[0-9]{4}$\",job_code):\n        return True\n    else:\n        raise te.InvalidJobCodeException(f\"Invalid Job Code: {job_code}\")\ndef validate_application_id(application_id):\n    if re.fullmatch(r\"^JA[0-9]{3,}$\",application_id):\n        return True\n    else:\n        raise te.InvalidJobCodeException(\"nvalid Application Id\")",
+        "detail": "DBConProblem.Problem10_TalentBridge.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_application_id",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem10_TalentBridge.utility",
+        "description": "DBConProblem.Problem10_TalentBridge.utility",
+        "peekOfCode": "def validate_application_id(application_id):\n    if re.fullmatch(r\"^JA[0-9]{3,}$\",application_id):\n        return True\n    else:\n        raise te.InvalidJobCodeException(\"nvalid Application Id\")\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "DBConProblem.Problem10_TalentBridge.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem10_TalentBridge.utility",
+        "description": "DBConProblem.Problem10_TalentBridge.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "DBConProblem.Problem10_TalentBridge.utility",
+        "documentation": {}
+    },
+    {
+        "label": "HotelBooking",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem1_SwiftStay.hotel_booking",
+        "description": "DBConProblem.Problem1_SwiftStay.hotel_booking",
+        "peekOfCode": "class HotelBooking:\n    # Parameterized constructor is already defined - do NOT modify it\n    def __init__(self,booking_id:str,room_number:str,guest_name:str,room_rate:float,no_of_nights:int,check_in_date:date,room_type:str,status:str,booking_date:date):\n        self.__booking_id=booking_id\n        self.__room_number=room_number\n        self.__guest_name=guest_name\n        self.__room_rate=room_rate\n        self.__no_of_nights=no_of_nights\n        self.__check_in_date=check_in_date\n        self.__room_type=room_type",
+        "detail": "DBConProblem.Problem1_SwiftStay.hotel_booking",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidRoomNumberException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem1_SwiftStay.hotel_exception",
+        "description": "DBConProblem.Problem1_SwiftStay.hotel_exception",
+        "peekOfCode": "class InvalidRoomNumberException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message\nclass InvalidBookingIdException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message",
+        "detail": "DBConProblem.Problem1_SwiftStay.hotel_exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidBookingIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem1_SwiftStay.hotel_exception",
+        "description": "DBConProblem.Problem1_SwiftStay.hotel_exception",
+        "peekOfCode": "class InvalidBookingIdException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message",
+        "detail": "DBConProblem.Problem1_SwiftStay.hotel_exception",
+        "documentation": {}
+    },
+    {
+        "label": "HotelService",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem1_SwiftStay.hotel_service",
+        "description": "DBConProblem.Problem1_SwiftStay.hotel_service",
+        "peekOfCode": "class HotelService:\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute(\"truncate table HotelBooking\")\n        for line in records:\n            part=line.strip().split(\",\")\n            try:\n                ut.validate_booking_id(part[0])\n                ut.validate_room_number(part[1])\n                dob=ut.convert_date(part[8])",
+        "detail": "DBConProblem.Problem1_SwiftStay.hotel_service",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem1_SwiftStay.hotel_service",
+        "description": "DBConProblem.Problem1_SwiftStay.hotel_service",
+        "peekOfCode": "db = {}\nwith open(\"database.properties\") as f:\n    lines = [line.strip().split(\"=\") for line in f if not line.startswith(\"#\") and line.strip()]\n    db = {k.strip(): v.strip() for k, v in lines}\nconn = oracledb.connect(user=db[\"DB_USERNAME\"], password=db[\"DB_PASSWORD\"], dsn=db[\"DSN\"])\nclass HotelService:\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute(\"truncate table HotelBooking\")\n        for line in records:",
+        "detail": "DBConProblem.Problem1_SwiftStay.hotel_service",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem1_SwiftStay.hotel_service",
+        "description": "DBConProblem.Problem1_SwiftStay.hotel_service",
+        "peekOfCode": "conn = oracledb.connect(user=db[\"DB_USERNAME\"], password=db[\"DB_PASSWORD\"], dsn=db[\"DSN\"])\nclass HotelService:\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute(\"truncate table HotelBooking\")\n        for line in records:\n            part=line.strip().split(\",\")\n            try:\n                ut.validate_booking_id(part[0])\n                ut.validate_room_number(part[1])",
+        "detail": "DBConProblem.Problem1_SwiftStay.hotel_service",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem1_SwiftStay.main",
+        "description": "DBConProblem.Problem1_SwiftStay.main",
+        "peekOfCode": "def display(o):\n    print(\"\\n\")\n    print(f\"Booking Id: {o.get_booking_id()}\")\n    print(f\"Guest Name: {o.get_guest_name()}\")\n    print(f\"Room Number: {o.get_room_number()}\")\n    print(f\"Room Type: {o.get_room_type()}\")\n    print(f\"Check-in Date: {o.get_check_in_date()}\")\n    print(f\"No. of Nights: {o.get_no_of_nights()}\")\n    print(f\"Base Amount: {o.get_base_amount()}\")\n    print(f\"Tax Amount: {o.get_tax_amount()}\")",
+        "detail": "DBConProblem.Problem1_SwiftStay.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem1_SwiftStay.main",
+        "description": "DBConProblem.Problem1_SwiftStay.main",
+        "peekOfCode": "def main():\n    records=ut.read_file(\"BookingDetails.txt\")\n    obj=hs.HotelService()\n    obj.read_data(records)\n    top=obj.find_top3_rooms()\n    print(\"Top 3 Rooms:\")\n    for k,v in top.items():\n       print(f\"{k} : {v}\")\n    bid=input(\"Enter the booking id to search: \")\n    try:",
+        "detail": "DBConProblem.Problem1_SwiftStay.main",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem1_SwiftStay.utility",
+        "description": "DBConProblem.Problem1_SwiftStay.utility",
+        "peekOfCode": "def read_file(file):\n    records=[]\n    with open(file) as f:\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[7]=='Confirmed':\n                dob=convert_date(part[8])\n                doc=convert_date(part[5])\n                if ((doc-dob).days)<=60:\n                    records.append(line)",
+        "detail": "DBConProblem.Problem1_SwiftStay.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_room_number",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem1_SwiftStay.utility",
+        "description": "DBConProblem.Problem1_SwiftStay.utility",
+        "peekOfCode": "def validate_room_number(room_number):\n    if re.fullmatch(r\"^RMH\\d{3}.{3}[A-Z]$\",room_number):\n        return True\n    else:\n        raise he.InvalidRoomNumberException(f\"Invalid Room Number: {room_number}\")\ndef validate_booking_id(booking_id):\n    if len(booking_id)<5:\n        raise he.InvalidBookingIdException(\"Invalid Booking Id\")\n    if re.fullmatch(r\"^BK\\d{3,}$\",booking_id):\n        return True",
+        "detail": "DBConProblem.Problem1_SwiftStay.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_booking_id",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem1_SwiftStay.utility",
+        "description": "DBConProblem.Problem1_SwiftStay.utility",
+        "peekOfCode": "def validate_booking_id(booking_id):\n    if len(booking_id)<5:\n        raise he.InvalidBookingIdException(\"Invalid Booking Id\")\n    if re.fullmatch(r\"^BK\\d{3,}$\",booking_id):\n        return True\n    else:\n        raise he.InvalidBookingIdException(\"Invalid Booking Id\")\ndef convert_date(str_date):\n     return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "DBConProblem.Problem1_SwiftStay.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem1_SwiftStay.utility",
+        "description": "DBConProblem.Problem1_SwiftStay.utility",
+        "peekOfCode": "def convert_date(str_date):\n     return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "DBConProblem.Problem1_SwiftStay.utility",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidFreightIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem2_FreightTrack.freight_exception",
+        "description": "DBConProblem.Problem2_FreightTrack.freight_exception",
+        "peekOfCode": "class InvalidFreightIdException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message\nclass InvalidShipmentIdException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message",
+        "detail": "DBConProblem.Problem2_FreightTrack.freight_exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidShipmentIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem2_FreightTrack.freight_exception",
+        "description": "DBConProblem.Problem2_FreightTrack.freight_exception",
+        "peekOfCode": "class InvalidShipmentIdException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message",
+        "detail": "DBConProblem.Problem2_FreightTrack.freight_exception",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem2_FreightTrack.main",
+        "description": "DBConProblem.Problem2_FreightTrack.main",
+        "peekOfCode": "def display(o):\n    print(\"\\n\")\n    print(f\"Shipment Id: {o.get_shipment_id()}\")\n    print(f\"Freight Id: {o.get_freight_id()}\")\n    print(f\"Client Name: {o.get_client_name()}\")\n    print(f\"Wight(kg): {o.get_weight_kg()}\")\n    print(f\"Service Type: {o.get_service_type()}\")\n    print(f\"Base Charge: {o.get_base_charge()}\")\n    print(f\"Surcharge: {o.get_surcharge()}\")\n    print(f\"Total Charge: {o.get_total_charge()}\")",
+        "detail": "DBConProblem.Problem2_FreightTrack.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem2_FreightTrack.main",
+        "description": "DBConProblem.Problem2_FreightTrack.main",
+        "peekOfCode": "def main():\n    record=ut.read_file(\"ShipmentRecords.txt\")\n    obj=sr.ShipmentService()\n    list_obj=obj.read_data(record)\n    obj.add_shipment_details(list_obj)\n    top=obj.find_top3_freight()\n    print(\"Top 3 Freight IDs:\")\n    for k,v in top.items():\n        print(f\"{k} : {v}\")\n    sid=input(\"Enter the shipment id to search: \")",
+        "detail": "DBConProblem.Problem2_FreightTrack.main",
+        "documentation": {}
+    },
+    {
+        "label": "Shipment",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem2_FreightTrack.shipment",
+        "description": "DBConProblem.Problem2_FreightTrack.shipment",
+        "peekOfCode": "class Shipment:\n    def __init__(self,shipment_id:str,freight_id:str,client_name:str,weight_kg:float,no_of_days:int,dispatch_date:date,service_type:str,status:str,booking_date:date):\n        self.__shipment_id=shipment_id\n        self.__freight_id=freight_id\n        self.__client_name=client_name\n        self.__weight_kg=weight_kg\n        self.__no_of_days=no_of_days\n        self.__dispatch_date=dispatch_date\n        self.__service_type=service_type\n        self.__status=status",
+        "detail": "DBConProblem.Problem2_FreightTrack.shipment",
+        "documentation": {}
+    },
+    {
+        "label": "ShipmentService",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem2_FreightTrack.shipment_service",
+        "description": "DBConProblem.Problem2_FreightTrack.shipment_service",
+        "peekOfCode": "class ShipmentService:\n    def __init__(self):\n        self.__shipment_list=[]\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Shipment')\n        for line in records:\n            part=line.strip().split(\",\")\n            try:\n                ut.validate_freight_id(part[1])",
+        "detail": "DBConProblem.Problem2_FreightTrack.shipment_service",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem2_FreightTrack.shipment_service",
+        "description": "DBConProblem.Problem2_FreightTrack.shipment_service",
+        "peekOfCode": "db = {}\nwith open(\"database.properties\") as f:\n    lines = [line.strip().split(\"=\") for line in f if not line.startswith(\"#\") and line.strip()]\n    db = {k.strip(): v.strip() for k, v in lines}\nconn = oracledb.connect(user=db[\"DB_USERNAME\"], password=db[\"DB_PASSWORD\"], dsn=db[\"DSN\"])\nclass ShipmentService:\n    def __init__(self):\n        self.__shipment_list=[]\n    def read_data(self, records):\n        with conn.cursor() as cur:",
+        "detail": "DBConProblem.Problem2_FreightTrack.shipment_service",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem2_FreightTrack.shipment_service",
+        "description": "DBConProblem.Problem2_FreightTrack.shipment_service",
+        "peekOfCode": "conn = oracledb.connect(user=db[\"DB_USERNAME\"], password=db[\"DB_PASSWORD\"], dsn=db[\"DSN\"])\nclass ShipmentService:\n    def __init__(self):\n        self.__shipment_list=[]\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Shipment')\n        for line in records:\n            part=line.strip().split(\",\")\n            try:",
+        "detail": "DBConProblem.Problem2_FreightTrack.shipment_service",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem2_FreightTrack.utility",
+        "description": "DBConProblem.Problem2_FreightTrack.utility",
+        "peekOfCode": "def read_file(file):\n    record=[]\n    with open(file) as f:\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[7]=='Dispatched':\n                dd=convert_date(part[5])\n                bd=convert_date(part[8])\n                if((dd - bd).days)<=30:\n                    record.append(line)",
+        "detail": "DBConProblem.Problem2_FreightTrack.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_freight_id",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem2_FreightTrack.utility",
+        "description": "DBConProblem.Problem2_FreightTrack.utility",
+        "peekOfCode": "def validate_freight_id(freight_id):\n    if re.fullmatch(r\"^FRT-\\d{4}-[A-Z]{2}$\",freight_id):\n        return True\n    else:\n        raise fe.InvalidFreightIdException(f\"Invalid Freight Id: {freight_id}\")\ndef validate_shipment_id(shipment_id):\n    if re.fullmatch(r\"^SH\\d{3,}$\",shipment_id):\n        return True\n    else:\n        raise fe.InvalidShipmentIdException(\"Invalid Shipment Id\")",
+        "detail": "DBConProblem.Problem2_FreightTrack.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_shipment_id",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem2_FreightTrack.utility",
+        "description": "DBConProblem.Problem2_FreightTrack.utility",
+        "peekOfCode": "def validate_shipment_id(shipment_id):\n    if re.fullmatch(r\"^SH\\d{3,}$\",shipment_id):\n        return True\n    else:\n        raise fe.InvalidShipmentIdException(\"Invalid Shipment Id\")\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "DBConProblem.Problem2_FreightTrack.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem2_FreightTrack.utility",
+        "description": "DBConProblem.Problem2_FreightTrack.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "DBConProblem.Problem2_FreightTrack.utility",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem3_MediCare.main",
+        "description": "DBConProblem.Problem3_MediCare.main",
+        "peekOfCode": "def display(o):\n    print(\"\\n\")\n    print(f\"Stock Id: {o.get_stock_id()}\")\n    print(f\"Medicine Code: {o.get_med_code()}\")\n    print(f\"Medicine Name: {o.get_med_name()}\")\n    print(f\"Category: {o.get_category()}\")\n    print(f\"Quantity: {o.get_quantity()}\")\n    print(f\"Manufacture Date: {o.get_manufacture_date()}\")\n    print(f\"Expiry Date: {o.get_expiry_date()}\")\n    print(f\"Selling Price: {o.get_selling_price()}\")",
+        "detail": "DBConProblem.Problem3_MediCare.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem3_MediCare.main",
+        "description": "DBConProblem.Problem3_MediCare.main",
+        "peekOfCode": "def main():\n    record=ut.read_file(\"MedicineStock.txt\")\n    obj=mr.MedService()\n    obj.read_data(record)\n    top=obj.find_top3_medicines()\n    print(\"Top 3 Medicine Codes:\")\n    for k,v in top.items():\n        print(f\"{k} : {v}\")\n    sid=input(\"Enter the stock id to search: \")\n    try:",
+        "detail": "DBConProblem.Problem3_MediCare.main",
+        "documentation": {}
+    },
+    {
+        "label": "Medicine",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem3_MediCare.medicine",
+        "description": "DBConProblem.Problem3_MediCare.medicine",
+        "peekOfCode": "class Medicine:\n    def __init__(self,stock_id:str,med_code:str,med_name:str,category:str,unit_price:float,quantity:int,manufacture_date:date,expiry_date:date,status:str):\n        self.__stock_id=stock_id\n        self.__med_code=med_code\n        self.__med_name=med_name\n        self.__category=category\n        self.__unit_price=unit_price\n        self.__quantity=quantity\n        self.__manufacture_date=manufacture_date\n        self.__expiry_date=expiry_date",
+        "detail": "DBConProblem.Problem3_MediCare.medicine",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidMedCodeException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem3_MediCare.med_exception",
+        "description": "DBConProblem.Problem3_MediCare.med_exception",
+        "peekOfCode": "class InvalidMedCodeException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message\nclass InvalidStockIdException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message",
+        "detail": "DBConProblem.Problem3_MediCare.med_exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidStockIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem3_MediCare.med_exception",
+        "description": "DBConProblem.Problem3_MediCare.med_exception",
+        "peekOfCode": "class InvalidStockIdException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message",
+        "detail": "DBConProblem.Problem3_MediCare.med_exception",
+        "documentation": {}
+    },
+    {
+        "label": "MedService",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem3_MediCare.med_service",
+        "description": "DBConProblem.Problem3_MediCare.med_service",
+        "peekOfCode": "class MedService:\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Medicine')\n        for line in records:\n            part=line.strip().split(\",\")\n            try: \n                ut.validate_stock_id(part[0])\n                ut.validate_med_code(part[1])\n                ed=ut.convert_date(part[7])",
+        "detail": "DBConProblem.Problem3_MediCare.med_service",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem3_MediCare.med_service",
+        "description": "DBConProblem.Problem3_MediCare.med_service",
+        "peekOfCode": "db = {}\nwith open(\"database.properties\") as f:\n    lines = [line.strip().split(\"=\") for line in f if not line.startswith(\"#\") and line.strip()]\n    db = {k.strip(): v.strip() for k, v in lines}\nconn = oracledb.connect(user=db[\"DB_USERNAME\"], password=db[\"DB_PASSWORD\"], dsn=db[\"DSN\"])\nclass MedService:\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Medicine')\n        for line in records:",
+        "detail": "DBConProblem.Problem3_MediCare.med_service",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem3_MediCare.med_service",
+        "description": "DBConProblem.Problem3_MediCare.med_service",
+        "peekOfCode": "conn = oracledb.connect(user=db[\"DB_USERNAME\"], password=db[\"DB_PASSWORD\"], dsn=db[\"DSN\"])\nclass MedService:\n    def read_data(self, records):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Medicine')\n        for line in records:\n            part=line.strip().split(\",\")\n            try: \n                ut.validate_stock_id(part[0])\n                ut.validate_med_code(part[1])",
+        "detail": "DBConProblem.Problem3_MediCare.med_service",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem3_MediCare.utility",
+        "description": "DBConProblem.Problem3_MediCare.utility",
+        "peekOfCode": "def read_file(file):\n    record=[]\n    with open(file) as f:\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[8]=='Verified':\n                ed=convert_date(part[7])\n                md=convert_date(part[6])\n                if ed>md:\n                    record.append(line)",
+        "detail": "DBConProblem.Problem3_MediCare.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_med_code",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem3_MediCare.utility",
+        "description": "DBConProblem.Problem3_MediCare.utility",
+        "peekOfCode": "def validate_med_code(med_code):\n    if re.fullmatch(r\"^MED-[A-Z]\\d{3}-R[A-Z]$\",med_code):\n        return True\n    else:\n        raise me.InvalidMedCodeException(f\"Invalid Med Code: {med_code}\")\ndef validate_stock_id(stock_id):\n    if re.fullmatch(r\"^MD\\d{3,}$\",stock_id):\n        return True\n    else:\n        raise me.InvalidStockIdException(\"Invalid Stock Id\")",
+        "detail": "DBConProblem.Problem3_MediCare.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_stock_id",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem3_MediCare.utility",
+        "description": "DBConProblem.Problem3_MediCare.utility",
+        "peekOfCode": "def validate_stock_id(stock_id):\n    if re.fullmatch(r\"^MD\\d{3,}$\",stock_id):\n        return True\n    else:\n        raise me.InvalidStockIdException(\"Invalid Stock Id\")\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "DBConProblem.Problem3_MediCare.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem3_MediCare.utility",
+        "description": "DBConProblem.Problem3_MediCare.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "DBConProblem.Problem3_MediCare.utility",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidBillIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.exception",
+        "description": "DBConProblem.Problem4_HospitalBilling.exception",
+        "peekOfCode": "class InvalidBillIdException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message\nclass InvalidWardTypeException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):",
+        "detail": "DBConProblem.Problem4_HospitalBilling.exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidWardTypeException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.exception",
+        "description": "DBConProblem.Problem4_HospitalBilling.exception",
+        "peekOfCode": "class InvalidWardTypeException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message",
+        "detail": "DBConProblem.Problem4_HospitalBilling.exception",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.main",
+        "description": "DBConProblem.Problem4_HospitalBilling.main",
+        "peekOfCode": "def display(o):\n    print(\"\\n\")\n    print(f\"Bill Id: {o.get_bill_id()}\")\n    print(f\"Patient Id: {o.get_patient_id()}\")\n    print(f\"Date of Discharge: {o.get_date_of_discharge()}\")\n    print(f\"No. of Days: {o.get_no_of_days()}\")\n    print(f\"Bed Charges: {o.get_bed_charges():.1f}\")\n    print(f\"Treatment Charges: {o.get_treatment_charges():.1f}\")\n    print(f\"Nursing Charges: {o.get_nursing_charges():.1f}\")\n    print(f\"Discount: {o.get_discount():.1f}\")",
+        "detail": "DBConProblem.Problem4_HospitalBilling.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.main",
+        "description": "DBConProblem.Problem4_HospitalBilling.main",
+        "peekOfCode": "def main():\n    obj=sr.PatientBillingService()\n    record=obj.get_patient_billing_details(\"input.txt\")\n    obj.add_billing_details(record)\n    bid=input(\"Enter the Bill Id: \")\n    try:\n        s_obj=obj.search_billing_record(bid)\n        if s_obj is None:\n            print(\"Bill Id not found\")\n        else:",
+        "detail": "DBConProblem.Problem4_HospitalBilling.main",
+        "documentation": {}
+    },
+    {
+        "label": "PatientBilling",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.patient_billing",
+        "description": "DBConProblem.Problem4_HospitalBilling.patient_billing",
+        "peekOfCode": "class PatientBilling:\n    def __init__(self,bill_id:str,patient_id:str,date_of_admission:date,ward_type:str,date_of_discharge:date,no_of_days:int,treatment_code:str,insurance_status:str):\n        self.__bill_id=bill_id\n        self.__patient_id=patient_id\n        self.__date_of_admission=date_of_admission\n        self.__ward_type=ward_type\n        self.__date_of_discharge=date_of_discharge\n        self.__no_of_days=no_of_days\n        self.__treatment_code=treatment_code\n        self.__insurance_status=insurance_status",
+        "detail": "DBConProblem.Problem4_HospitalBilling.patient_billing",
+        "documentation": {}
+    },
+    {
+        "label": "PatientBillingService",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.patient_billing_service",
+        "description": "DBConProblem.Problem4_HospitalBilling.patient_billing_service",
+        "peekOfCode": "class PatientBillingService:\n    def __init__(self):\n        self.__patient_billing_list = []\n    def get_patient_billing_details(self, input_file):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Bill')\n        record=ut.read_file(input_file)\n        self.build_patient_billing_list(record)\n        return self.__patient_billing_list\n    def build_patient_billing_list(self, records):",
+        "detail": "DBConProblem.Problem4_HospitalBilling.patient_billing_service",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.patient_billing_service",
+        "description": "DBConProblem.Problem4_HospitalBilling.patient_billing_service",
+        "peekOfCode": "db = \"\"\nwith open('database.properties') as f:\n    lines = [line.strip().split(\"=\") for line in f.readlines() if not line.startswith('#') and line.strip()]\n    db = {key.strip(): value.strip() for key, value in lines}\n# Creating Connection\nconn = oracledb.connect(user=db['DB_USERNAME'], password=db['DB_PASSWORD'], dsn=db['DSN'])\nclass PatientBillingService:\n    def __init__(self):\n        self.__patient_billing_list = []\n    def get_patient_billing_details(self, input_file):",
+        "detail": "DBConProblem.Problem4_HospitalBilling.patient_billing_service",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.patient_billing_service",
+        "description": "DBConProblem.Problem4_HospitalBilling.patient_billing_service",
+        "peekOfCode": "conn = oracledb.connect(user=db['DB_USERNAME'], password=db['DB_PASSWORD'], dsn=db['DSN'])\nclass PatientBillingService:\n    def __init__(self):\n        self.__patient_billing_list = []\n    def get_patient_billing_details(self, input_file):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Bill')\n        record=ut.read_file(input_file)\n        self.build_patient_billing_list(record)\n        return self.__patient_billing_list",
+        "detail": "DBConProblem.Problem4_HospitalBilling.patient_billing_service",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.utility",
+        "description": "DBConProblem.Problem4_HospitalBilling.utility",
+        "peekOfCode": "def read_file(file):\n    with open(file) as f:\n        record=[]\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[7]=='Insured':\n                da=convert_date(part[2])\n                dd=convert_date(part[4])\n                if ((dd-da).days)<=90:\n                    record.append(line)",
+        "detail": "DBConProblem.Problem4_HospitalBilling.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_bill_id",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.utility",
+        "description": "DBConProblem.Problem4_HospitalBilling.utility",
+        "peekOfCode": "def validate_bill_id(bill_id):\n    if re.fullmatch(r\"^BIL[0-9]+$\",bill_id):\n        return True\n    else:\n        raise ex.InvalidBillIdException(\"Invalid Bill Id\")\ndef validate_ward_type(ward_type):\n    if ward_type in ['General','Semi-Private','Private','ICU']:\n        return True\n    else:\n        raise ex.InvalidWardTypeException(\"Invalid Ward Type\")",
+        "detail": "DBConProblem.Problem4_HospitalBilling.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_ward_type",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.utility",
+        "description": "DBConProblem.Problem4_HospitalBilling.utility",
+        "peekOfCode": "def validate_ward_type(ward_type):\n    if ward_type in ['General','Semi-Private','Private','ICU']:\n        return True\n    else:\n        raise ex.InvalidWardTypeException(\"Invalid Ward Type\")\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "DBConProblem.Problem4_HospitalBilling.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem4_HospitalBilling.utility",
+        "description": "DBConProblem.Problem4_HospitalBilling.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "DBConProblem.Problem4_HospitalBilling.utility",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidShipmentIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.exception",
+        "description": "DBConProblem.Problem5_ShipmentTracking.exception",
+        "peekOfCode": "class InvalidShipmentIdException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message\nclass InvalidZoneException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidZoneException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.exception",
+        "description": "DBConProblem.Problem5_ShipmentTracking.exception",
+        "peekOfCode": "class InvalidZoneException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.exception",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.main",
+        "description": "DBConProblem.Problem5_ShipmentTracking.main",
+        "peekOfCode": "def display(o):\n    print(\"\\n\")\n    print(f\"Shipment Id: : {o.get_shipment_id()}\")\n    print(f\"Sender Id: {o.get_sender_id()}\")\n    print(f\"Date of Delivery: {o.get_date_of_delivery()}\")\n    print(f\"Weight (Kg): {o.get_weight_in_kg()}\")\n    print(f\"Freight Charge: {o.get_freight_charge():.1f}\")\n    print(f\"Handling Charge: {o.get_handling_charge():.1f}\")\n    print(f\"Delay Penalty: {o.get_delay_penalty():.1f}\")\n    print(f\"Tax: {o.get_tax():.1f}\")",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.main",
+        "description": "DBConProblem.Problem5_ShipmentTracking.main",
+        "peekOfCode": "def main():\n    obj=sr.ShipmentService()\n    record=obj.get_shipment_details(\"input.txt\")\n    obj.add_shipment_details(record)\n    sid=input(\"Enter the Shipment Id: \")\n    try:\n        ut.validate_shipment_id(sid)\n        row=obj.search_shipment(sid)\n        if row is None:\n            print(\"No Shipment Found\")",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.main",
+        "documentation": {}
+    },
+    {
+        "label": "ShipmentOrder",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.shipment_order",
+        "description": "DBConProblem.Problem5_ShipmentTracking.shipment_order",
+        "peekOfCode": "class ShipmentOrder:\n    def __init__(self,shipment_id:str,sender_id:str,date_of_dispatch:date,zone:str,date_of_delivery:str,weight_in_kg:float,shipment_type:str,delivery_status:str):\n        self.__shipment_id = shipment_id\n        self.__sender_id = sender_id\n        self.__date_of_dispatch = date_of_dispatch\n        self.__zone = zone\n        self.__date_of_delivery = date_of_delivery\n        self.__weight_in_kg = weight_in_kg\n        self.__shipment_type = shipment_type\n        self.__delivery_status = delivery_status",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.shipment_order",
+        "documentation": {}
+    },
+    {
+        "label": "ShipmentService",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.shipment_service",
+        "description": "DBConProblem.Problem5_ShipmentTracking.shipment_service",
+        "peekOfCode": "class ShipmentService:\n    def __init__(self):\n        self.__shipment_list = []\n    def get_shipment_details(self, input_file):\n        with conn.cursor() as cur:\n            cur.execute('truncate table ShipOrder')\n        record=ut.read_file(input_file)\n        self.build_shipment_list(record)\n        return self.__shipment_list\n    def build_shipment_list(self, records):",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.shipment_service",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.shipment_service",
+        "description": "DBConProblem.Problem5_ShipmentTracking.shipment_service",
+        "peekOfCode": "db = \"\"\nwith open('database.properties') as f:\n    lines = [line.strip().split(\"=\") for line in f.readlines() if not line.startswith('#') and line.strip()]\n    db = {key.strip(): value.strip() for key, value in lines}\nconn = oracledb.connect(user=db['DB_USERNAME'], password=db['DB_PASSWORD'], dsn=db['DSN'])\nclass ShipmentService:\n    def __init__(self):\n        self.__shipment_list = []\n    def get_shipment_details(self, input_file):\n        with conn.cursor() as cur:",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.shipment_service",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.shipment_service",
+        "description": "DBConProblem.Problem5_ShipmentTracking.shipment_service",
+        "peekOfCode": "conn = oracledb.connect(user=db['DB_USERNAME'], password=db['DB_PASSWORD'], dsn=db['DSN'])\nclass ShipmentService:\n    def __init__(self):\n        self.__shipment_list = []\n    def get_shipment_details(self, input_file):\n        with conn.cursor() as cur:\n            cur.execute('truncate table ShipOrder')\n        record=ut.read_file(input_file)\n        self.build_shipment_list(record)\n        return self.__shipment_list",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.shipment_service",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "description": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "peekOfCode": "def read_file(file):\n    with open(file) as f:\n        record=[]\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[7]==\"Delivered\":\n                dlv=convert_date(part[4])\n                dtp=convert_date(part[2])\n                if ((dlv-dtp).days)<=60:\n                    record.append(line)",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_shipment_id",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "description": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "peekOfCode": "def validate_shipment_id(shipment_id):\n    if re.fullmatch(r\"^SHP[0-9]+$\",shipment_id):\n        return True\n    else:\n        raise ex.InvalidShipmentIdException(\"Invalid Shipment Id\")\ndef validate_zone(zone):\n    if zone in ['Zone_A','Zone_B','Zone_C','Zone_D']:\n        return True\n    else:\n        raise ex.InvalidShipmentIdException(\"Invalid Zone\")",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_zone",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "description": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "peekOfCode": "def validate_zone(zone):\n    if zone in ['Zone_A','Zone_B','Zone_C','Zone_D']:\n        return True\n    else:\n        raise ex.InvalidShipmentIdException(\"Invalid Zone\")\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "description": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "DBConProblem.Problem5_ShipmentTracking.utility",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidLoanIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem6_BankLoan.exception",
+        "description": "DBConProblem.Problem6_BankLoan.exception",
+        "peekOfCode": "class InvalidLoanIdException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        # Write your code here\n        return self.__message\nclass InvalidLoanTypeException(Exception):\n    # Write the constructor and get_message method here",
+        "detail": "DBConProblem.Problem6_BankLoan.exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidLoanTypeException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem6_BankLoan.exception",
+        "description": "DBConProblem.Problem6_BankLoan.exception",
+        "peekOfCode": "class InvalidLoanTypeException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        # Write your code here\n        return self.__message",
+        "detail": "DBConProblem.Problem6_BankLoan.exception",
+        "documentation": {}
+    },
+    {
+        "label": "LoanApplication",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem6_BankLoan.loan_application",
+        "description": "DBConProblem.Problem6_BankLoan.loan_application",
+        "peekOfCode": "class LoanApplication:\n    def __init__(self,loan_id:str,applicant_id:str,date_of_application:date,loan_type:str,date_of_disbursement:date,loan_amount:float,tenure_in_months:int,credit_score:int,loan_status:str,\n    ):\n        self.__loan_id = loan_id\n        self.__applicant_id = applicant_id\n        self.__date_of_application = date_of_application\n        self.__loan_type = loan_type\n        self.__date_of_disbursement = date_of_disbursement\n        self.__loan_amount = loan_amount\n        self.__tenure_in_months = tenure_in_months",
+        "detail": "DBConProblem.Problem6_BankLoan.loan_application",
+        "documentation": {}
+    },
+    {
+        "label": "LoanService",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem6_BankLoan.loan_service",
+        "description": "DBConProblem.Problem6_BankLoan.loan_service",
+        "peekOfCode": "class LoanService:\n    def __init__(self):\n        self.__loan_list = []\n    def get_loan_details(self, input_file):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Loan')\n        record=ut.read_file(input_file)\n        self.build_loan_list(record)\n        return self.__loan_list\n    def build_loan_list(self, records):",
+        "detail": "DBConProblem.Problem6_BankLoan.loan_service",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem6_BankLoan.loan_service",
+        "description": "DBConProblem.Problem6_BankLoan.loan_service",
+        "peekOfCode": "db = \"\"\nwith open('database.properties') as f:\n    lines = [line.strip().split(\"=\") for line in f.readlines() if not line.startswith('#') and line.strip()]\n    db = {key.strip(): value.strip() for key, value in lines}\nconn = oracledb.connect(user=db['DB_USERNAME'], password=db['DB_PASSWORD'], dsn=db['DSN'])\nclass LoanService:\n    def __init__(self):\n        self.__loan_list = []\n    def get_loan_details(self, input_file):\n        with conn.cursor() as cur:",
+        "detail": "DBConProblem.Problem6_BankLoan.loan_service",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem6_BankLoan.loan_service",
+        "description": "DBConProblem.Problem6_BankLoan.loan_service",
+        "peekOfCode": "conn = oracledb.connect(user=db['DB_USERNAME'], password=db['DB_PASSWORD'], dsn=db['DSN'])\nclass LoanService:\n    def __init__(self):\n        self.__loan_list = []\n    def get_loan_details(self, input_file):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Loan')\n        record=ut.read_file(input_file)\n        self.build_loan_list(record)\n        return self.__loan_list",
+        "detail": "DBConProblem.Problem6_BankLoan.loan_service",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem6_BankLoan.main",
+        "description": "DBConProblem.Problem6_BankLoan.main",
+        "peekOfCode": "def display(o):\n    print(f\"\\nLoan Id: {o.get_loan_id()}\")\n    print(f\"Applicant Id: {o.get_applicant_id()}\")\n    print(f\"Loan Type: {o.get_loan_type()}\")\n    print(f\"Date of Disbursement: {o.get_date_of_disbursement()}\")\n    print(f\"Loan Amount: {o.get_loan_amount()}\")\n    print(f\"Tenure (months): {o.get_tenure_in_months()}\")\n    print(f\"Annual Interest Rate: {o.get_annual_interest_rate()}\")\n    print(f\"Processing Fee: {o.get_processing_fee()}\")\n    print(f\"Monthly EMI: {o.get_monthly_emi()}\")",
+        "detail": "DBConProblem.Problem6_BankLoan.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem6_BankLoan.main",
+        "description": "DBConProblem.Problem6_BankLoan.main",
+        "peekOfCode": "def main():\n    obj=ls.LoanService()\n    record=obj.get_loan_details(\"input.txt\")\n    obj.add_loan_details(record)\n    lid=input(\"Enter the Loan Id: \")\n    try:\n        ut.validate_loan_id(lid)\n        lo=obj.search_loan(lid)\n        if lo is None:\n            print(\"Loan Id not found\")",
+        "detail": "DBConProblem.Problem6_BankLoan.main",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem6_BankLoan.utility",
+        "description": "DBConProblem.Problem6_BankLoan.utility",
+        "peekOfCode": "def read_file(file):\n    with open(file) as f:\n        record=[]\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[8]=='Approved':\n                dd=convert_date(part[4])\n                da=convert_date(part[2])\n                if ((dd-da).days)<=30:\n                    record.append(line)",
+        "detail": "DBConProblem.Problem6_BankLoan.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_loan_id",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem6_BankLoan.utility",
+        "description": "DBConProblem.Problem6_BankLoan.utility",
+        "peekOfCode": "def validate_loan_id(loan_id):\n    if re.fullmatch(r\"^LN[0-9]{3,}$\",loan_id):\n        return True\n    else:\n        raise ex.InvalidLoanIdException(\"Invalid Loan Id\")\ndef validate_loan_type(loan_type):\n    if loan_type in ['Home','Vehicle','Personal','Education']:\n        return True\n    else:\n        raise ex.InvalidLoanIdException(\"Invalid Loan Type\")",
+        "detail": "DBConProblem.Problem6_BankLoan.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_loan_type",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem6_BankLoan.utility",
+        "description": "DBConProblem.Problem6_BankLoan.utility",
+        "peekOfCode": "def validate_loan_type(loan_type):\n    if loan_type in ['Home','Vehicle','Personal','Education']:\n        return True\n    else:\n        raise ex.InvalidLoanIdException(\"Invalid Loan Type\")\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "DBConProblem.Problem6_BankLoan.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem6_BankLoan.utility",
+        "description": "DBConProblem.Problem6_BankLoan.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "DBConProblem.Problem6_BankLoan.utility",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidApplicationIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem8_Scholarship.exception",
+        "description": "DBConProblem.Problem8_Scholarship.exception",
+        "peekOfCode": "class InvalidApplicationIdException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        # Write your code here\n        return self.__message\nclass InvalidCourseTypeException(Exception):\n    # Write the constructor and get_message method here",
+        "detail": "DBConProblem.Problem8_Scholarship.exception",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidCourseTypeException",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem8_Scholarship.exception",
+        "description": "DBConProblem.Problem8_Scholarship.exception",
+        "peekOfCode": "class InvalidCourseTypeException(Exception):\n    # Write the constructor and get_message method here\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        # Write your code here\n        return self.__message",
+        "detail": "DBConProblem.Problem8_Scholarship.exception",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem8_Scholarship.main",
+        "description": "DBConProblem.Problem8_Scholarship.main",
+        "peekOfCode": "def display(o):\n    print(f\"\\nApplication Id: {o.get_application_id()}\")\n    print(f\"Student Id: {o.get_student_id()}\")\n    print(f\"Course Type: {o.get_course_type()}\")\n    print(f\"Date of Enrollment: {o.get_date_of_enrollment()} 00:00:00\")\n    print(f\"CGPA: {o.get_cgpa()}\")\n    print(f\"Annual Family Income: {o.get_annual_family_income()}\")\n    print(f\"Category: {o.get_category()}\")\n    print(f\"Base Scholarship: {o.get_base_scholarship()}\")\n    print(f\"Merit Bonus: {o.get_merit_bonus()}\")",
+        "detail": "DBConProblem.Problem8_Scholarship.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem8_Scholarship.main",
+        "description": "DBConProblem.Problem8_Scholarship.main",
+        "peekOfCode": "def main():\n    obj=ss.ScholarshipService()\n    record=obj.get_scholarship_details(\"input.txt\")\n    obj.add_scholarship_details(record)\n    sid=input(\"Enter the Application Id: \")\n    try:\n        ut.validate_application_id(sid)\n        row=obj.search_application(sid)\n        if row is None:\n            print(\"No application found with Id\")",
+        "detail": "DBConProblem.Problem8_Scholarship.main",
+        "documentation": {}
+    },
+    {
+        "label": "ScholarshipApplication",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem8_Scholarship.scholarship_application",
+        "description": "DBConProblem.Problem8_Scholarship.scholarship_application",
+        "peekOfCode": "class ScholarshipApplication:\n    def __init__(self,application_id:str,student_id:str,date_of_application:date,course_type:str,date_of_enrollment:date,cgpa:float,annual_family_income:float,category:str,application_status:str):\n        self.__application_id = application_id\n        self.__student_id = student_id\n        self.__date_of_application = date_of_application\n        self.__course_type = course_type\n        self.__date_of_enrollment = date_of_enrollment\n        self.__cgpa = cgpa\n        self.__annual_family_income = annual_family_income\n        self.__category = category",
+        "detail": "DBConProblem.Problem8_Scholarship.scholarship_application",
+        "documentation": {}
+    },
+    {
+        "label": "ScholarshipService",
+        "kind": 6,
+        "importPath": "DBConProblem.Problem8_Scholarship.scholarship_service",
+        "description": "DBConProblem.Problem8_Scholarship.scholarship_service",
+        "peekOfCode": "class ScholarshipService:\n    def __init__(self):\n        self.__scholarship_list = []\n    def get_scholarship_details(self, input_file):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Scholarship')\n        record=ut.read_file(input_file)\n        self.build_scholarship_list(record)\n        return self.__scholarship_list\n    def build_scholarship_list(self, records):",
+        "detail": "DBConProblem.Problem8_Scholarship.scholarship_service",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem8_Scholarship.scholarship_service",
+        "description": "DBConProblem.Problem8_Scholarship.scholarship_service",
+        "peekOfCode": "db = \"\"\nwith open('database.properties') as f:\n    lines = [line.strip().split(\"=\") for line in f.readlines() if not line.startswith('#') and line.strip()]\n    db = {key.strip(): value.strip() for key, value in lines}\nconn = oracledb.connect(user=db['DB_USERNAME'], password=db['DB_PASSWORD'], dsn=db['DSN'])\nclass ScholarshipService:\n    def __init__(self):\n        self.__scholarship_list = []\n    def get_scholarship_details(self, input_file):\n        with conn.cursor() as cur:",
+        "detail": "DBConProblem.Problem8_Scholarship.scholarship_service",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "DBConProblem.Problem8_Scholarship.scholarship_service",
+        "description": "DBConProblem.Problem8_Scholarship.scholarship_service",
+        "peekOfCode": "conn = oracledb.connect(user=db['DB_USERNAME'], password=db['DB_PASSWORD'], dsn=db['DSN'])\nclass ScholarshipService:\n    def __init__(self):\n        self.__scholarship_list = []\n    def get_scholarship_details(self, input_file):\n        with conn.cursor() as cur:\n            cur.execute('truncate table Scholarship')\n        record=ut.read_file(input_file)\n        self.build_scholarship_list(record)\n        return self.__scholarship_list",
+        "detail": "DBConProblem.Problem8_Scholarship.scholarship_service",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem8_Scholarship.utility",
+        "description": "DBConProblem.Problem8_Scholarship.utility",
+        "peekOfCode": "def read_file(file):\n    with open(file) as f:\n        record=[]\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[8]=='Eligible' and float(part[5])>6.0:\n                da=convert_date(part[2])\n                de=convert_date(part[4])\n                if ((da-de).days)<=120:\n                    record.append(line)             ",
+        "detail": "DBConProblem.Problem8_Scholarship.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_application_id",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem8_Scholarship.utility",
+        "description": "DBConProblem.Problem8_Scholarship.utility",
+        "peekOfCode": "def validate_application_id(application_id):\n    if re.fullmatch(r\"SCH[0-9]{3,}\",application_id):\n        return True\n    else:\n        raise ex.InvalidApplicationIdException(\"Invalid Application Id\")\ndef validate_course_type(course_type):\n    if course_type in ['UG','PG','Diploma','PhD']:\n        return True\n    else:\n        raise ex.InvalidCourseTypeException(\"Invalid Course Type\")",
+        "detail": "DBConProblem.Problem8_Scholarship.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_course_type",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem8_Scholarship.utility",
+        "description": "DBConProblem.Problem8_Scholarship.utility",
+        "peekOfCode": "def validate_course_type(course_type):\n    if course_type in ['UG','PG','Diploma','PhD']:\n        return True\n    else:\n        raise ex.InvalidCourseTypeException(\"Invalid Course Type\")\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "DBConProblem.Problem8_Scholarship.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "DBConProblem.Problem8_Scholarship.utility",
+        "description": "DBConProblem.Problem8_Scholarship.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "DBConProblem.Problem8_Scholarship.utility",
+        "documentation": {}
+    },
+    {
+        "label": "BookLending",
+        "kind": 6,
+        "importPath": "DBConProblem.ProblemLast_Library.book_lending",
+        "description": "DBConProblem.ProblemLast_Library.book_lending",
+        "peekOfCode": "class BookLending:\n    def __init__(self, lending_id: str, student_id: str, date_of_lending: date,\n                 membership_type: str, due_date: date, no_of_books: int,\n                 late_days: int, payment_status: str):\n        self.__lending_id = lending_id\n        self.__student_id = student_id\n        self.__date_of_lending = date_of_lending\n        self.__membership_type = membership_type\n        self.__due_date = due_date\n        self.__no_of_books = no_of_books",
+        "detail": "DBConProblem.ProblemLast_Library.book_lending",
+        "documentation": {}
+    },
+    {
+        "label": "BookLendingService",
+        "kind": 6,
+        "importPath": "DBConProblem.ProblemLast_Library.book_lending_service",
+        "description": "DBConProblem.ProblemLast_Library.book_lending_service",
+        "peekOfCode": "class BookLendingService:\n    def __init__(self):\n        self.__lending_list = []\n    def get_lending_details(self, input_file):\n        \"\"\"\n        Reads the input file using utility.read_file(),\n        passes the result to build_lending_list(),\n        and returns the internal __lending_list.\n        \"\"\"\n        # Write your code here",
+        "detail": "DBConProblem.ProblemLast_Library.book_lending_service",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "DBConProblem.ProblemLast_Library.book_lending_service",
+        "description": "DBConProblem.ProblemLast_Library.book_lending_service",
+        "peekOfCode": "db = \"\"\nwith open('database.properties') as f:\n    lines = [line.strip().split(\"=\") for line in f.readlines()\n             if not line.startswith('#') and line.strip()]\n    db = {key.strip(): value.strip() for key, value in lines}\nconn = cx_Oracle.connect(db['DB_USERNAME'], db['DB_PASSWORD'], db['DSN'])\nclass BookLendingService:\n    def __init__(self):\n        self.__lending_list = []\n    def get_lending_details(self, input_file):",
+        "detail": "DBConProblem.ProblemLast_Library.book_lending_service",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "DBConProblem.ProblemLast_Library.book_lending_service",
+        "description": "DBConProblem.ProblemLast_Library.book_lending_service",
+        "peekOfCode": "conn = cx_Oracle.connect(db['DB_USERNAME'], db['DB_PASSWORD'], db['DSN'])\nclass BookLendingService:\n    def __init__(self):\n        self.__lending_list = []\n    def get_lending_details(self, input_file):\n        \"\"\"\n        Reads the input file using utility.read_file(),\n        passes the result to build_lending_list(),\n        and returns the internal __lending_list.\n        \"\"\"",
+        "detail": "DBConProblem.ProblemLast_Library.book_lending_service",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidLendingIdException",
+        "kind": 6,
+        "importPath": "DBConProblem.ProblemLast_Library.exception",
+        "description": "DBConProblem.ProblemLast_Library.exception",
+        "peekOfCode": "class InvalidLendingIdException(Exception): \n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message",
+        "detail": "DBConProblem.ProblemLast_Library.exception",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "DBConProblem.ProblemLast_Library.main",
+        "description": "DBConProblem.ProblemLast_Library.main",
+        "peekOfCode": "def display(obj):\n    print(\"\\n\")\n    print(f\"Lending Id        : {obj.get_lending_id()}\")\n    print(f\"Student Id        : {obj.get_student_id()}\")\n    print(f\"Membership Type   : {obj.get_membership_type()}\")\n    print(f\"Due Date          : {obj.get_due_date()}\")\n    print(f\"No. of Books      : {obj.get_no_of_books()}\")\n    print(f\"Late Days         : {obj.get_late_days()}\")\n    print(f\"Base Charge       : {obj.get_base_charge():.2f}\")\n    print(f\"Late Fine         : {obj.get_late_fine():.2f}\")",
+        "detail": "DBConProblem.ProblemLast_Library.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DBConProblem.ProblemLast_Library.main",
+        "description": "DBConProblem.ProblemLast_Library.main",
+        "peekOfCode": "def main():\n    # Step 1: Create a BookLendingService object\n    # Write your code here\n    # Step 2: Load lending records from \"input.txt\" and store them in DB\n    # Write your code here\n    # Step 3: Accept a lending_id from the user.\n    #         Validate it using ut.validate_lending_id().\n    #         If valid, search for the record and display it using display().\n    #         If not found, print \"No record found\".\n    #         If InvalidLendingIdException is raised, print the exception message.",
+        "detail": "DBConProblem.ProblemLast_Library.main",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "DBConProblem.ProblemLast_Library.utility",
+        "description": "DBConProblem.ProblemLast_Library.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date, \"%Y-%m-%d\").date()\ndef validate_lending_id(lending_id):\n    if re.fullmatch(r\"L\\d{3}\",lending_id):\n        return True\n    else:\n        raise ex.InvalidLendingIdException(\"Invalid Lending Id\")\ndef read_file(file_path):\n    # Write your code here\n    with open(file_path) as f:",
+        "detail": "DBConProblem.ProblemLast_Library.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_lending_id",
+        "kind": 2,
+        "importPath": "DBConProblem.ProblemLast_Library.utility",
+        "description": "DBConProblem.ProblemLast_Library.utility",
+        "peekOfCode": "def validate_lending_id(lending_id):\n    if re.fullmatch(r\"L\\d{3}\",lending_id):\n        return True\n    else:\n        raise ex.InvalidLendingIdException(\"Invalid Lending Id\")\ndef read_file(file_path):\n    # Write your code here\n    with open(file_path) as f:\n        record=[]\n        for line in f:",
+        "detail": "DBConProblem.ProblemLast_Library.utility",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "DBConProblem.ProblemLast_Library.utility",
+        "description": "DBConProblem.ProblemLast_Library.utility",
+        "peekOfCode": "def read_file(file_path):\n    # Write your code here\n    with open(file_path) as f:\n        record=[]\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[7]=='Paid':\n                dd=convert_date(part[4])\n                dl=convert_date(part[2])\n                if ((dd-dl).days)<=365:",
+        "detail": "DBConProblem.ProblemLast_Library.utility",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "L1 Real Mock Question.car_management_bp.car",
+        "description": "L1 Real Mock Question.car_management_bp.car",
+        "peekOfCode": "class Car:\n    # Define the arguments parameterized constructor here\n    def __init__(self, rental_id :str,car_number :str,customer_name :str, basic_cost:float, no_of_days:int, rental_date:date):\n        self.__rental_id=rental_id\n        self.__car_number=car_number\n        self.__customer_name=customer_name\n        self.__basic_cost=basic_cost\n        self.__no_of_days=no_of_days\n        self.__rental_date=rental_date\n        self.__total_amount=0.0",
+        "detail": "L1 Real Mock Question.car_management_bp.car",
+        "documentation": {}
+    },
+    {
+        "label": "CarService",
+        "kind": 6,
+        "importPath": "L1 Real Mock Question.car_management_bp.car_service",
+        "description": "L1 Real Mock Question.car_management_bp.car_service",
+        "peekOfCode": "class CarService:\n    def __init__(self):\n        self.__discount_dict={}\n    def read_data(self,file_obj):\n        with conn.cursor() as cur:\n            cur.execute(\"TRUNCATE TABLE Car\")\n        for line in file_obj:\n            part=line.strip().split(\",\")\n            try:\n                ut.validate_car_number(part[1])",
+        "detail": "L1 Real Mock Question.car_management_bp.car_service",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidCarNumberException",
+        "kind": 6,
+        "importPath": "L1 Real Mock Question.car_management_bp.invalid_exception",
+        "description": "L1 Real Mock Question.car_management_bp.invalid_exception",
+        "peekOfCode": "class InvalidCarNumberException(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        self.__message=message\n    def get_message(self):\n        return self.__message",
+        "detail": "L1 Real Mock Question.car_management_bp.invalid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.car_management_bp.main",
+        "description": "L1 Real Mock Question.car_management_bp.main",
+        "peekOfCode": "def main():\n    # Write the appropriate code here as per the specifications\n    f=ut.access_file(\"CarDetails.txt\")\n    obj=cs.CarService()\n    obj.read_data(f)\n    top=obj.find_top3_rentals()\n    print(\"Top 3 rentals:\")\n    for k,v in top.items():\n        print(f\"{k} : {v}\")\n    s=ut.convert_date(input(\"Enter the start rental date to search: \"))",
+        "detail": "L1 Real Mock Question.car_management_bp.main",
+        "documentation": {}
+    },
+    {
+        "label": "access_file",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.car_management_bp.utility",
+        "description": "L1 Real Mock Question.car_management_bp.utility",
+        "peekOfCode": "def access_file(file):\n   return open(file)\ndef validate_car_number(car_number):\n    if re.fullmatch(r\"^NXF\\d{3}.{3}[A-Za-z]$\",car_number):\n        return True\n    else:\n        raise ie.InvalidCarNumberException(f\"Invalid Car Number: {car_number}\")\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "L1 Real Mock Question.car_management_bp.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_car_number",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.car_management_bp.utility",
+        "description": "L1 Real Mock Question.car_management_bp.utility",
+        "peekOfCode": "def validate_car_number(car_number):\n    if re.fullmatch(r\"^NXF\\d{3}.{3}[A-Za-z]$\",car_number):\n        return True\n    else:\n        raise ie.InvalidCarNumberException(f\"Invalid Car Number: {car_number}\")\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "L1 Real Mock Question.car_management_bp.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.car_management_bp.utility",
+        "description": "L1 Real Mock Question.car_management_bp.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date,\"%d/%m/%Y\").date()",
+        "detail": "L1 Real Mock Question.car_management_bp.utility",
+        "documentation": {}
+    },
+    {
+        "label": "EmpReimbursement",
+        "kind": 6,
+        "importPath": "L1 Real Mock Question.employeereimbursementsystem.emp_reimbursement",
+        "description": "L1 Real Mock Question.employeereimbursementsystem.emp_reimbursement",
+        "peekOfCode": "class EmpReimbursement:\n    # Define the parameterized constructor here\n    def __init__(self,request_id:str, employee_code:str, date_of_request:date, grade:str, date_of_travel:date, no_of_days_of_stay:int, local_travel_in_kms:int,manager_approval:str):\n        self.__request_id=request_id\n        self.__employee_code=employee_code\n        self.__date_of_request=date_of_request\n        self.__grade=grade\n        self.__date_of_travel=date_of_travel\n        self.__no_of_days_of_stay=no_of_days_of_stay\n        self.__local_travel_in_kms=local_travel_in_kms",
+        "detail": "L1 Real Mock Question.employeereimbursementsystem.emp_reimbursement",
+        "documentation": {}
+    },
+    {
+        "label": "EmpReimbursementService",
+        "kind": 6,
+        "importPath": "L1 Real Mock Question.employeereimbursementsystem.emp_reimbursement_service",
+        "description": "L1 Real Mock Question.employeereimbursementsystem.emp_reimbursement_service",
+        "peekOfCode": "class EmpReimbursementService:\n    def __init__(self):\n        self.__emp_reimbursement_list=[]\n    def get_emp_reimbursement_details(self, input_file):\n        # Write your code here\n        #list of string -->tuple record\n        request=ut.read_file(input_file)\n        self.build_emp_reimbursement_list(request)\n        return self.__emp_reimbursement_list\n    def build_emp_reimbursement_list(self, emp_reimburses_records):",
+        "detail": "L1 Real Mock Question.employeereimbursementsystem.emp_reimbursement_service",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidRequestIdException",
+        "kind": 6,
+        "importPath": "L1 Real Mock Question.employeereimbursementsystem.exception",
+        "description": "L1 Real Mock Question.employeereimbursementsystem.exception",
+        "peekOfCode": "class InvalidRequestIdException(Exception):\n    #Create the constructor here\n    def __init__(self, message):\n        super().__init__(message)\n        self.message=message\n    def get_message(self):\n        return self.message",
+        "detail": "L1 Real Mock Question.employeereimbursementsystem.exception",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.employeereimbursementsystem.main",
+        "description": "L1 Real Mock Question.employeereimbursementsystem.main",
+        "peekOfCode": "def display(o):\n    print(\"\\n\")\n    print(f\"Request Id: {o.get_request_id()}\")\n    print(f\"Employee Code: {o.get_employee_code()}\")\n    print(f\"Date of Travel: {o.get_date_of_travel()}\")\n    print(f\"No.of Days: {o.get_no_of_days_of_stay():.1f}\")\n    print(f\"Accommodation Cost: {o.get_accomodation_cost():.1f}\")\n    print(f\"Dinning Cost: {o.get_dining_cost():.1f}\")\n    print(f\"Local Travel cost: {o.get_local_travel_cost():.1f}\")\n    print(f\"Allowances: {o.get_allowances():.1f}\")",
+        "detail": "L1 Real Mock Question.employeereimbursementsystem.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.employeereimbursementsystem.main",
+        "description": "L1 Real Mock Question.employeereimbursementsystem.main",
+        "peekOfCode": "def main():\n    # Write the appropriate code here as per the specifications\n    obj=rs.EmpReimbursementService()\n    record_l=obj.get_emp_reimbursement_details(\"input.txt\")\n    obj.add_reimbursement_details(record_l)\n    rid=input(\"Enter the Request Id:\")\n    try:\n        ut.validate_request_id(rid)\n        srid=obj.search_reimbursement_request(rid)\n        if srid is not None:",
+        "detail": "L1 Real Mock Question.employeereimbursementsystem.main",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.employeereimbursementsystem.utility",
+        "description": "L1 Real Mock Question.employeereimbursementsystem.utility",
+        "peekOfCode": "def read_file(file):\n    with open(file) as f:\n        request=[]\n        for line in f:\n            part=line.strip().split(\",\")\n            ap=part[7]\n            if ap=='Approved':\n                dor=convert_date(part[2])\n                dot=convert_date(part[4])\n                diff=(dor-dot).days",
+        "detail": "L1 Real Mock Question.employeereimbursementsystem.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_request_id",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.employeereimbursementsystem.utility",
+        "description": "L1 Real Mock Question.employeereimbursementsystem.utility",
+        "peekOfCode": "def validate_request_id(request_id):\n    try:\n        if re.fullmatch(r\"^R00[0-9]+$\",request_id):\n            return True\n        else:\n            raise ex.InvalidRequestIdException(\"Invalid Request Id\")\n    except ex.InvalidRequestIdException as e:\n        return e.message\ndef convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "L1 Real Mock Question.employeereimbursementsystem.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.employeereimbursementsystem.utility",
+        "description": "L1 Real Mock Question.employeereimbursementsystem.utility",
+        "peekOfCode": "def convert_date(str_date):\n    return datetime.strptime(str_date,\"%Y-%m-%d\").date()",
+        "detail": "L1 Real Mock Question.employeereimbursementsystem.utility",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidServiceIDException",
+        "kind": 6,
+        "importPath": "L1 Real Mock Question.it_servicemanagement.exception",
+        "description": "L1 Real Mock Question.it_servicemanagement.exception",
+        "peekOfCode": "class InvalidServiceIDException(Exception):\n    message=\"\"\n    ## Create the constructor here\n    def __init__(self, message):\n        super().__init__(message)\n        self.message = message",
+        "detail": "L1 Real Mock Question.it_servicemanagement.exception",
+        "documentation": {}
+    },
+    {
+        "label": "ITService",
+        "kind": 6,
+        "importPath": "L1 Real Mock Question.it_servicemanagement.it_service",
+        "description": "L1 Real Mock Question.it_servicemanagement.it_service",
+        "peekOfCode": "class ITService:\n    ## Define the parameterized constructor here\n    def __init__(self, service_id, customer_name, service_date, service_type, base_charge):\n        self.__service_id = service_id\n        self.__customer_name = customer_name\n        self.__service_date = service_date\n        self.__service_type = service_type\n        self.__base_charge = base_charge\n        self.__service_charge  = 0.0\n    ## Getters and Setters",
+        "detail": "L1 Real Mock Question.it_servicemanagement.it_service",
+        "documentation": {}
+    },
+    {
+        "label": "ITServiceManagement",
+        "kind": 6,
+        "importPath": "L1 Real Mock Question.it_servicemanagement.it_service_management",
+        "description": "L1 Real Mock Question.it_servicemanagement.it_service_management",
+        "peekOfCode": "class ITServiceManagement:\n    def __init__(self):\n        self.__service_list = []\n    def get_service_list(self):\n        return self.__service_list\n    def set_service_list(self, service_list):\n        self.__service_list = service_list\n    def build_service_details(self, service_data):\n        ## Write your code here\n        for val in service_data:",
+        "detail": "L1 Real Mock Question.it_servicemanagement.it_service_management",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.it_servicemanagement.main",
+        "description": "L1 Real Mock Question.it_servicemanagement.main",
+        "peekOfCode": "def main():\n    # Write the appropriate code here as per the specifications\n    data = ut.read_file(\"input.txt\")\n    obj = itsm.ITServiceManagement()\n    obj.build_service_details(data)\n    obj.add_service_details()\n    service_id = input(\"Enter the service ID to be searched: \")\n    # # Write the appropriate code here as per the specifications\n    valid = ut.validate_service_id(service_id)\n    if valid == True:",
+        "detail": "L1 Real Mock Question.it_servicemanagement.main",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.it_servicemanagement.utility",
+        "description": "L1 Real Mock Question.it_servicemanagement.utility",
+        "peekOfCode": "def read_file(file):\n    ## Write your code here\n    with open(file, \"r\") as f:\n        data = f.read().split(\"\\n\")\n        lst = []\n        for datum in data:\n            vals = datum.split(\":\")\n            lst.append(vals)\n    return lst\ndef validate_service_id(service_id):",
+        "detail": "L1 Real Mock Question.it_servicemanagement.utility",
+        "documentation": {}
+    },
+    {
+        "label": "validate_service_id",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.it_servicemanagement.utility",
+        "description": "L1 Real Mock Question.it_servicemanagement.utility",
+        "peekOfCode": "def validate_service_id(service_id):\n    try:\n        ## Write your code here\n        pattern = r\"^ITSERVICE/[\\d]{4}$\"\n        if re.match(pattern, service_id):\n            return True\n        raise ex.InvalidServiceIDException(\"Invalid Serive ID\")\n    except ex.InvalidServiceIDException as e:\n        ## Write your code here\n        return e.message",
+        "detail": "L1 Real Mock Question.it_servicemanagement.utility",
+        "documentation": {}
+    },
+    {
+        "label": "convert_date",
+        "kind": 2,
+        "importPath": "L1 Real Mock Question.it_servicemanagement.utility",
+        "description": "L1 Real Mock Question.it_servicemanagement.utility",
+        "peekOfCode": "def convert_date(str_date):\n    ## Write your code here\n    return datetime.strptime(str_date, r\"%Y-%m-%d\").date()\n# print(convert_date(\"2020-12-20\"))",
+        "detail": "L1 Real Mock Question.it_servicemanagement.utility",
+        "documentation": {}
+    },
+    {
+        "label": "line_count",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task1",
+        "description": "L1_Assignment_1.task1",
+        "peekOfCode": "def line_count(file):\n    return sum(1 for _ in file)\n    # 1 for _ in f is a generator expression (not a list comprehension).\n    # It yields the number 1 for each line in the file—without creating a list in memory.\ndef main():\n    with open(\"lines.txt\",\"r\") as f:\n        num=line_count(f)\n        if num==0:\n            print(\"File is empty\")\n        else:",
+        "detail": "L1_Assignment_1.task1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task1",
+        "description": "L1_Assignment_1.task1",
+        "peekOfCode": "def main():\n    with open(\"lines.txt\",\"r\") as f:\n        num=line_count(f)\n        if num==0:\n            print(\"File is empty\")\n        else:\n            print(f\"Total line in file: {num}\")\nif __name__==\"__main__\":\n    main()\n# Count only non-empty lines",
+        "detail": "L1_Assignment_1.task1",
+        "documentation": {}
+    },
+    {
+        "label": "WeakPasswordException",
+        "kind": 6,
+        "importPath": "L1_Assignment_1.task10",
+        "description": "L1_Assignment_1.task10",
+        "peekOfCode": "class WeakPasswordException(Exception):\n    pass\ndef valid_pass(pw):\n    pattern=r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$'\n    if not (re.match(pattern,pw)):\n        raise WeakPasswordException(f\"Invalid Password: {pw}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)",
+        "detail": "L1_Assignment_1.task10",
+        "documentation": {}
+    },
+    {
+        "label": "valid_pass",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task10",
+        "description": "L1_Assignment_1.task10",
+        "peekOfCode": "def valid_pass(pw):\n    pattern=r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$'\n    if not (re.match(pattern,pw)):\n        raise WeakPasswordException(f\"Invalid Password: {pw}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for pw in lst[\"passwords\"]:\n            try:",
+        "detail": "L1_Assignment_1.task10",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task10",
+        "description": "L1_Assignment_1.task10",
+        "peekOfCode": "def main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for pw in lst[\"passwords\"]:\n            try:\n                if valid_pass(pw):\n                    print(f\"{pw} is valid\")\n            except WeakPasswordException as e:\n                print(e)        \n    return",
+        "detail": "L1_Assignment_1.task10",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidVehicleNumberException",
+        "kind": 6,
+        "importPath": "L1_Assignment_1.task11",
+        "description": "L1_Assignment_1.task11",
+        "peekOfCode": "class InvalidVehicleNumberException(Exception):\n    pass\ndef valid_vnum(vnum):\n    pattern=r'^[A-Z]{2}[0-9]{2}[A-Z]{2}[0-9]{4}$'\n    if not (re.match(pattern,vnum)):\n        raise InvalidVehicleNumberException(f\"Invalid Vehicle Number: {vnum}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)",
+        "detail": "L1_Assignment_1.task11",
+        "documentation": {}
+    },
+    {
+        "label": "valid_vnum",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task11",
+        "description": "L1_Assignment_1.task11",
+        "peekOfCode": "def valid_vnum(vnum):\n    pattern=r'^[A-Z]{2}[0-9]{2}[A-Z]{2}[0-9]{4}$'\n    if not (re.match(pattern,vnum)):\n        raise InvalidVehicleNumberException(f\"Invalid Vehicle Number: {vnum}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for vnum in lst[\"vehicle_numbers\"]:\n            try:",
+        "detail": "L1_Assignment_1.task11",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task11",
+        "description": "L1_Assignment_1.task11",
+        "peekOfCode": "def main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for vnum in lst[\"vehicle_numbers\"]:\n            try:\n                if valid_vnum(vnum):\n                    print(f\"{vnum} is valid\")\n            except InvalidVehicleNumberException as e:\n                print(e)        \n    return",
+        "detail": "L1_Assignment_1.task11",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidBookingCodeException",
+        "kind": 6,
+        "importPath": "L1_Assignment_1.task12",
+        "description": "L1_Assignment_1.task12",
+        "peekOfCode": "class InvalidBookingCodeException(Exception):\n    pass\ndef validate_booking_code(code):\n    pattern=r'^BOOK[0-9]{4}$'\n    if not (re.match(pattern,code)):\n        raise InvalidBookingCodeException(f\"Invalid Booking Code: {code}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)",
+        "detail": "L1_Assignment_1.task12",
+        "documentation": {}
+    },
+    {
+        "label": "validate_booking_code",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task12",
+        "description": "L1_Assignment_1.task12",
+        "peekOfCode": "def validate_booking_code(code):\n    pattern=r'^BOOK[0-9]{4}$'\n    if not (re.match(pattern,code)):\n        raise InvalidBookingCodeException(f\"Invalid Booking Code: {code}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for code in lst[\"booking_codes\"]:\n            try:",
+        "detail": "L1_Assignment_1.task12",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task12",
+        "description": "L1_Assignment_1.task12",
+        "peekOfCode": "def main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for code in lst[\"booking_codes\"]:\n            try:\n                if validate_booking_code(code):\n                    print(f\"{code} is valid\")\n            except InvalidBookingCodeException as e:\n                print(e)        \n    return",
+        "detail": "L1_Assignment_1.task12",
+        "documentation": {}
+    },
+    {
+        "label": "format_date",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task13",
+        "description": "L1_Assignment_1.task13",
+        "peekOfCode": "def format_date(d):\n    return d.strftime(\"%Y-%m-%d\")\ndef main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        dt=json.load(f)\n        for s in dt[\"format_date_inputs\"]:\n            d=datetime.strptime(s,\"%Y/%m/%d\")\n            print(format_date(d))\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task13",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task13",
+        "description": "L1_Assignment_1.task13",
+        "peekOfCode": "def main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        dt=json.load(f)\n        for s in dt[\"format_date_inputs\"]:\n            d=datetime.strptime(s,\"%Y/%m/%d\")\n            print(format_date(d))\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task13",
+        "documentation": {}
+    },
+    {
+        "label": "convert_ddmmyyyy",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task14",
+        "description": "L1_Assignment_1.task14",
+        "peekOfCode": "def convert_ddmmyyyy(s):\n    return datetime.strptime(s,\"%d/%m/%Y\")\ndef main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        dt=json.load(f)\n        for s in dt[\"convert_ddmmyyyy_inputs\"]:\n            d=convert_ddmmyyyy(s)\n            print(d.strftime(\"%Y-%m-%d\"))\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task14",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task14",
+        "description": "L1_Assignment_1.task14",
+        "peekOfCode": "def main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        dt=json.load(f)\n        for s in dt[\"convert_ddmmyyyy_inputs\"]:\n            d=convert_ddmmyyyy(s)\n            print(d.strftime(\"%Y-%m-%d\"))\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task14",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_date",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task15",
+        "description": "L1_Assignment_1.task15",
+        "peekOfCode": "def is_valid_date(s):\n    try:\n        datetime.strptime(s,\"%Y-%m-%d\")\n        return True\n    except ValueError:\n        return False\ndef main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        dt=json.load(f)\n        for s in dt[\"is_valid_date_inputs\"]:",
+        "detail": "L1_Assignment_1.task15",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task15",
+        "description": "L1_Assignment_1.task15",
+        "peekOfCode": "def main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        dt=json.load(f)\n        for s in dt[\"is_valid_date_inputs\"]:\n            if is_valid_date(s):\n                print(s+\" is valid date\")\n            else:\n                print(\"Invalid date: \"+s)\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task15",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_age",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task16",
+        "description": "L1_Assignment_1.task16",
+        "peekOfCode": "def calculate_age(bds):\n    today=datetime.today().date()\n    age=today.year-bds.year\n    if(today.month,today.day)<(bds.month,bds.day):\n        age-=1\n    return age\ndef main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        lst=json.load(f)\n        i=0",
+        "detail": "L1_Assignment_1.task16",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task16",
+        "description": "L1_Assignment_1.task16",
+        "peekOfCode": "def main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        lst=json.load(f)\n        i=0\n        for s in lst[\"calculate_age_inputs\"]:\n            d=datetime.strptime(s,\"%Y-%m-%d\")\n            print(f\"Age of {i+1} person is {calculate_age(d)}\")\n            i+=1\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task16",
+        "documentation": {}
+    },
+    {
+        "label": "reformat_date",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task17",
+        "description": "L1_Assignment_1.task17",
+        "peekOfCode": "def reformat_date(d):\n    return d.strftime(\"%B %d, %Y\") # %B-full month name %b- 3 letter month name\ndef main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        lst=json.load(f)\n        for s in lst[\"reformat_date_inputs\"]:\n            d=datetime.strptime(s,\"%Y-%m-%d\")\n            print(f\"{s} -> {reformat_date(d)}\")\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task17",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task17",
+        "description": "L1_Assignment_1.task17",
+        "peekOfCode": "def main():\n    with open(\"date_task_samples.json\",\"r\") as f:\n        lst=json.load(f)\n        for s in lst[\"reformat_date_inputs\"]:\n            d=datetime.strptime(s,\"%Y-%m-%d\")\n            print(f\"{s} -> {reformat_date(d)}\")\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task17",
+        "documentation": {}
+    },
+    {
+        "label": "read_and_strip",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task2",
+        "description": "L1_Assignment_1.task2",
+        "peekOfCode": "def read_and_strip(file):\n    return [line.strip() for line in file]\ndef main():\n    with open(\"whitespace.txt\",\"r\") as f:\n        lst=read_and_strip(f)\n        for row in lst:\n            print(row)\n    return\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task2",
+        "description": "L1_Assignment_1.task2",
+        "peekOfCode": "def main():\n    with open(\"whitespace.txt\",\"r\") as f:\n        lst=read_and_strip(f)\n        for row in lst:\n            print(row)\n    return\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task2",
+        "documentation": {}
+    },
+    {
+        "label": "read_non_empty_lines",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task3",
+        "description": "L1_Assignment_1.task3",
+        "peekOfCode": "def read_non_empty_lines(file):\n    return [line for line in file if line.strip()] # alternate of end is line.rstrip(\"\\n\") \ndef main():\n    with open(\"non_empty_lines.txt\",\"r\") as f:\n        lst=read_non_empty_lines(f)\n        for row in lst:\n            print(row,end=\"\")\n    return\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task3",
+        "description": "L1_Assignment_1.task3",
+        "peekOfCode": "def main():\n    with open(\"non_empty_lines.txt\",\"r\") as f:\n        lst=read_non_empty_lines(f)\n        for row in lst:\n            print(row,end=\"\")\n    return\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task3",
+        "documentation": {}
+    },
+    {
+        "label": "read_uppercase",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task4",
+        "description": "L1_Assignment_1.task4",
+        "peekOfCode": "def read_uppercase(file):\n    return [line.strip().upper() for line in file] #strip() remove /n\ndef main():\n    with open(\"uppercase_source.txt\",\"r\") as f:\n        lst=read_uppercase(f)\n        for row in lst:\n            print(row)\n    return\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task4",
+        "description": "L1_Assignment_1.task4",
+        "peekOfCode": "def main():\n    with open(\"uppercase_source.txt\",\"r\") as f:\n        lst=read_uppercase(f)\n        for row in lst:\n            print(row)\n    return\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task4",
+        "documentation": {}
+    },
+    {
+        "label": "read_csv",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task5",
+        "description": "L1_Assignment_1.task5",
+        "peekOfCode": "def read_csv(file):\n    return [line for line in file] #strip() remove /n\ndef main():\n    with open(\"sample.csv\",\"r\") as f:\n        reader=csv.reader(f)\n        lst=read_csv(reader)\n        for row in lst:\n            print(row)\n    return\nif __name__==\"__main__\":",
+        "detail": "L1_Assignment_1.task5",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task5",
+        "description": "L1_Assignment_1.task5",
+        "peekOfCode": "def main():\n    with open(\"sample.csv\",\"r\") as f:\n        reader=csv.reader(f)\n        lst=read_csv(reader)\n        for row in lst:\n            print(row)\n    return\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task5",
+        "documentation": {}
+    },
+    {
+        "label": "word_count",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task6",
+        "description": "L1_Assignment_1.task6",
+        "peekOfCode": "def word_count(file):\n    return [line for line in file] #strip() remove /n\ndef main():\n    with open(\"words.txt\",\"r\") as f:\n        lst=word_count(f)\n        count=sum(len(row.split()) for row in lst)\n        print(\"Total word in file: \"+str(count))   \n    return\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task6",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task6",
+        "description": "L1_Assignment_1.task6",
+        "peekOfCode": "def main():\n    with open(\"words.txt\",\"r\") as f:\n        lst=word_count(f)\n        count=sum(len(row.split()) for row in lst)\n        print(\"Total word in file: \"+str(count))   \n    return\nif __name__==\"__main__\":\n    main()",
+        "detail": "L1_Assignment_1.task6",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidEmailException",
+        "kind": 6,
+        "importPath": "L1_Assignment_1.task7",
+        "description": "L1_Assignment_1.task7",
+        "peekOfCode": "class InvalidEmailException(Exception):\n    pass\ndef valid_email(mail):\n    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'\n    if not (re.match(pattern, mail)):\n        raise InvalidEmailException(f\"Invalid Email: {mail}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)",
+        "detail": "L1_Assignment_1.task7",
+        "documentation": {}
+    },
+    {
+        "label": "valid_email",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task7",
+        "description": "L1_Assignment_1.task7",
+        "peekOfCode": "def valid_email(mail):\n    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'\n    if not (re.match(pattern, mail)):\n        raise InvalidEmailException(f\"Invalid Email: {mail}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for email in lst[\"emails\"]:\n            try:",
+        "detail": "L1_Assignment_1.task7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task7",
+        "description": "L1_Assignment_1.task7",
+        "peekOfCode": "def main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for email in lst[\"emails\"]:\n            try:\n                if valid_email(email):\n                    print(f\"{email} is valid\")\n            except InvalidEmailException as e:\n                print(e)        \n    return",
+        "detail": "L1_Assignment_1.task7",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidPhoneNumberException",
+        "kind": 6,
+        "importPath": "L1_Assignment_1.task8",
+        "description": "L1_Assignment_1.task8",
+        "peekOfCode": "class InvalidPhoneNumberException(Exception):\n    pass\ndef valid_ph(ph):\n    pattern=r'^[789]\\d{9}$'\n    if not (re.match(pattern,ph)):\n        raise InvalidPhoneNumberException(f\"Invalid Phone Number: {ph}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)",
+        "detail": "L1_Assignment_1.task8",
+        "documentation": {}
+    },
+    {
+        "label": "valid_ph",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task8",
+        "description": "L1_Assignment_1.task8",
+        "peekOfCode": "def valid_ph(ph):\n    pattern=r'^[789]\\d{9}$'\n    if not (re.match(pattern,ph)):\n        raise InvalidPhoneNumberException(f\"Invalid Phone Number: {ph}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for ph in lst[\"phones\"]:\n            try:",
+        "detail": "L1_Assignment_1.task8",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task8",
+        "description": "L1_Assignment_1.task8",
+        "peekOfCode": "def main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for ph in lst[\"phones\"]:\n            try:\n                if valid_ph(ph):\n                    print(f\"{ph} is valid\")\n            except InvalidPhoneNumberException as e:\n                print(e)        \n    return",
+        "detail": "L1_Assignment_1.task8",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidPANException",
+        "kind": 6,
+        "importPath": "L1_Assignment_1.task9",
+        "description": "L1_Assignment_1.task9",
+        "peekOfCode": "class InvalidPANException(Exception):\n    pass\ndef valid_pan(pan):\n    pattern=r'^[A-Z]{5}\\d{4}[A-Z]$'\n    if not (re.match(pattern,pan)):\n        raise InvalidPANException(f\"Invalid Pan: {pan}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)",
+        "detail": "L1_Assignment_1.task9",
+        "documentation": {}
+    },
+    {
+        "label": "valid_pan",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task9",
+        "description": "L1_Assignment_1.task9",
+        "peekOfCode": "def valid_pan(pan):\n    pattern=r'^[A-Z]{5}\\d{4}[A-Z]$'\n    if not (re.match(pattern,pan)):\n        raise InvalidPANException(f\"Invalid Pan: {pan}\")\n    return True\ndef main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for pan in lst[\"pans\"]:\n            try:",
+        "detail": "L1_Assignment_1.task9",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "L1_Assignment_1.task9",
+        "description": "L1_Assignment_1.task9",
+        "peekOfCode": "def main():\n    with open(\"validation_test_data.json\",\"r\") as f:\n        lst=json.load(f)\n        for pan in lst[\"pans\"]:\n            try:\n                if valid_pan(pan):\n                    print(f\"{pan} is valid\")\n            except InvalidPANException as e:\n                print(e)        \n    return",
+        "detail": "L1_Assignment_1.task9",
+        "documentation": {}
+    },
+    {
+        "label": "CountUpTo",
+        "kind": 6,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "class CountUpTo:\n    def __init__(self, max_value):\n        # Store the maximum value\n        self.max_value = max_value\n        # Start counting from 1\n        self.current = 1\n    def __iter__(self):\n        # This returns the iterator object itself\n        return self\n    def __next__(self):",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def add(a, b):\n    return a + b\nresult = add(10, 20)\nprint(result)\n# # Function with default argument\ndef greet(name=\"User\"):\n    print(\"Hello\", name)\ngreet()\ngreet(\"Chetan\")\ndef introduce(name, age):",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def greet(name=\"User\"):\n    print(\"Hello\", name)\ngreet()\ngreet(\"Chetan\")\ndef introduce(name, age):\n    print(f\"My name is {name} and I am {age} years old.\")\nintroduce(age=22, name=\"Chetan\")\ndef sum_all(*numbers):\n    total = 0\n    for num in numbers:",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "introduce",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def introduce(name, age):\n    print(f\"My name is {name} and I am {age} years old.\")\nintroduce(age=22, name=\"Chetan\")\ndef sum_all(*numbers):\n    total = 0\n    for num in numbers:\n        total += num\n    return total\nprint(sum_all(1, 2, 3, 4, 5))\ndef show_info(**info):",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "sum_all",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def sum_all(*numbers):\n    total = 0\n    for num in numbers:\n        total += num\n    return total\nprint(sum_all(1, 2, 3, 4, 5))\ndef show_info(**info):\n    for key, value in info.items():\n        print(f\"{key}: {value}\")\nshow_info(name=\"Chetan\", age=21, city=\"Wardha\")",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "show_info",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def show_info(**info):\n    for key, value in info.items():\n        print(f\"{key}: {value}\")\nshow_info(name=\"Chetan\", age=21, city=\"Wardha\")\n#BaseException\n#    └── Exception\n#         ├── ArithmeticError\n#         │    ├── ZeroDivisionError\n#         │    ├── OverflowError\n#         │    └── FloatingPointError",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_average",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def calculate_average(student_id):\n    marks = school[student_id][\"marks\"]\n    average = sum(marks.values()) / len(marks)\n    return average\nprint(\"Average Marks of S101:\", calculate_average(\"S101\"))\n# Adding a new subject for a student\nschool[\"S101\"][\"marks\"][\"AI\"] = 95\nprint(\"Updated Marks:\", school[\"S101\"][\"marks\"])\n# len() , .keys(), value() \n#as previous there is no insertion order we cant access through index so it access by key ",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def square(a):\n    ans=a*a\n    return a\nprint(square(5)) # Error type because scope of variable is in functions\nimport sys\nmax_int = sys.maxsize\nmin_int = -sys.maxsize - 1\nprint(max_int)\nprint(min_int)\nmin_value = float('-inf')",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "count_up_to",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def count_up_to(max_value):\n    # Start counting from 1\n    current = 1\n    while current <= max_value:\n        # yield returns value and pauses here\n        yield current\n        # This runs when next() is called again\n        current += 1\n# Using the generator\ncounter = count_up_to(5)",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "outer_function",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def outer_function(message):\n    # This is outer variable\n    def inner_function():\n        # Inner function uses outer variable\n        print(message)\n    return inner_function\n# outer_function finishes here\nmy_function = outer_function(\"Hello Charlie 👋\")\n# But inner function still remembers 'message'\nmy_function()",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "my_decorator",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def my_decorator(func):\n    def wrapper():\n        print(\"Something before function runs\")\n        func()\n        print(\"Something after function runs\")\n    return wrapper\n@my_decorator\ndef say_hello():\n    print(\"Hello!\")\n# Calling function",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def say_hello():\n    print(\"Hello!\")\n# Calling function\nsay_hello()\n# Something before function runs\n# Hello!\n# Something after function runs\ndef decorator(func):\n    def wrapper(*args, **kwargs):\n        print(\"Before function\")",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "decorator",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def decorator(func):\n    def wrapper(*args, **kwargs):\n        print(\"Before function\")\n        result = func(*args, **kwargs)\n        print(\"After function\")\n        return result\n    return wrapper\n@decorator\ndef add(a, b):\n    return a + b",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "def add(a, b):\n    return a + b\nprint(add(5, 3))\n# Before function\n# After function\n# 8\n# def add(a, b):\n#     return a + b\n# add = decorator(add)\nimport re",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "t = (10, 20, 30)\nprint(t[1])   # 20\n# #dictionary/map -> ordered, mutable\nd={}\nn=int(input(\"Enter number of key-value\"))\nfor _ in range(n):\n    k, v=input().split()\n    d[k]=v\nprint(d)\nd = {\"name\": \"Chetan\", \"age\": 22}",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "d = {\"name\": \"Chetan\", \"age\": 22}\nprint(d[\"name\"])   # Chetan\nd[\"age\"] = 23      # Allowed\n# # list=[]\n# # tuple=()\n# # set={}\n# # dict={}\n# ##LOOPING OVER- list,tuple,set,dict\n# #list\nfor x in arr:",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "d[\"age\"]",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "d[\"age\"] = 23      # Allowed\n# # list=[]\n# # tuple=()\n# # set={}\n# # dict={}\n# ##LOOPING OVER- list,tuple,set,dict\n# #list\nfor x in arr:\n    print(x)\n# #set",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "result = add(10, 20)\nprint(result)\n# # Function with default argument\ndef greet(name=\"User\"):\n    print(\"Hello\", name)\ngreet()\ngreet(\"Chetan\")\ndef introduce(name, age):\n    print(f\"My name is {name} and I am {age} years old.\")\nintroduce(age=22, name=\"Chetan\")",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "school",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "school = {\n    \"S101\": {\n        \"name\": \"Aarav\",\n        \"age\": 20,\n        \"course\": \"Computer Science\",\n        \"marks\": {\n            \"Math\": 88,\n            \"Python\": 92,\n            \"Data Structures\": 85\n        }",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "school[\"S101\"][\"marks\"][\"AI\"]",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "school[\"S101\"][\"marks\"][\"AI\"] = 95\nprint(\"Updated Marks:\", school[\"S101\"][\"marks\"])\n# len() , .keys(), value() \n#as previous there is no insertion order we cant access through index so it access by key \n# to chcek any key exist in doict we can use 'in' like 'chetan' in name return boolean\n# del name['chetan] return nan \n# remove can through keyError to stop this we can use pop('chetan',none) this will remove or doesnt throw error\ndata = {\n    \"a\": 1,\n    \"b\": 2,",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "data = {\n    \"a\": 1,\n    \"b\": 2,\n    \"c\": 3\n}\nreversed_dict = dict(reversed(data.items()))\nprint(reversed_dict)\n## DOC STRING\n# pyhton doc strings are used to documents functions. Doc strings should foloow immediately after defining function\n#scope of variables",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "reversed_dict",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "reversed_dict = dict(reversed(data.items()))\nprint(reversed_dict)\n## DOC STRING\n# pyhton doc strings are used to documents functions. Doc strings should foloow immediately after defining function\n#scope of variables\ndef square(a):\n    ans=a*a\n    return a\nprint(square(5)) # Error type because scope of variable is in functions\nimport sys",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "max_int",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "max_int = sys.maxsize\nmin_int = -sys.maxsize - 1\nprint(max_int)\nprint(min_int)\nmin_value = float('-inf')\nmax_value = float('inf')\nmax_float = float('inf')\nmin_float = float('-inf')\nnum1=1.9991\nnum2=1.9999",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "min_int",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "min_int = -sys.maxsize - 1\nprint(max_int)\nprint(min_int)\nmin_value = float('-inf')\nmax_value = float('inf')\nmax_float = float('inf')\nmin_float = float('-inf')\nnum1=1.9991\nnum2=1.9999\nnum1=round(num1,3) #1.999",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "min_value",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "min_value = float('-inf')\nmax_value = float('inf')\nmax_float = float('inf')\nmin_float = float('-inf')\nnum1=1.9991\nnum2=1.9999\nnum1=round(num1,3) #1.999\nnum2=round(num2,3) #2.0\nimport numpy as np\narr=np.array([1,2],[3,4]) #2x2",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "max_value",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "max_value = float('inf')\nmax_float = float('inf')\nmin_float = float('-inf')\nnum1=1.9991\nnum2=1.9999\nnum1=round(num1,3) #1.999\nnum2=round(num2,3) #2.0\nimport numpy as np\narr=np.array([1,2],[3,4]) #2x2\n#sort",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "max_float",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "max_float = float('inf')\nmin_float = float('-inf')\nnum1=1.9991\nnum2=1.9999\nnum1=round(num1,3) #1.999\nnum2=round(num2,3) #2.0\nimport numpy as np\narr=np.array([1,2],[3,4]) #2x2\n#sort\nprint(np.sort(arr)) #flatten array with sort elem",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "min_float",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "min_float = float('-inf')\nnum1=1.9991\nnum2=1.9999\nnum1=round(num1,3) #1.999\nnum2=round(num2,3) #2.0\nimport numpy as np\narr=np.array([1,2],[3,4]) #2x2\n#sort\nprint(np.sort(arr)) #flatten array with sort elem\nprint(np.sort(arr,axis=1)) #row wise sorting",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "counter = CountUpTo(5)\nfor num in counter:\n    print(num)\n# GENERATOR\n# A generator is a simpler way to create iterators.\n# Instead of writing __iter__() and __next__(),\n# we use the keyword:\n# yield\n# yield pauses the function and remembers state.\ndef count_up_to(max_value):",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "counter = count_up_to(5)\nfor num in counter:\n    print(num)\n# CLOSURE\n# A closure happens when:\n# A function is inside another function\n# Inner function remembers outer function variables\n# Even after outer function finishes\n# Yes. It remembers. That’s the magic.\ndef outer_function(message):",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "my_function = outer_function(\"Hello Charlie 👋\")\n# But inner function still remembers 'message'\nmy_function()\n# DECODER\n# A decorator is a function that:\n# Takes another function\n# Adds extra behavior\n# Returns a new function\n# Without changing original code.\ndef my_decorator(func):",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "pattern",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "pattern = r\"[a-z]+\\d+\"\ntext = \"abc123\"\nmatch = re.fullmatch(pattern, text)\nif match:\n    print(\"Matched!\")",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "text = \"abc123\"\nmatch = re.fullmatch(pattern, text)\nif match:\n    print(\"Matched!\")",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "match",
+        "kind": 5,
+        "importPath": "NOTES.VSC-Notes",
+        "description": "NOTES.VSC-Notes",
+        "peekOfCode": "match = re.fullmatch(pattern, text)\nif match:\n    print(\"Matched!\")",
+        "detail": "NOTES.VSC-Notes",
+        "documentation": {}
+    },
+    {
+        "label": "dt1",
+        "kind": 5,
+        "importPath": "NOTES-I.test",
+        "description": "NOTES-I.test",
+        "peekOfCode": "dt1 = parser.parse('March 15, 2024').month\ndt2 = parser.parse('15/03/2024').day\ndt3 = parser.parse('2024-03-15T10:30:00').year\n#dt4 = parser.parse('next Friday')\nprint(dt1)\nprint(dt2)\nprint(dt3)\n#print(dt4)",
+        "detail": "NOTES-I.test",
+        "documentation": {}
+    },
+    {
+        "label": "dt2",
+        "kind": 5,
+        "importPath": "NOTES-I.test",
+        "description": "NOTES-I.test",
+        "peekOfCode": "dt2 = parser.parse('15/03/2024').day\ndt3 = parser.parse('2024-03-15T10:30:00').year\n#dt4 = parser.parse('next Friday')\nprint(dt1)\nprint(dt2)\nprint(dt3)\n#print(dt4)",
+        "detail": "NOTES-I.test",
+        "documentation": {}
+    },
+    {
+        "label": "dt3",
+        "kind": 5,
+        "importPath": "NOTES-I.test",
+        "description": "NOTES-I.test",
+        "peekOfCode": "dt3 = parser.parse('2024-03-15T10:30:00').year\n#dt4 = parser.parse('next Friday')\nprint(dt1)\nprint(dt2)\nprint(dt3)\n#print(dt4)",
+        "detail": "NOTES-I.test",
+        "documentation": {}
+    },
+    {
+        "label": "#dt4",
+        "kind": 5,
+        "importPath": "NOTES-I.test",
+        "description": "NOTES-I.test",
+        "peekOfCode": "#dt4 = parser.parse('next Friday')\nprint(dt1)\nprint(dt2)\nprint(dt3)\n#print(dt4)",
+        "detail": "NOTES-I.test",
+        "documentation": {}
+    },
+    {
+        "label": "Customer",
+        "kind": 6,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-1.customer_entity",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-1.customer_entity",
+        "peekOfCode": "class Customer:\n    # Define the parameterized constructor here\n    def __init__(self, customer_id, name, email, phone):\n        self.__customer_id = customer_id\n        self.__name = name\n        self.__email = email\n        self.__phone = phone\n    # --- Setters (optional, if you need to modify fields later) ---\n    def set_customer_id(self, value): self.__customer_id = value\n    def set_name(self, value): self.__name = value",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-1.customer_entity",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerRepository",
+        "kind": 6,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-1.customer_solution",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-1.customer_solution",
+        "peekOfCode": "class CustomerRepository:\n    def add_customer_details(self, customer_list,conn):\n        # Write your code here\n        insert=0\n        query=\"\"\"\n        INSERT INTO customer(customer_id, name, email, phone)\n        VALUES (:1,:2,:3,:4)\n        \"\"\"\n        for c in customer_list:\n            with conn.cursor() as cur:",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-1.customer_solution",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-1.db_setup",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-1.db_setup",
+        "peekOfCode": "def start():\n    db = \"\"\n    # Load your properties file\n    with open(\"database.properties\") as f:\n        lines = [\n            line.strip().split(\"=\")\n            for line in f.readlines()\n            if not line.startswith(\"#\") and line.strip()\n        ]\n        db = {k.strip(): v.strip() for k, v in lines}",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-1.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-2.attendance_db_setup",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-2.attendance_db_setup",
+        "peekOfCode": "def start():\n    db = \"\"\n    # Load your properties file\n    with open(\"database.properties\") as f:\n        lines = [\n            line.strip().split(\"=\")\n            for line in f.readlines()\n            if not line.startswith(\"#\") and line.strip()\n        ]\n        db = {k.strip(): v.strip() for k, v in lines}",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-2.attendance_db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "Attendance",
+        "kind": 6,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-2.attendance_entity",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-2.attendance_entity",
+        "peekOfCode": "class Attendance:\n    # Define the parameterized constructor here\n    def __init__(self, employee_id, date, status):\n        self.__employee_id = employee_id\n        self.__date = date\n        self.__status = status\n    # Setters (optional)\n    def set_employee_id(self, value): self.__employee_id = value\n    def set_date(self, value): self.__date = value\n    def set_status(self, value): self.__status = value",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-2.attendance_entity",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRepository",
+        "kind": 6,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-2.attendance_solution",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-2.attendance_solution",
+        "peekOfCode": "class AttendanceRepository:\n    def record_attendance(self, attendance_list):\n        db=\"\"\n        with open(\"database.properties\") as f:\n            lines = [\n                line.strip().split(\"=\")\n                for line in f.readlines()\n                if not line.startswith(\"#\") and line.strip()\n            ]\n            db = {k.strip(): v.strip() for k, v in lines}",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-2.attendance_solution",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-3.books_db_setup",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-3.books_db_setup",
+        "peekOfCode": "def start():\n    db=\"\"\n    with open(\"database.properties\") as f:\n        lines=[line.strip().split(\"=\") for line in f.readlines() if not line.startswith(\"#\") and line.strip()]\n        db={k.strip():v.strip() for k,v in lines}\n    with oracledb.connect(user=db[\"DB_USERNAME\"],password=db[\"DB_PASSWORD\"],dsn=db[\"DSN\"]) as conn:\n        with conn.cursor() as cur:\n            cur.execute(\"\"\"\n                        SELECT COUNT(*) FROM user_tables\n                        WHERE table_name=:tbn\"\"\",{\"tbn\":\"BOOKS\"})",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-3.books_db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "BookRepository",
+        "kind": 6,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-3.books_solution",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-3.books_solution",
+        "peekOfCode": "class BookRepository:\n    def bulk_insert_books(self, book_list,conn):\n        # Write your code here\n        with conn.cursor() as cur:\n            query=\"\"\"INSERT INTO books (book_id, title, author, price)\n            VALUES (:1,:2,:3,:4)\"\"\"\n            for obj in book_list:\n                cur.execute(query,(obj.get_book_id(),obj.get_title(),obj.get_author(),obj.get_price()))\n        conn.commit()\n        s=set()",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-3.books_solution",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-3.book_entity",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-3.book_entity",
+        "peekOfCode": "class Book:\n    # Define the parameterized constructor here\n    def __init__(self, book_id, title, author, price):\n        self.__book_id = book_id\n        self.__title = title\n        self.__author = author\n        self.__price = float(price)\n    # Setters (optional)\n    def set_book_id(self, value): self.__book_id = value\n    def set_title(self, value): self.__title = value",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-3.book_entity",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_db_setup",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_db_setup",
+        "peekOfCode": "def start():\n    db = \"\"\n    # Load your properties file\n    with open(\"database.properties\") as f:\n        lines = [\n            line.strip().split(\"=\")\n            for line in f.readlines()\n            if not line.startswith(\"#\") and line.strip()\n        ]\n        db = {k.strip(): v.strip() for k, v in lines}",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "query1",
+        "kind": 5,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_db_setup",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_db_setup",
+        "peekOfCode": "query1 = \"\"\"INSERT INTO customer () VALUES\n;\"\"\"\nimport oracledb  # CHANGED from cx_Oracle to oracledb\ndef start():\n    db = \"\"\n    # Load your properties file\n    with open(\"database.properties\") as f:\n        lines = [\n            line.strip().split(\"=\")\n            for line in f.readlines()",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "Customer",
+        "kind": 6,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_entity",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_entity",
+        "peekOfCode": "class Customer:\n    # Define the parameterized constructor here\n    def __init__(self, customer_id, name, email, phone):\n        self.__customer_id = customer_id\n        self.__name = name\n        self.__email = email\n        self.__phone = phone\n    # Setters (optional)\n    def set_customer_id(self, value): self.__customer_id = value\n    def set_name(self, value): self.__name = value",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_entity",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerRepository",
+        "kind": 6,
+        "importPath": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_search_solution",
+        "description": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_search_solution",
+        "peekOfCode": "class CustomerRepository:\n    def search_customer_by_id(self, customer_id,conn):\n        with conn.cursor() as cur:\n            cur.execute(\"\"\"SELECT * FROM customer WHERE customer_id=:param\"\"\",{\"param\":customer_id})\n            row=cur.fetchone()\n            if row is None:\n                return None\n            cust_id, name, email, phone = row\n            return ce.Customer(cust_id, name, email, phone)\n# --- Optional quick demo ---",
+        "detail": "Python_Db_Assignment_1.Python_Db_Assignment_1.Task-4.customer_search_solution",
+        "documentation": {}
+    },
+    {
+        "label": "Flight",
+        "kind": 6,
+        "importPath": "Tekstac.flightmanagementsystem.flight",
+        "description": "Tekstac.flightmanagementsystem.flight",
+        "peekOfCode": "class Flight:\n    def __init__(self, flight_id, source, destination, no_of_seats, flight_fare):\n        self.__flight_id=flight_id\n        self.__source=source\n        self.__destination=destination\n        self.__no_of_seats=no_of_seats\n        self.__flight_fare=flight_fare\n    def get_flight_id(self):\n        return self.__flight_id\n    def setFlight_id(self,flight_id):",
+        "detail": "Tekstac.flightmanagementsystem.flight",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_flight_by_id",
+        "kind": 2,
+        "importPath": "Tekstac.flightmanagementsystem.flight_management",
+        "description": "Tekstac.flightmanagementsystem.flight_management",
+        "peekOfCode": "def retrieve_flight_by_id(flight_id,conn):\n    with conn.cursor() as cur:\n        q=\"\"\"select * from flight where flightId=:1\"\"\"\n        cur.execute(q,(flight_id,))\n        row=cur.fetchone()\n        if row is None:\n            return None\n        else:\n            return fl.Flight(row[0],row[1],row[2],row[3],row[4])\n #### WRITE YOUR CODE HERE FOR GETTING USER INPUTS, FUNCTION CALL AND OUTPUT STATEMENTS",
+        "detail": "Tekstac.flightmanagementsystem.flight_management",
+        "documentation": {}
+    },
+    {
+        "label": "flight_id",
+        "kind": 5,
+        "importPath": "Tekstac.flightmanagementsystem.flight_management",
+        "description": "Tekstac.flightmanagementsystem.flight_management",
+        "peekOfCode": "flight_id = int(input(\"Enter the flight id:\"))\nrow=retrieve_flight_by_id(flight_id,conn)\nif row is None:\n    print(\"Invalid Flight ID\")\nelse:\n    #print(\"Flight details are:\")\n    print(\"Flight ID:\",row.get_flight_id())\n    print(\"Source:\",row.get_source())\n    print(\"Destination:\",row.get_destination())\n    print(\"No of seats:\",row.get_no_of_seats())",
+        "detail": "Tekstac.flightmanagementsystem.flight_management",
+        "documentation": {}
+    },
+    {
+        "label": "Hotel",
+        "kind": 6,
+        "importPath": "Tekstac.hotelmanagement.hotel",
+        "description": "Tekstac.hotelmanagement.hotel",
+        "peekOfCode": "class Hotel:\n    def __init__(self,room_no,cust_name,address,phone_number,from_date,to_date):\n        self.__room_no = room_no\n        self.__cust_name = cust_name\n        self.__address = address\n        self.__phone_number = phone_number\n        self.__from_date = from_date\n        self.__to_date = to_date\n    def get_room_no(self):\n        return self.__room_no",
+        "detail": "Tekstac.hotelmanagement.hotel",
+        "documentation": {}
+    },
+    {
+        "label": {
+            "name": "",
+            "kind": 2,
+            "peekOfCode": "def  retrieve_customer_details(address,conn):\n    #WRITE YOUR CODE HERE FOR IMPLEMENTING THE FUNCTION\n    q=\"\"\"select * from hotel\n    where (to_date - from_date)>3\n    and address=:1\"\"\"\n    cur=conn.cursor()\n    cur.execute(q,(address,))\n    row=cur.fetchall()\n    ans=[]\n    for r in row:"
+        },
+        "kind": 2,
+        "importPath": "Tekstac.hotelmanagement.hotel_management",
+        "description": "Tekstac.hotelmanagement.hotel_management",
+        "peekOfCode": "def  retrieve_customer_details(address,conn):\n    #WRITE YOUR CODE HERE FOR IMPLEMENTING THE FUNCTION\n    q=\"\"\"select * from hotel\n    where (to_date - from_date)>3\n    and address=:1\"\"\"\n    cur=conn.cursor()\n    cur.execute(q,(address,))\n    row=cur.fetchall()\n    ans=[]\n    for r in row:",
+        "detail": "Tekstac.hotelmanagement.hotel_management",
+        "documentation": {}
+    },
+    {
+        "label": "address",
+        "kind": 5,
+        "importPath": "Tekstac.hotelmanagement.hotel_management",
+        "description": "Tekstac.hotelmanagement.hotel_management",
+        "peekOfCode": "address = input(\"Enter the Address: \")\nl=retrieve_customer_details(address,conn)\nif not l:\n    print(\"Invalid Address\")\nelse:\n    cnt=1\n    for c in l:\n        print(f\"Customer details {cnt}\")\n        print(f\"Room no:{c.get_room_no()}\")\n        print(f\"Customer Name: {c.get_cust_name()}\")",
+        "detail": "Tekstac.hotelmanagement.hotel_management",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "kind": 6,
+        "importPath": "Tekstac.retrievetraindetails.train",
+        "description": "Tekstac.retrievetraindetails.train",
+        "peekOfCode": "class train:\n    def __init__(self,train_number,train_name,source,destination,ac1,ac2,ac3,sleeper,seater):\n        self.__train_number=train_number\n        self.__train_name=train_name\n        self.__source=source\n        self.__destination=destination\n        self.__ac1=ac1\n        self.__ac2=ac2\n        self.__ac3=ac3\n        self.__sleeper=sleeper",
+        "detail": "Tekstac.retrievetraindetails.train",
+        "documentation": {}
+    },
+    {
+        "label": "TrainManagementSystem",
+        "kind": 6,
+        "importPath": "Tekstac.retrievetraindetails.train_management",
+        "description": "Tekstac.retrievetraindetails.train_management",
+        "peekOfCode": "class TrainManagementSystem:\n    def __init__(self):\n        self.db=\"\"\n        with open(\"database.properties\") as f:\n            self.lines=[line.strip().split(\"=\") for line in f.readlines() if not line.startswith(\"#\") and line.strip()]\n            self.db={k.strip():v.strip() for k,v in self.lines}\n    def retrieve_train_details(self, coach_type, source, destination):\n        ans=[]\n        try:\n            self.conn=cx_Oracle.connect(self.db[\"DB_USERNAME\"],self.db[\"DB_PASSWORD\"],self.db[\"DSN\"])",
+        "detail": "Tekstac.retrievetraindetails.train_management",
+        "documentation": {}
+    },
+    {
+        "label": "Customer",
+        "kind": 6,
+        "importPath": "Tekstac.updateaccountbalance.customer",
+        "description": "Tekstac.updateaccountbalance.customer",
+        "peekOfCode": "class Customer:\n    def __init__(self,acc_no,cust_name,acc_type,acc_balance):\n        self.__acc_no = acc_no\n        self.__cust_name = cust_name\n        self.__acc_type = acc_type\n        self.__acc_balance = acc_balance\n    def get_acc_no(self):\n        return self.__acc_no\n    def set_acc_no(self,acc_no):\n        self.__acc_no = acc_no",
+        "detail": "Tekstac.updateaccountbalance.customer",
+        "documentation": {}
+    },
+    {
+        "label": "update_account_balance",
+        "kind": 2,
+        "importPath": "Tekstac.updateaccountbalance.customer_management",
+        "description": "Tekstac.updateaccountbalance.customer_management",
+        "peekOfCode": "def update_account_balance(acc_type, conn):\n    with conn.cursor() as cur:\n        q=\"\"\"select * from Bank \n        where acc_type=:1\"\"\"\n        cur.execute(q,(acc_type,))\n        ans=[]\n        row =cur.fetchall()\n        for r in row:\n            obj=ct.Customer(*r)\n            bal=obj.get_acc_balance()",
+        "detail": "Tekstac.updateaccountbalance.customer_management",
+        "documentation": {}
+    },
+    {
+        "label": "acc_type",
+        "kind": 5,
+        "importPath": "Tekstac.updateaccountbalance.customer_management",
+        "description": "Tekstac.updateaccountbalance.customer_management",
+        "peekOfCode": "acc_type = input(\"Enter the Account type :\")\nli=update_account_balance(acc_type,conn)\nprint(\"Account number, Customer Name, Account Type, Available Balance\")\nfor l in li:\n    print(f\"{l.get_acc_no()} {l.get_cust_name()} {acc_type} {l.get_acc_balance():.1f}\")",
+        "detail": "Tekstac.updateaccountbalance.customer_management",
+        "documentation": {}
+    }
+]
