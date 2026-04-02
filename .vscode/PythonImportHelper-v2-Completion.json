@@ -875,14 +875,6 @@
         "documentation": {}
     },
     {
-        "label": "Counter",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -3013,6 +3005,141 @@
         "description": "NOTES-I.test",
         "peekOfCode": "#dt4 = parser.parse('next Friday')\nprint(dt1)\nprint(dt2)\nprint(dt3)\n#print(dt4)",
         "detail": "NOTES-I.test",
+        "documentation": {}
+    },
+    {
+        "label": "MyList",
+        "kind": 6,
+        "importPath": "NOTES-II.dunder",
+        "description": "NOTES-II.dunder",
+        "peekOfCode": "class MyList:\n    def __init__(self, data):\n        self.data = list(data)   # constructor\n    def __str__(self):\n        return f\"MyList: {self.data}\"   # human-readable\n    def __repr__(self):\n        return f\"MyList({self.data})\"   # debug readable\n    def __len__(self):\n        return len(self.data)           # len(obj)\n    def __getitem__(self, key):",
+        "detail": "NOTES-II.dunder",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "NOTES-II.dunder",
+        "description": "NOTES-II.dunder",
+        "peekOfCode": "a = MyList([1, 2, 3])\nb = MyList([4, 5])\nprint(a)          # __str__\nprint(repr(a))    # __repr__\nprint(len(a))     # __len__\nprint(a[0])       # __getitem__\na[1] = 20         # __setitem__\nprint(a)\nprint(2 in a)     # __contains__\nprint(99 in a)",
+        "detail": "NOTES-II.dunder",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "NOTES-II.dunder",
+        "description": "NOTES-II.dunder",
+        "peekOfCode": "b = MyList([4, 5])\nprint(a)          # __str__\nprint(repr(a))    # __repr__\nprint(len(a))     # __len__\nprint(a[0])       # __getitem__\na[1] = 20         # __setitem__\nprint(a)\nprint(2 in a)     # __contains__\nprint(99 in a)\nprint(a == b)     # __eq__",
+        "detail": "NOTES-II.dunder",
+        "documentation": {}
+    },
+    {
+        "label": "a[1]",
+        "kind": 5,
+        "importPath": "NOTES-II.dunder",
+        "description": "NOTES-II.dunder",
+        "peekOfCode": "a[1] = 20         # __setitem__\nprint(a)\nprint(2 in a)     # __contains__\nprint(99 in a)\nprint(a == b)     # __eq__\nprint(a < b)      # __lt__\nc = a + b         # __add__\nprint(c)\n# Context manager\nwith MyList([10, 20]) as ml:",
+        "detail": "NOTES-II.dunder",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "NOTES-II.dunder",
+        "description": "NOTES-II.dunder",
+        "peekOfCode": "c = a + b         # __add__\nprint(c)\n# Context manager\nwith MyList([10, 20]) as ml:\n    print(\"Inside context:\", ml)\n# ✅ Output (What You Will See)\n# MyList: [1, 2, 3]\n# MyList([1, 2, 3])\n# 3\n# 1",
+        "detail": "NOTES-II.dunder",
+        "documentation": {}
+    },
+    {
+        "label": "Count",
+        "kind": 6,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "class Count:\n    def __init__(self,end):\n        self.current=1\n        self.end=end\n    def __iter__(self):\n        self.current=1 #reset\n        return self\n    def __next__(self):\n        if self.current>self.end:\n            raise StopIteration()",
+        "detail": "NOTES-II.test",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 6,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "class X:\n    def m(self): print(\"X\")\nclass A(X):\n    def m(self): print(\"A\")\nclass B(X):\n    def m(self): print(\"B\")\nclass C(A):\n    def m(self): print(\"C\")\nclass D(A, B):\n    def m(self): print(\"D\")",
+        "detail": "NOTES-II.test",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 6,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "class A(X):\n    def m(self): print(\"A\")\nclass B(X):\n    def m(self): print(\"B\")\nclass C(A):\n    def m(self): print(\"C\")\nclass D(A, B):\n    def m(self): print(\"D\")\nclass E(B):\n    def m(self): print(\"E\")",
+        "detail": "NOTES-II.test",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 6,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "class B(X):\n    def m(self): print(\"B\")\nclass C(A):\n    def m(self): print(\"C\")\nclass D(A, B):\n    def m(self): print(\"D\")\nclass E(B):\n    def m(self): print(\"E\")\nclass F(C, D, E):\n    def m(self): print(\"F\")",
+        "detail": "NOTES-II.test",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 6,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "class C(A):\n    def m(self): print(\"C\")\nclass D(A, B):\n    def m(self): print(\"D\")\nclass E(B):\n    def m(self): print(\"E\")\nclass F(C, D, E):\n    def m(self): print(\"F\")\nclass G(F):\n    pass",
+        "detail": "NOTES-II.test",
+        "documentation": {}
+    },
+    {
+        "label": "D",
+        "kind": 6,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "class D(A, B):\n    def m(self): print(\"D\")\nclass E(B):\n    def m(self): print(\"E\")\nclass F(C, D, E):\n    def m(self): print(\"F\")\nclass G(F):\n    pass\n# G, F, C, D, A, B, E, X\n#  C3 MRO algorithm",
+        "detail": "NOTES-II.test",
+        "documentation": {}
+    },
+    {
+        "label": "E",
+        "kind": 6,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "class E(B):\n    def m(self): print(\"E\")\nclass F(C, D, E):\n    def m(self): print(\"F\")\nclass G(F):\n    pass\n# G, F, C, D, A, B, E, X\n#  C3 MRO algorithm",
+        "detail": "NOTES-II.test",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "kind": 6,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "class F(C, D, E):\n    def m(self): print(\"F\")\nclass G(F):\n    pass\n# G, F, C, D, A, B, E, X\n#  C3 MRO algorithm",
+        "detail": "NOTES-II.test",
+        "documentation": {}
+    },
+    {
+        "label": "G",
+        "kind": 6,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "class G(F):\n    pass\n# G, F, C, D, A, B, E, X\n#  C3 MRO algorithm",
+        "detail": "NOTES-II.test",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 2,
+        "importPath": "NOTES-II.test",
+        "description": "NOTES-II.test",
+        "peekOfCode": "def counter(end):\n    start=1\n    while(start<=end):\n        yield start\n        start+=1\nfor ele in counter(10):\n    print(ele)\n    #     X\n    #    / \\\n    #   A   B",
+        "detail": "NOTES-II.test",
         "documentation": {}
     },
     {

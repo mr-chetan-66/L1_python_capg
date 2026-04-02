@@ -633,12 +633,308 @@ data = {'created': str(datetime.now())}
 re.search(r'file\.txt', text)  # Matches ONLY 'file.txt' (literal dot)
 
 
+## OOPS
+OOP is a programming paradigm that organizes code around objects — entities that bundle data (attributes) and behavior (methods) together. Python is a fully object-oriented language — everything in Python is an object.
 
 
+print(isinstance(x, object))  # True — everything inherits from object
+
+print(type(MyClass))    # <class 'type'>  ← classes are instances of 'type'
+
+print(type(greet))      # <class 'function'>
+greet.custom_attr = 42  # you can set attributes on functions!
+
+NO — 'self' is NOT a Python keyword. It is just a convention.
+You could name it anything (this, me, obj) — but self is universal.
+
+self represents the INSTANCE that the method is called on.
+When you call d1.bark(), Python internally calls Dog.bark(d1).
+So self == d1 in that call.
+
+You usually override __new__ when:
+
+creating immutable types (like int, str, tuple)
+implementing Singleton, Factory, metaclasses, etc.
+
+class Animal:
+    def __new__(cls, animal_type):
+        if animal_type == "dog":
+            return Dog()
+        elif animal_type == "cat":
+            return Cat()
+        else:
+            return super().__new__(cls)
+
+class Dog:
+    def speak(self):
+        return "Woof!"
+
+class Cat:
+    def speak(self):
+        return "Meow!"
+
+a = Animal("dog")
+print(a.speak())
+
+def __init__(self, day, month, year):
+        self.day   = day
+        self.month = month
+        self.year  = year
 
 
+    @classmethod
+    def today(cls):                   # another alternative constructor
+        import datetime
+        today = datetime.date.today()
+        return cls(today.day, today.month, today.year)
+
+def __str__(self):
+        return f'{self.day:02d}-{self.month:02d}-{self.year}'
+
+@staticmethod
+Acts like a regular function but lives inside the class namespace. Cannot access instance or class variables directly. 
+
+Access instance variables by passing the instance explicitly
+class Demo:
+    def __init__(self, value):
+        self.value = value
+
+    @staticmethod
+    def show_value(obj):  # pass instance manually
+        print(obj.value)
+
+d = Demo(42)
+Demo.show_value(d)   # ✅ prints 42
 
 
+Access class variables by passing the class explicitly
+class Demo:
+    counter = 10
+
+    @staticmethod
+    def show_counter(cls):
+        print(cls.counter)
+
+Demo.show_counter(Demo)   # ✅ prints 10
 
 
+class Demo:
+    counter = 10
+
+    @staticmethod
+    def show_counter():
+        print(Demo.counter)   # ✅ allowed
+
+Demo.show_counter()
+
+
+NOTE : so we can call class and static method by class object also 
+
+Technically yes, practically not recommended.
+Why?
+
+Calling a class method through an instance hides the fact that it uses cls
+Calling a static method through an instance makes it look like it's tied to the instance when it's not
+
+Public		name	Accessible from anywhere
+Protected	_name	Convention only — meant for subclasses
+Private		__name	Name mangling — harder to access from outside
+
+class BankAccount:
+    def __init__(self, owner, balance):
+        self.owner   = owner         # public
+        self._limit  = 10000         # protected (convention)
+        self.__balance = balance     # private (name mangling)
+
+print(acc._BankAccount__balance)  # 5000  — still accessible!
+In Python, private variables are NOT truly private.
+They use something called name mangling, not real hiding.
+
+self.__balance ==> automatically converted to this ==> _BankAccount__balance
+“Private” in Python is soft private, not hard private.
+
+class A:
+    def __init__(self):
+        self.__x = 10
+
+class B(A):
+    def __init__(self):
+        self.__x = 20
+
+Mangled names become:
+
+_A__x
+_B__x
+
+Because Python follows the philosophy:
+“We are all consenting adults here.”
+Meaning:
+
+Python trusts developers.
+Python avoids strict access restrictions.
+
+# Regular getter method
+class Circle:
+    def get_area(self):        # called as c.get_area()
+        return 3.14 * self.r**2
+
+# @property
+class Circle:
+    @property
+    def area(self):            # called as c.area  (no parentheses!)
+        return 3.14 * self.r**2
+
+c = Circle(5)
+c.get_area()   # with parentheses — method call
+c.area         # no parentheses  — looks like attribute access
+
+
+def __str__(self):         # for end users
+def __repr__(self):        # for developers/debugging
+
+If only __repr__ is defined (no __str__), what does print(obj) use
+
+Python falls back to __repr__ if __str__ is not defined.
+
+class Dog:
+    def __repr__(self): return 'Dog(woof)'
+
+d = Dog()
+print(d)      # Dog(woof)   ← uses __repr__ as fallback
+str(d)        # 'Dog(woof)' ← uses __repr__ as fallback
+
+    def __abs__(self):                # abs(v) — magnitude
+        return (self.x**2 + self.y**2) ** 0.5
+
+__iter__(self): returns the iterator object itself.
+__next__(self): returns the next value in the iteration.
+
+An ITERABLE has __iter__ (e.g. list, str, dict).
+An ITERATOR has both __iter__ AND __next__.
+All iterators are iterables, but not all iterables are iterators.
+
+Normally, every Python object stores its attributes in a dictionary
+because of this dynamic adding of attributes became easier
+This allows:
+✅ Adding new attributes dynamically
+✅ Fast access
+❌ BUT it uses more memory — each object's __dict__ costs overhead
+
+When you define __slots__, Python removes __dict__
+class Point:
+    __slots__ = ['x', 'y']
+``
+
+Only attributes listed in __slots__ are allowed
+
+__init__ MUST return None (implicitly or explicitly).
+It is not allowed to return any other value.
+
+Inheritance allows a class (child/derived) to acquire properties and methods of another class (parent/base). It promotes code reuse and models real-world 'IS-A' relationships.
+
+IS-A relationship: Dog IS-A Animal, Car IS-A Vehicle
+HAS-A relationship: Car HAS-A Engine (this is composition, not inheritance)
+
+print(isinstance(d, Dog))     # True
+print(isinstance(d, Animal))  # True  ← d IS-A Animal too!
+print(issubclass(Dog, Animal))  # True
+
+
+scenario: if we dont call parent class constructor which has field of name
+print(d.name)    # AttributeError! self.name was never set
+
+MRO defines the order in which Python searches for a method or attribute in a class hierarchy. Python uses the C3 Linearization algorithm.
+
+        super().hello()   # calls next in MRO — flexible
+        # A.hello(self)   # hardcoded — breaks with multiple inheritance
+ If class hierarchy changes, super() adapts automatically
+
+# Two ways to view MRO
+print(C.__mro__)    # tuple — attribute
+print(C.mro())      # list  — method
+
+
+When you call a method on an object → Python looks for the method based on the actual object type, not the variable or the class where the method is written.
+Even though describe() is defined in Shape, when it calls self.area(), the self refers to the actual object (Circle or Rectangle), so Python uses the overridden method.
+
+class Shape:
+    def __init__(self, color='white'):
+        self.color = color
+
+    def area(self):
+        return 0              # default implementation
+
+    def describe(self):
+        return f'A {self.color} shape with area {self.area():.2f}'
+
+class Rectangle(Shape):
+    def __init__(self, w, h, color='blue'):
+        super().__init__(color)
+        self.w = w
+        self.h = h
+
+    def area(self):           # OVERRIDES parent's area()
+        return self.w * self.h
+
+c = Circle(5)
+r = Rectangle(4, 6)
+print(c.describe())   # A red shape with area 78.54 <- self.area() call the actual object that is rectangle class 
+
+
+Python does NOT support traditional overloading!
+  (Last definition wins — earlier ones are overwritten)
+
+overloading in python achieve through -> default param, vararg or instances
+
+Operator overloading lets you define how operators (+, -, *, ==, <, etc.) behave for your custom classes by implementing dunder methods.
+
+
+class Money:
+    def __init__(self, amount): self.amount = amount
+    def __add__(self, other):
+        return Money(self.amount + other)
+    def __radd__(self, other):   # right-hand add
+        return Money(other + self.amount)
+
+m = Money(10)
+m + 5    # calls m.__add__(5)      → Money(15)
+5 + m    # calls int.__add__ first → NotImplemented
+         # then calls m.__radd__(5) → Money(15)
+
+
+__radd__, __rsub__, __rmul__ etc. handle right-hand operations.
+
+# Check if a class has implemented all abstract methods
+print(Report.__abstractmethods__)  # frozenset()  — empty means done!
+print(Printable.__abstractmethods__)  # frozenset({'print_info'})
+
+This is why classmethod is used for alternative constructors —
+cls adapts to whichever class calls it.
+
+[True, False].count(1)  = 1  (True == 1!)
+  {True: 'yes', 1: 'no'}  = {True: 'no'}  (True and 1 same key!)
+
+True and 1 are equal AND have the same hash,
+
+COMPOSITION (HAS-A): Car HAS-A Engine
+  Class CONTAINS instance(s) of other classes.
+  Loose coupling — components can be swapped.
+
+
+class ElectricEngine:
+    def start(self):
+        return "Electric engine silently started"
+
+class Car:
+    def __init__(self, engine):
+        self.engine = engine   # inject engine (dependency)
+
+    def start(self):
+        return self.engine.start()
+
+car1 = Car(Engine())
+car2 = Car(ElectricEngine())
+
+print(car1.start())   # Engine started
+print(car2.start())   # Electric engine silently started
 
