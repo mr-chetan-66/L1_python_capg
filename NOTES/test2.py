@@ -41,3 +41,14 @@ for ch in name:
         ans[ch]=1
         
 print(dict(ans))
+
+
+# Topics:
+# Control Flow Statements
+# Strings
+# Date Functions
+# Collection Framework
+# Classes and Objects
+# File Handling
+# Exception Handling
+# Database Handling
