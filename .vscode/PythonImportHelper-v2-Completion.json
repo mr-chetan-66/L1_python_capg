@@ -320,6 +320,30 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "date",
         "importPath": "datetime",
         "description": "datetime",
@@ -794,6 +818,83 @@
         "documentation": {}
     },
     {
+        "label": "calendar",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "calendar",
+        "description": "calendar",
+        "detail": "calendar",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
         "label": "car",
         "kind": 6,
         "isExtraImport": true,
@@ -854,24 +955,6 @@
         "importPath": "it_service_management",
         "description": "it_service_management",
         "detail": "it_service_management",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "csv",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "csv",
-        "description": "csv",
-        "detail": "csv",
         "documentation": {}
     },
     {
@@ -2105,6 +2188,978 @@
         "description": "DBConProblem.ProblemLast_Library.utility",
         "peekOfCode": "def read_file(file_path):\n    # Write your code here\n    with open(file_path) as f:\n        record=[]\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[7]=='Paid':\n                dd=convert_date(part[4])\n                dl=convert_date(part[2])\n                if ((dd-dl).days)<=365:",
         "detail": "DBConProblem.ProblemLast_Library.utility",
+        "documentation": {}
+    },
+    {
+        "label": "BankAccount",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class BankAccount:\n    def __init__(self, owner, balance=0):\n        self.owner = owner\n        self.__balance = balance  # private\n    def deposit(self, amount):\n        if amount > 0:\n            self.__balance += amount\n    def withdraw(self, amount):\n        if 0 < amount <= self.__balance:\n            self.__balance -= amount",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Circle:\n    PI = 3.14159\n    def __init__(self, radius):\n        self.radius = radius\n    def area(self):\n        return Circle.PI * self.radius ** 2\n    @classmethod\n    def from_diameter(cls, diameter):\n        return cls(diameter / 2)\n    @staticmethod",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Animal:\n    def __init__(self, name):\n        self.name = name\n    def speak(self):\n        return \"...\"\n    def __str__(self):\n        return f\"Animal({self.name})\"\nclass Dog(Animal):\n    def speak(self):\n        return f\"{self.name} says: Woof!\"",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Dog",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Dog(Animal):\n    def speak(self):\n        return f\"{self.name} says: Woof!\"\nclass Cat(Animal):\n    def speak(self):\n        return f\"{self.name} says: Meow!\"\n# Q61 – Multiple inheritance + MRO demo\nclass A:\n    def greet(self): return \"Hello from A\"\nclass B(A):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Cat",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Cat(Animal):\n    def speak(self):\n        return f\"{self.name} says: Meow!\"\n# Q61 – Multiple inheritance + MRO demo\nclass A:\n    def greet(self): return \"Hello from A\"\nclass B(A):\n    def greet(self): return \"Hello from B\"\nclass C(A):\n    def greet(self): return \"Hello from C\"",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class A:\n    def greet(self): return \"Hello from A\"\nclass B(A):\n    def greet(self): return \"Hello from B\"\nclass C(A):\n    def greet(self): return \"Hello from C\"\nclass D(B, C):\n    pass\n# D().greet() -> \"Hello from B\" (MRO: D -> B -> C -> A)\n# Q62 – Dunder methods: __add__, __len__, __repr__",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class B(A):\n    def greet(self): return \"Hello from B\"\nclass C(A):\n    def greet(self): return \"Hello from C\"\nclass D(B, C):\n    pass\n# D().greet() -> \"Hello from B\" (MRO: D -> B -> C -> A)\n# Q62 – Dunder methods: __add__, __len__, __repr__\nclass Vector:\n    def __init__(self, x, y):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class C(A):\n    def greet(self): return \"Hello from C\"\nclass D(B, C):\n    pass\n# D().greet() -> \"Hello from B\" (MRO: D -> B -> C -> A)\n# Q62 – Dunder methods: __add__, __len__, __repr__\nclass Vector:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "D",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class D(B, C):\n    pass\n# D().greet() -> \"Hello from B\" (MRO: D -> B -> C -> A)\n# Q62 – Dunder methods: __add__, __len__, __repr__\nclass Vector:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n    def __add__(self, other):\n        return Vector(self.x + other.x, self.y + other.y)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Vector",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Vector:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n    def __add__(self, other):\n        return Vector(self.x + other.x, self.y + other.y)\n    def __repr__(self):\n        return f\"Vector({self.x}, {self.y})\"\n    def __len__(self):\n        return int((self.x**2 + self.y**2) ** 0.5)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Temperature",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Temperature:\n    def __init__(self, celsius=0):\n        self._celsius = celsius\n    @property\n    def celsius(self):\n        return self._celsius\n    @celsius.setter\n    def celsius(self, value):\n        if value < -273.15:\n            raise ValueError(\"Temperature below absolute zero!\")",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Shape(ABC):\n    @abstractmethod\n    def area(self): pass\n    @abstractmethod\n    def perimeter(self): pass\nclass Rectangle(Shape):\n    def __init__(self, w, h):\n        self.w = w\n        self.h = h\n    def area(self):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Rectangle(Shape):\n    def __init__(self, w, h):\n        self.w = w\n        self.h = h\n    def area(self):\n        return self.w * self.h\n    def perimeter(self):\n        return 2 * (self.w + self.h)\n# Q65 – Singleton pattern\nclass Singleton:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Singleton",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Singleton:\n    _instance = None\n    def __new__(cls):\n        if cls._instance is None:\n            cls._instance = super().__new__(cls)\n        return cls._instance\n# Q66 – Iterator class\nclass Countdown:\n    def __init__(self, start):\n        self.current = start",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Countdown",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Countdown:\n    def __init__(self, start):\n        self.current = start\n    def __iter__(self):\n        return self\n    def __next__(self):\n        if self.current < 0:\n            raise StopIteration\n        val = self.current\n        self.current -= 1",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "ManagedFile",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class ManagedFile:\n    def __init__(self, filename, mode):\n        self.filename = filename\n        self.mode = mode\n    def __enter__(self):\n        self.file = open(self.filename, self.mode)\n        return self.file\n    def __exit__(self, exc_type, exc_val, exc_tb):\n        self.file.close()\n        return False  # don't suppress exceptions",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Student:\n    name: str\n    age: int\n    grades: list = field(default_factory=list)\n    def average(self):\n        return sum(self.grades) / len(self.grades) if self.grades else 0\n# Q69 – Method overloading simulation using *args\nclass Calculator:\n    def add(self, *args):\n        return sum(args)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Calculator",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Calculator:\n    def add(self, *args):\n        return sum(args)\n# Q70 – Class with __slots__ for memory efficiency\nclass Point:\n    __slots__ = ['x', 'y']\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n# ──────────────────────────────────────────────────────────────────────────────",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "Point",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class Point:\n    __slots__ = ['x', 'y']\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n# ──────────────────────────────────────────────────────────────────────────────\n# SECTION 6: FILE HANDLING (Q71–Q80)\n# ──────────────────────────────────────────────────────────────────────────────\nimport os\nimport json",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "InsufficientFundsError",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class InsufficientFundsError(Exception):\n    def __init__(self, amount, balance):\n        self.amount = amount\n        self.balance = balance\n        super().__init__(f\"Cannot withdraw {amount}. Balance is {balance}.\")\ndef q82_withdraw(balance, amount):\n    if amount > balance:\n        raise InsufficientFundsError(amount, balance)\n    return balance - amount\n# Q83 – Catch multiple exceptions",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "kind": 6,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "class ValidationError(Exception):\n    pass\ndef q86_validate_age(age):\n    if not isinstance(age, int):\n        raise ValidationError(\"Age must be an integer\")\n    if age < 0 or age > 150:\n        raise ValidationError(f\"Age {age} is out of valid range (0-150)\")\n    return True\n# Q87 – Using contextlib.suppress\ndef q87_suppress_demo(d, key):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q1_fizzbuzz",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q1_fizzbuzz(n):\n    \"\"\"Print FizzBuzz for numbers 1 to n.\"\"\"\n    result = []\n    for i in range(1, n + 1):\n        if i % 15 == 0:\n            result.append(\"FizzBuzz\")\n        elif i % 3 == 0:\n            result.append(\"Fizz\")\n        elif i % 5 == 0:\n            result.append(\"Buzz\")",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q2_is_prime",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q2_is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n# Q3 – Print multiplication table\ndef q3_multiplication_table(n):\n    table = []",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q3_multiplication_table",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q3_multiplication_table(n):\n    table = []\n    for i in range(1, 11):\n        table.append(f\"{n} x {i} = {n * i}\")\n    return table\n# Q4 – Fibonacci using while loop\ndef q4_fibonacci(n):\n    a, b = 0, 1\n    result = []\n    while len(result) < n:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q4_fibonacci",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q4_fibonacci(n):\n    a, b = 0, 1\n    result = []\n    while len(result) < n:\n        result.append(a)\n        a, b = b, a + b\n    return result\n# Q5 – Sum of digits\ndef q5_sum_of_digits(n):\n    return sum(int(d) for d in str(abs(n)))",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q5_sum_of_digits",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q5_sum_of_digits(n):\n    return sum(int(d) for d in str(abs(n)))\n# Q6 – Reverse a number using loops\ndef q6_reverse_number(n):\n    reversed_n = 0\n    negative = n < 0\n    n = abs(n)\n    while n > 0:\n        reversed_n = reversed_n * 10 + n % 10\n        n //= 10",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q6_reverse_number",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q6_reverse_number(n):\n    reversed_n = 0\n    negative = n < 0\n    n = abs(n)\n    while n > 0:\n        reversed_n = reversed_n * 10 + n % 10\n        n //= 10\n    return -reversed_n if negative else reversed_n\n# Q7 – Pattern: right-angle triangle of stars\ndef q7_star_pattern(rows):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q7_star_pattern",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q7_star_pattern(rows):\n    pattern = []\n    for i in range(1, rows + 1):\n        pattern.append(\"* \" * i)\n    return pattern\n# Q8 – Count vowels and consonants using loop\ndef q8_count_vowels_consonants(s):\n    vowels = \"aeiouAEIOU\"\n    v_count = sum(1 for c in s if c in vowels)\n    c_count = sum(1 for c in s if c.isalpha() and c not in vowels)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q8_count_vowels_consonants",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q8_count_vowels_consonants(s):\n    vowels = \"aeiouAEIOU\"\n    v_count = sum(1 for c in s if c in vowels)\n    c_count = sum(1 for c in s if c.isalpha() and c not in vowels)\n    return v_count, c_count\n# Q9 – GCD using loop\ndef q9_gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q9_gcd",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q9_gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n# Q10 – Check Armstrong number\ndef q10_is_armstrong(n):\n    digits = str(n)\n    power = len(digits)\n    return n == sum(int(d) ** power for d in digits)\n# Q11 – Find all prime numbers up to n (Sieve of Eratosthenes)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q10_is_armstrong",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q10_is_armstrong(n):\n    digits = str(n)\n    power = len(digits)\n    return n == sum(int(d) ** power for d in digits)\n# Q11 – Find all prime numbers up to n (Sieve of Eratosthenes)\ndef q11_sieve(n):\n    sieve = [True] * (n + 1)\n    sieve[0] = sieve[1] = False\n    for i in range(2, int(n**0.5) + 1):\n        if sieve[i]:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q11_sieve",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q11_sieve(n):\n    sieve = [True] * (n + 1)\n    sieve[0] = sieve[1] = False\n    for i in range(2, int(n**0.5) + 1):\n        if sieve[i]:\n            for j in range(i*i, n + 1, i):\n                sieve[j] = False\n    return [i for i in range(2, n + 1) if sieve[i]]\n# Q12 – break/continue: skip multiples of 3, stop at 20\ndef q12_break_continue():",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q12_break_continue",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q12_break_continue():\n    result = []\n    for i in range(1, 50):\n        if i > 20:\n            break\n        if i % 3 == 0:\n            continue\n        result.append(i)\n    return result\n# Q13 – Nested loop: print number pyramid",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q13_number_pyramid",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q13_number_pyramid(rows):\n    pattern = []\n    for i in range(1, rows + 1):\n        pattern.append(\" \".join(str(j) for j in range(1, i + 1)))\n    return pattern\n# Q14 – Collatz conjecture steps\ndef q14_collatz(n):\n    steps = [n]\n    while n != 1:\n        n = n // 2 if n % 2 == 0 else 3 * n + 1",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q14_collatz",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q14_collatz(n):\n    steps = [n]\n    while n != 1:\n        n = n // 2 if n % 2 == 0 else 3 * n + 1\n        steps.append(n)\n    return steps\n# ──────────────────────────────────────────────────────────────────────────────\n# SECTION 2: STRINGS (Q15–Q29)\n# ──────────────────────────────────────────────────────────────────────────────\n# Q15 – Reverse a string",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q15_reverse_string",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q15_reverse_string(s):\n    return s[::-1]\n# Q16 – Check palindrome\ndef q16_is_palindrome(s):\n    cleaned = s.replace(\" \", \"\").lower()\n    return cleaned == cleaned[::-1]\n# Q17 – Count word frequency\ndef q17_word_frequency(sentence):\n    freq = {}\n    for word in sentence.lower().split():",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q16_is_palindrome",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q16_is_palindrome(s):\n    cleaned = s.replace(\" \", \"\").lower()\n    return cleaned == cleaned[::-1]\n# Q17 – Count word frequency\ndef q17_word_frequency(sentence):\n    freq = {}\n    for word in sentence.lower().split():\n        freq[word] = freq.get(word, 0) + 1\n    return freq\n# Q18 – Find longest word in a sentence",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q17_word_frequency",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q17_word_frequency(sentence):\n    freq = {}\n    for word in sentence.lower().split():\n        freq[word] = freq.get(word, 0) + 1\n    return freq\n# Q18 – Find longest word in a sentence\ndef q18_longest_word(sentence):\n    words = sentence.split()\n    return max(words, key=len)\n# Q19 – Check anagram",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q18_longest_word",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q18_longest_word(sentence):\n    words = sentence.split()\n    return max(words, key=len)\n# Q19 – Check anagram\ndef q19_is_anagram(s1, s2):\n    return sorted(s1.lower()) == sorted(s2.lower())\n# Q20 – Remove duplicates from string (preserve order)\ndef q20_remove_duplicates(s):\n    seen = set()\n    result = []",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q19_is_anagram",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q19_is_anagram(s1, s2):\n    return sorted(s1.lower()) == sorted(s2.lower())\n# Q20 – Remove duplicates from string (preserve order)\ndef q20_remove_duplicates(s):\n    seen = set()\n    result = []\n    for c in s:\n        if c not in seen:\n            seen.add(c)\n            result.append(c)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q20_remove_duplicates",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q20_remove_duplicates(s):\n    seen = set()\n    result = []\n    for c in s:\n        if c not in seen:\n            seen.add(c)\n            result.append(c)\n    return \"\".join(result)\n# Q21 – Title case without .title()\ndef q21_title_case(s):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q21_title_case",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q21_title_case(s):\n    return \" \".join(word.capitalize() for word in s.split())\n# Q22 – Count occurrences of substring\ndef q22_count_substring(s, sub):\n    return s.count(sub)\n# Q23 – Check if string is pangram\ndef q23_is_pangram(s):\n    return set(\"abcdefghijklmnopqrstuvwxyz\").issubset(set(s.lower()))\n# Q24 – Compress string (Run-length encoding)\ndef q24_compress_string(s):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q22_count_substring",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q22_count_substring(s, sub):\n    return s.count(sub)\n# Q23 – Check if string is pangram\ndef q23_is_pangram(s):\n    return set(\"abcdefghijklmnopqrstuvwxyz\").issubset(set(s.lower()))\n# Q24 – Compress string (Run-length encoding)\ndef q24_compress_string(s):\n    if not s:\n        return \"\"\n    result = []",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q23_is_pangram",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q23_is_pangram(s):\n    return set(\"abcdefghijklmnopqrstuvwxyz\").issubset(set(s.lower()))\n# Q24 – Compress string (Run-length encoding)\ndef q24_compress_string(s):\n    if not s:\n        return \"\"\n    result = []\n    count = 1\n    for i in range(1, len(s)):\n        if s[i] == s[i-1]:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q24_compress_string",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q24_compress_string(s):\n    if not s:\n        return \"\"\n    result = []\n    count = 1\n    for i in range(1, len(s)):\n        if s[i] == s[i-1]:\n            count += 1\n        else:\n            result.append(s[i-1] + (str(count) if count > 1 else \"\"))",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q25_caesar_cipher",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q25_caesar_cipher(text, shift):\n    result = []\n    for c in text:\n        if c.isalpha():\n            base = ord('A') if c.isupper() else ord('a')\n            result.append(chr((ord(c) - base + shift) % 26 + base))\n        else:\n            result.append(c)\n    return \"\".join(result)\n# Q26 – Extract numbers from string",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q26_extract_numbers",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q26_extract_numbers(s):\n    import re\n    return list(map(int, re.findall(r'\\d+', s)))\n# Q27 – Check balanced brackets\ndef q27_balanced_brackets(s):\n    stack = []\n    pairs = {')': '(', ']': '[', '}': '{'}\n    for c in s:\n        if c in '([{':\n            stack.append(c)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q27_balanced_brackets",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q27_balanced_brackets(s):\n    stack = []\n    pairs = {')': '(', ']': '[', '}': '{'}\n    for c in s:\n        if c in '([{':\n            stack.append(c)\n        elif c in ')]}':\n            if not stack or stack[-1] != pairs[c]:\n                return False\n            stack.pop()",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q28_rotate_string",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q28_rotate_string(s, k):\n    k = k % len(s) if s else 0\n    return s[k:] + s[:k]\n# Q29 – Find all permutations of a string\ndef q29_permutations(s):\n    from itertools import permutations\n    return sorted(set(\"\".join(p) for p in permutations(s)))\n# ──────────────────────────────────────────────────────────────────────────────\n# SECTION 3: DATE FUNCTIONS (Q30–Q37)\n# ──────────────────────────────────────────────────────────────────────────────",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q29_permutations",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q29_permutations(s):\n    from itertools import permutations\n    return sorted(set(\"\".join(p) for p in permutations(s)))\n# ──────────────────────────────────────────────────────────────────────────────\n# SECTION 3: DATE FUNCTIONS (Q30–Q37)\n# ──────────────────────────────────────────────────────────────────────────────\nfrom datetime import datetime, date, timedelta\nimport calendar\n# Q30 – Get today's date and format it\ndef q30_today_formatted():",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q30_today_formatted",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q30_today_formatted():\n    return datetime.now().strftime(\"%d-%B-%Y\")\n# Q31 – Days between two dates\ndef q31_days_between(date1_str, date2_str):\n    d1 = datetime.strptime(date1_str, \"%Y-%m-%d\")\n    d2 = datetime.strptime(date2_str, \"%Y-%m-%d\")\n    return abs((d2 - d1).days)\n# Q32 – Find day of the week for a given date\ndef q32_day_of_week(date_str):\n    d = datetime.strptime(date_str, \"%Y-%m-%d\")",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q31_days_between",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q31_days_between(date1_str, date2_str):\n    d1 = datetime.strptime(date1_str, \"%Y-%m-%d\")\n    d2 = datetime.strptime(date2_str, \"%Y-%m-%d\")\n    return abs((d2 - d1).days)\n# Q32 – Find day of the week for a given date\ndef q32_day_of_week(date_str):\n    d = datetime.strptime(date_str, \"%Y-%m-%d\")\n    return d.strftime(\"%A\")\n# Q33 – Add N days to a date\ndef q33_add_days(date_str, n):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q32_day_of_week",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q32_day_of_week(date_str):\n    d = datetime.strptime(date_str, \"%Y-%m-%d\")\n    return d.strftime(\"%A\")\n# Q33 – Add N days to a date\ndef q33_add_days(date_str, n):\n    d = datetime.strptime(date_str, \"%Y-%m-%d\")\n    return (d + timedelta(days=n)).strftime(\"%Y-%m-%d\")\n# Q34 – Check if a year is a leap year\ndef q34_is_leap(year):\n    return calendar.isleap(year)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q33_add_days",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q33_add_days(date_str, n):\n    d = datetime.strptime(date_str, \"%Y-%m-%d\")\n    return (d + timedelta(days=n)).strftime(\"%Y-%m-%d\")\n# Q34 – Check if a year is a leap year\ndef q34_is_leap(year):\n    return calendar.isleap(year)\n# Q35 – Get first and last day of current month\ndef q35_first_last_day():\n    today = date.today()\n    first = today.replace(day=1)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q34_is_leap",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q34_is_leap(year):\n    return calendar.isleap(year)\n# Q35 – Get first and last day of current month\ndef q35_first_last_day():\n    today = date.today()\n    first = today.replace(day=1)\n    last_day = calendar.monthrange(today.year, today.month)[1]\n    last = today.replace(day=last_day)\n    return first.isoformat(), last.isoformat()\n# Q36 – Convert Unix timestamp to readable date",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q35_first_last_day",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q35_first_last_day():\n    today = date.today()\n    first = today.replace(day=1)\n    last_day = calendar.monthrange(today.year, today.month)[1]\n    last = today.replace(day=last_day)\n    return first.isoformat(), last.isoformat()\n# Q36 – Convert Unix timestamp to readable date\ndef q36_unix_to_date(timestamp):\n    return datetime.fromtimestamp(timestamp).strftime(\"%Y-%m-%d %H:%M:%S\")\n# Q37 – Find age from date of birth",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q36_unix_to_date",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q36_unix_to_date(timestamp):\n    return datetime.fromtimestamp(timestamp).strftime(\"%Y-%m-%d %H:%M:%S\")\n# Q37 – Find age from date of birth\ndef q37_calculate_age(dob_str):\n    dob = datetime.strptime(dob_str, \"%Y-%m-%d\").date()\n    today = date.today()\n    age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))\n    return age\n# ──────────────────────────────────────────────────────────────────────────────\n# SECTION 4: COLLECTION FRAMEWORK (Q38–Q57)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q37_calculate_age",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q37_calculate_age(dob_str):\n    dob = datetime.strptime(dob_str, \"%Y-%m-%d\").date()\n    today = date.today()\n    age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))\n    return age\n# ──────────────────────────────────────────────────────────────────────────────\n# SECTION 4: COLLECTION FRAMEWORK (Q38–Q57)\n# ──────────────────────────────────────────────────────────────────────────────\n# Q38 – Remove duplicates from list preserving order\ndef q38_remove_list_duplicates(lst):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q38_remove_list_duplicates",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q38_remove_list_duplicates(lst):\n    seen = set()\n    return [x for x in lst if not (x in seen or seen.add(x))]\n# Q39 – Flatten a nested list\ndef q39_flatten(nested):\n    flat = []\n    for item in nested:\n        if isinstance(item, list):\n            flat.extend(q39_flatten(item))\n        else:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q39_flatten",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q39_flatten(nested):\n    flat = []\n    for item in nested:\n        if isinstance(item, list):\n            flat.extend(q39_flatten(item))\n        else:\n            flat.append(item)\n    return flat\n# Q40 – List comprehension: squares of even numbers\ndef q40_even_squares(n):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q40_even_squares",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q40_even_squares(n):\n    return [x**2 for x in range(1, n+1) if x % 2 == 0]\n# Q41 – Second largest element in list\ndef q41_second_largest(lst):\n    unique = list(set(lst))\n    if len(unique) < 2:\n        return None\n    unique.sort()\n    return unique[-2]\n# Q42 – Rotate list by k positions",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q41_second_largest",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q41_second_largest(lst):\n    unique = list(set(lst))\n    if len(unique) < 2:\n        return None\n    unique.sort()\n    return unique[-2]\n# Q42 – Rotate list by k positions\ndef q42_rotate_list(lst, k):\n    if not lst:\n        return lst",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q42_rotate_list",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q42_rotate_list(lst, k):\n    if not lst:\n        return lst\n    k = k % len(lst)\n    return lst[k:] + lst[:k]\n# Q43 – Merge two sorted lists\ndef q43_merge_sorted(l1, l2):\n    result = []\n    i = j = 0\n    while i < len(l1) and j < len(l2):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q43_merge_sorted",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q43_merge_sorted(l1, l2):\n    result = []\n    i = j = 0\n    while i < len(l1) and j < len(l2):\n        if l1[i] <= l2[j]:\n            result.append(l1[i]); i += 1\n        else:\n            result.append(l2[j]); j += 1\n    result.extend(l1[i:])\n    result.extend(l2[j:])",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q44_swap",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q44_swap(a, b):\n    a, b = b, a\n    return a, b\n# Q45 – Named tuple for student record\ndef q45_named_tuple_demo():\n    from collections import namedtuple\n    Student = namedtuple(\"Student\", [\"name\", \"age\", \"grade\"])\n    s = Student(\"Chetan\", 22, \"A\")\n    return s\n# Q46 – Zip two lists into a dictionary",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q45_named_tuple_demo",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q45_named_tuple_demo():\n    from collections import namedtuple\n    Student = namedtuple(\"Student\", [\"name\", \"age\", \"grade\"])\n    s = Student(\"Chetan\", 22, \"A\")\n    return s\n# Q46 – Zip two lists into a dictionary\ndef q46_zip_to_dict(keys, values):\n    return dict(zip(keys, values))\n# Q47 – Set operations: union, intersection, difference\ndef q47_set_operations(s1, s2):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q46_zip_to_dict",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q46_zip_to_dict(keys, values):\n    return dict(zip(keys, values))\n# Q47 – Set operations: union, intersection, difference\ndef q47_set_operations(s1, s2):\n    return {\n        \"union\": s1 | s2,\n        \"intersection\": s1 & s2,\n        \"difference\": s1 - s2,\n        \"symmetric_difference\": s1 ^ s2\n    }",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q47_set_operations",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q47_set_operations(s1, s2):\n    return {\n        \"union\": s1 | s2,\n        \"intersection\": s1 & s2,\n        \"difference\": s1 - s2,\n        \"symmetric_difference\": s1 ^ s2\n    }\n# Q48 – Find common elements in two lists\ndef q48_common_elements(l1, l2):\n    return list(set(l1) & set(l2))",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q48_common_elements",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q48_common_elements(l1, l2):\n    return list(set(l1) & set(l2))\n# Q49 – Word count using Counter\ndef q49_word_count(text):\n    from collections import Counter\n    return Counter(text.lower().split())\n# Q50 – Group list elements by type\ndef q50_group_by_type(lst):\n    from collections import defaultdict\n    groups = defaultdict(list)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q49_word_count",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q49_word_count(text):\n    from collections import Counter\n    return Counter(text.lower().split())\n# Q50 – Group list elements by type\ndef q50_group_by_type(lst):\n    from collections import defaultdict\n    groups = defaultdict(list)\n    for item in lst:\n        groups[type(item).__name__].append(item)\n    return dict(groups)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q50_group_by_type",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q50_group_by_type(lst):\n    from collections import defaultdict\n    groups = defaultdict(list)\n    for item in lst:\n        groups[type(item).__name__].append(item)\n    return dict(groups)\n# Q51 – Dictionary: invert keys and values\ndef q51_invert_dict(d):\n    return {v: k for k, v in d.items()}\n# Q52 – Merge two dictionaries (Python 3.9+)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q51_invert_dict",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q51_invert_dict(d):\n    return {v: k for k, v in d.items()}\n# Q52 – Merge two dictionaries (Python 3.9+)\ndef q52_merge_dicts(d1, d2):\n    return {**d1, **d2}\n# Q53 – Sort dictionary by value\ndef q53_sort_by_value(d, reverse=False):\n    return dict(sorted(d.items(), key=lambda x: x[1], reverse=reverse))\n# Q54 – Stack using list\ndef q54_stack_demo():",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q52_merge_dicts",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q52_merge_dicts(d1, d2):\n    return {**d1, **d2}\n# Q53 – Sort dictionary by value\ndef q53_sort_by_value(d, reverse=False):\n    return dict(sorted(d.items(), key=lambda x: x[1], reverse=reverse))\n# Q54 – Stack using list\ndef q54_stack_demo():\n    stack = []\n    stack.append(10)\n    stack.append(20)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q53_sort_by_value",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q53_sort_by_value(d, reverse=False):\n    return dict(sorted(d.items(), key=lambda x: x[1], reverse=reverse))\n# Q54 – Stack using list\ndef q54_stack_demo():\n    stack = []\n    stack.append(10)\n    stack.append(20)\n    stack.append(30)\n    top = stack.pop()\n    return top, stack",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q54_stack_demo",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q54_stack_demo():\n    stack = []\n    stack.append(10)\n    stack.append(20)\n    stack.append(30)\n    top = stack.pop()\n    return top, stack\n# Q55 – Queue using deque\ndef q55_queue_demo():\n    from collections import deque",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q55_queue_demo",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q55_queue_demo():\n    from collections import deque\n    queue = deque()\n    queue.append(\"A\")\n    queue.append(\"B\")\n    queue.append(\"C\")\n    front = queue.popleft()\n    return front, list(queue)\n# Q56 – Sliding window maximum (size k)\ndef q56_sliding_window_max(nums, k):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q56_sliding_window_max",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q56_sliding_window_max(nums, k):\n    from collections import deque\n    dq = deque()\n    result = []\n    for i, num in enumerate(nums):\n        while dq and nums[dq[-1]] < num:\n            dq.pop()\n        dq.append(i)\n        if dq[0] == i - k:\n            dq.popleft()",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q57_transpose",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q57_transpose(matrix):\n    return [list(row) for row in zip(*matrix)]\n# ──────────────────────────────────────────────────────────────────────────────\n# SECTION 5: CLASSES AND OBJECTS (Q58–Q70)\n# ──────────────────────────────────────────────────────────────────────────────\n# Q58 – Basic class: BankAccount\nclass BankAccount:\n    def __init__(self, owner, balance=0):\n        self.owner = owner\n        self.__balance = balance  # private",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q71_write_read_file",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q71_write_read_file(filename, content):\n    with open(filename, 'w') as f:\n        f.write(content)\n    with open(filename, 'r') as f:\n        return f.read()\n# Q72 – Append to a file\ndef q72_append_to_file(filename, line):\n    with open(filename, 'a') as f:\n        f.write(line + '\\n')\n# Q73 – Count lines, words, characters in a file",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q72_append_to_file",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q72_append_to_file(filename, line):\n    with open(filename, 'a') as f:\n        f.write(line + '\\n')\n# Q73 – Count lines, words, characters in a file\ndef q73_file_stats(filename):\n    with open(filename, 'r') as f:\n        content = f.read()\n    lines = content.splitlines()\n    words = content.split()\n    return len(lines), len(words), len(content)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q73_file_stats",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q73_file_stats(filename):\n    with open(filename, 'r') as f:\n        content = f.read()\n    lines = content.splitlines()\n    words = content.split()\n    return len(lines), len(words), len(content)\n# Q74 – Read file line by line and number each line\ndef q74_number_lines(filename):\n    with open(filename, 'r') as f:\n        return [f\"{i+1}: {line.rstrip()}\" for i, line in enumerate(f)]",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q74_number_lines",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q74_number_lines(filename):\n    with open(filename, 'r') as f:\n        return [f\"{i+1}: {line.rstrip()}\" for i, line in enumerate(f)]\n# Q75 – Write and read CSV file\ndef q75_csv_write_read(filename, data, headers):\n    with open(filename, 'w', newline='') as f:\n        writer = csv.DictWriter(f, fieldnames=headers)\n        writer.writeheader()\n        writer.writerows(data)\n    with open(filename, 'r') as f:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q75_csv_write_read",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q75_csv_write_read(filename, data, headers):\n    with open(filename, 'w', newline='') as f:\n        writer = csv.DictWriter(f, fieldnames=headers)\n        writer.writeheader()\n        writer.writerows(data)\n    with open(filename, 'r') as f:\n        return list(csv.DictReader(f))\n# Q76 – Write and read JSON file\ndef q76_json_write_read(filename, data):\n    with open(filename, 'w') as f:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q76_json_write_read",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q76_json_write_read(filename, data):\n    with open(filename, 'w') as f:\n        json.dump(data, f, indent=4)\n    with open(filename, 'r') as f:\n        return json.load(f)\n# Q77 – Copy file content\ndef q77_copy_file(src, dest):\n    with open(src, 'r') as f:\n        content = f.read()\n    with open(dest, 'w') as f:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q77_copy_file",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q77_copy_file(src, dest):\n    with open(src, 'r') as f:\n        content = f.read()\n    with open(dest, 'w') as f:\n        f.write(content)\n# Q78 – Search for a keyword in file\ndef q78_search_in_file(filename, keyword):\n    matches = []\n    with open(filename, 'r') as f:\n        for i, line in enumerate(f, 1):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q78_search_in_file",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q78_search_in_file(filename, keyword):\n    matches = []\n    with open(filename, 'r') as f:\n        for i, line in enumerate(f, 1):\n            if keyword.lower() in line.lower():\n                matches.append((i, line.rstrip()))\n    return matches\n# Q79 – List all files in a directory with extension filter\ndef q79_list_files(directory, ext=None):\n    files = os.listdir(directory)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q79_list_files",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q79_list_files(directory, ext=None):\n    files = os.listdir(directory)\n    if ext:\n        files = [f for f in files if f.endswith(ext)]\n    return sorted(files)\n# Q80 – Binary file read/write\ndef q80_binary_file(filename, data_bytes):\n    with open(filename, 'wb') as f:\n        f.write(data_bytes)\n    with open(filename, 'rb') as f:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q80_binary_file",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q80_binary_file(filename, data_bytes):\n    with open(filename, 'wb') as f:\n        f.write(data_bytes)\n    with open(filename, 'rb') as f:\n        return f.read()\n# ──────────────────────────────────────────────────────────────────────────────\n# SECTION 7: EXCEPTION HANDLING (Q81–Q90)\n# ──────────────────────────────────────────────────────────────────────────────\n# Q81 – Basic try/except/else/finally\ndef q81_safe_divide(a, b):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q81_safe_divide",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q81_safe_divide(a, b):\n    try:\n        result = a / b\n    except ZeroDivisionError:\n        return \"Error: Cannot divide by zero\"\n    except TypeError:\n        return \"Error: Invalid types\"\n    else:\n        return result\n    finally:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q82_withdraw",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q82_withdraw(balance, amount):\n    if amount > balance:\n        raise InsufficientFundsError(amount, balance)\n    return balance - amount\n# Q83 – Catch multiple exceptions\ndef q83_risky_op(lst, idx):\n    try:\n        return int(lst[idx]) * 2\n    except IndexError:\n        return \"Error: Index out of range\"",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q83_risky_op",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q83_risky_op(lst, idx):\n    try:\n        return int(lst[idx]) * 2\n    except IndexError:\n        return \"Error: Index out of range\"\n    except ValueError:\n        return \"Error: Cannot convert to int\"\n# Q84 – Re-raise exception after logging\ndef q84_reraise(value):\n    try:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q84_reraise",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q84_reraise(value):\n    try:\n        result = 100 / value\n    except ZeroDivisionError as e:\n        print(f\"[LOG] ZeroDivisionError caught: {e}\")\n        raise\n    return result\n# Q85 – Exception chaining with 'raise from'\ndef q85_exception_chaining(filename):\n    try:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q85_exception_chaining",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q85_exception_chaining(filename):\n    try:\n        with open(filename) as f:\n            data = f.read()\n    except FileNotFoundError as e:\n        raise RuntimeError(f\"Config load failed: {filename}\") from e\n# Q86 – Validate input with custom exceptions\nclass ValidationError(Exception):\n    pass\ndef q86_validate_age(age):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q86_validate_age",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q86_validate_age(age):\n    if not isinstance(age, int):\n        raise ValidationError(\"Age must be an integer\")\n    if age < 0 or age > 150:\n        raise ValidationError(f\"Age {age} is out of valid range (0-150)\")\n    return True\n# Q87 – Using contextlib.suppress\ndef q87_suppress_demo(d, key):\n    from contextlib import suppress\n    with suppress(KeyError):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q87_suppress_demo",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q87_suppress_demo(d, key):\n    from contextlib import suppress\n    with suppress(KeyError):\n        return d[key]\n    return None\n# Q88 – Retry logic with exception handling\ndef q88_retry(func, retries=3, *args):\n    for attempt in range(retries):\n        try:\n            return func(*args)",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q88_retry",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q88_retry(func, retries=3, *args):\n    for attempt in range(retries):\n        try:\n            return func(*args)\n        except Exception as e:\n            if attempt == retries - 1:\n                raise\n            print(f\"Attempt {attempt+1} failed: {e}. Retrying...\")\n# Q89 – Exception in list comprehension via generator\ndef q89_safe_convert(lst):",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q89_safe_convert",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q89_safe_convert(lst):\n    def try_int(x):\n        try:\n            return int(x)\n        except (ValueError, TypeError):\n            return None\n    return [try_int(x) for x in lst]\n# Q90 – Nested try-except\ndef q90_nested_exception(data):\n    results = []",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q90_nested_exception",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q90_nested_exception(data):\n    results = []\n    for item in data:\n        try:\n            try:\n                val = int(item)\n                result = 100 // val\n            except ZeroDivisionError:\n                result = \"inf\"\n        except ValueError:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q91_create_table",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q91_create_table():\n    conn = sqlite3.connect(\":memory:\")  # in-memory for demo\n    cursor = conn.cursor()\n    cursor.execute(\"\"\"\n        CREATE TABLE IF NOT EXISTS students (\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\n            name TEXT NOT NULL,\n            age INTEGER,\n            grade TEXT\n        )",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q92_insert_records",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q92_insert_records(conn):\n    cursor = conn.cursor()\n    # Single insert\n    cursor.execute(\"INSERT INTO students (name, age, grade) VALUES (?, ?, ?)\",\n                   (\"Alice\", 20, \"A\"))\n    # Multiple inserts\n    students = [(\"Bob\", 21, \"B\"), (\"Charlie\", 22, \"A+\"), (\"Diana\", 19, \"A\")]\n    cursor.executemany(\"INSERT INTO students (name, age, grade) VALUES (?, ?, ?)\", students)\n    conn.commit()\n# Q93 – Fetch all records",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q93_fetch_all",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q93_fetch_all(conn):\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT * FROM students\")\n    return cursor.fetchall()\n# Q94 – Fetch with WHERE clause\ndef q94_fetch_filtered(conn, grade):\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT name, age FROM students WHERE grade = ?\", (grade,))\n    return cursor.fetchall()\n# Q95 – Update a record",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q94_fetch_filtered",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q94_fetch_filtered(conn, grade):\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT name, age FROM students WHERE grade = ?\", (grade,))\n    return cursor.fetchall()\n# Q95 – Update a record\ndef q95_update_record(conn, student_id, new_grade):\n    cursor = conn.cursor()\n    cursor.execute(\"UPDATE students SET grade = ? WHERE id = ?\", (new_grade, student_id))\n    conn.commit()\n    return cursor.rowcount  # number of rows affected",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q95_update_record",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q95_update_record(conn, student_id, new_grade):\n    cursor = conn.cursor()\n    cursor.execute(\"UPDATE students SET grade = ? WHERE id = ?\", (new_grade, student_id))\n    conn.commit()\n    return cursor.rowcount  # number of rows affected\n# Q96 – Delete a record\ndef q96_delete_record(conn, name):\n    cursor = conn.cursor()\n    cursor.execute(\"DELETE FROM students WHERE name = ?\", (name,))\n    conn.commit()",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q96_delete_record",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q96_delete_record(conn, name):\n    cursor = conn.cursor()\n    cursor.execute(\"DELETE FROM students WHERE name = ?\", (name,))\n    conn.commit()\n    return cursor.rowcount\n# Q97 – Aggregate queries: COUNT, AVG, MAX, MIN\ndef q97_aggregates(conn):\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT COUNT(*), AVG(age), MAX(age), MIN(age) FROM students\")\n    return cursor.fetchone()",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q97_aggregates",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q97_aggregates(conn):\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT COUNT(*), AVG(age), MAX(age), MIN(age) FROM students\")\n    return cursor.fetchone()\n# Q98 – Use Row factory for dict-like access\ndef q98_row_factory(conn):\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT * FROM students\")\n    rows = cursor.fetchall()",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q98_row_factory",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q98_row_factory(conn):\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT * FROM students\")\n    rows = cursor.fetchall()\n    return [dict(row) for row in rows]\n# Q99 – Transaction with rollback on error\ndef q99_transaction_demo(conn):\n    cursor = conn.cursor()\n    try:",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q99_transaction_demo",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q99_transaction_demo(conn):\n    cursor = conn.cursor()\n    try:\n        cursor.execute(\"INSERT INTO students (name, age, grade) VALUES (?, ?, ?)\", (\"Eve\", 23, \"B+\"))\n        # Simulate error\n        cursor.execute(\"INSERT INTO students (name, age, grade) VALUES (?, ?, ?)\", (\"Eve\", None, None))\n        conn.commit()\n    except Exception as e:\n        conn.rollback()\n        return f\"Transaction rolled back: {e}\"",
+        "detail": "Interview.solutions",
+        "documentation": {}
+    },
+    {
+        "label": "q100_full_crud",
+        "kind": 2,
+        "importPath": "Interview.solutions",
+        "description": "Interview.solutions",
+        "peekOfCode": "def q100_full_crud():\n    conn = sqlite3.connect(\":memory:\")\n    cursor = conn.cursor()\n    # Create\n    cursor.execute(\"CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT, price REAL)\")\n    cursor.executemany(\"INSERT INTO products VALUES (?, ?, ?)\",\n                       [(1, \"Laptop\", 50000), (2, \"Mouse\", 500), (3, \"Keyboard\", 1500)])\n    conn.commit()\n    # Read\n    cursor.execute(\"SELECT * FROM products ORDER BY price DESC\")",
+        "detail": "Interview.solutions",
         "documentation": {}
     },
     {
