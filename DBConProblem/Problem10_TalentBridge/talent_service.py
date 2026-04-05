@@ -11,6 +11,7 @@ with open("database.properties") as f:
 conn = oracledb.connect(user=db["DB_USERNAME"], password=db["DB_PASSWORD"], dsn=db["DSN"])
 
 
+
 class TalentService:
 
     def __init__(self):

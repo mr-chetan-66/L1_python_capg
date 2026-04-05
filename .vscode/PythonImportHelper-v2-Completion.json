@@ -3933,7 +3933,7 @@
         "kind": 2,
         "importPath": "L1 Real Mock Question.it_servicemanagement.utility",
         "description": "L1 Real Mock Question.it_servicemanagement.utility",
-        "peekOfCode": "def read_file(file):\n    ## Write your code here\n    with open(file, \"r\") as f:\n        data = f.read().split(\"\\n\")\n        lst = []\n        for datum in data:\n            vals = datum.split(\":\")\n            lst.append(vals)\n    return lst\ndef validate_service_id(service_id):",
+        "peekOfCode": "def read_file(file):\n    ## Write your code here\n    with open(file) as f:\n        data = f.read().split(\"\\n\")\n        lst = []\n        for datum in data:\n            vals = datum.split(\":\")\n            lst.append(vals)\n    return lst\ndef validate_service_id(service_id):",
         "detail": "L1 Real Mock Question.it_servicemanagement.utility",
         "documentation": {}
     },
@@ -4320,7 +4320,7 @@
         "kind": 6,
         "importPath": "NOTES.VSC-Notes",
         "description": "NOTES.VSC-Notes",
-        "peekOfCode": "class CountUpTo:\n    def __init__(self, max_value):\n        # Store the maximum value\n        self.max_value = max_value\n        # Start counting from 1\n        self.current = 1\n    def __iter__(self):\n        # This returns the iterator object itself\n        return self\n    def __next__(self):",
+        "peekOfCode": "class CountUpTo:\n    def __init__(self, max_value):\n        # Store the maximum value\n        self.max_value = max_value\n        # Start counting from 1\n        self.current = 1\n    def __iter__(self):\n        # This returns the iterator object itself\n        self.current=1\n        return self",
         "detail": "NOTES.VSC-Notes",
         "documentation": {}
     },

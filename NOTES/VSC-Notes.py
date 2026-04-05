@@ -22,7 +22,7 @@ b=int(b)
 a, b=map(int,input().split())
 
 # #mixed
-c,d,e=input("Enter roll number, CGPA, corse")
+c,d,e=input("Enter roll number, CGPA, corse").split()
 c=int(c)
 d=float(d)
 
@@ -124,8 +124,8 @@ target=8
 i=0
 for i in range(len(a)):
     if a[i]==target:
-        print("Target Found");
-        break;
+        print("Target Found")
+        break
 
 else:
     print("Taregt Not Found")
@@ -462,7 +462,9 @@ with open("file_name.txt","w") as file:
 # file.close()
 
 # seek() is used to move the file pointer (cursor) to a specific position inside a file.
-
+# ✅ Move 10 bytes before the end of the file
+# .seek(-10, 2)
+# (Negative offset works only with binary mode 'rb' or 'wb'.)
 
 # ITERATOR 
 for i in [1, 2, 3]:
@@ -488,6 +490,7 @@ class CountUpTo:
 
     def __iter__(self):
         # This returns the iterator object itself
+        self.current=1
         return self
 
     def __next__(self):

@@ -6,7 +6,7 @@ import exception as ex
 import re
 def read_file(file):
     ## Write your code here
-    with open(file, "r") as f:
+    with open(file) as f:
         data = f.read().split("\n")
         lst = []
         for datum in data:

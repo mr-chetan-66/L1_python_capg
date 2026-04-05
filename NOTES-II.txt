@@ -938,3 +938,90 @@ car2 = Car(ElectricEngine())
 print(car1.start())   # Engine started
 print(car2.start())   # Electric engine silently started
 
+class Student:
+    def __init__(self, name):
+        self._name = name  # private variable
+
+    @property
+    def name(self):
+        print("Getting name...")
+        return self._name
+
+    @name.setter
+    def name(self, value):
+        print("Setting name...")
+        if not value:
+            raise ValueError("Name cannot be empty!")
+        self._name = value
+
+    @name.deleter
+    def name(self):
+        print("Deleting name...")
+        del self._name
+
+
+    s = Student("Chetan")
+
+print(s.name)     # getter called
+s.name = "Hari"   # setter called
+del s.name        # deleter called
+
+
+A dataclass is a Python decorator (@dataclass) that automatically creates:
+
+__init__()
+__repr__()
+__eq__()
+and other utility methods
+
+…so you don’t have to write boilerplate code.
+It is perfect for classes that are mainly used to store data.
+Introduced in Python 3.7.
+
+
+from dataclasses import dataclass
+
+@dataclass
+class Student:
+    name: str
+    age: int=22
+    grade: str
+
+s = Student("Chetan", 22, "A")
+print(s)
+``
+
+s1 = Student("Chetan", 22, "A")
+s2 = Student("Chetan", 22, "A")
+
+print(s1 == s2)
+
+
+monkey patching 
+class A:
+    def greet(self):
+        return "Hello"
+
+def new_greet(self):
+    return "Hi"
+
+A.greet = new_greet   # Monkey patching
+
+obj = A()
+print(obj.greet())
+``
+
+import math
+
+math.sqrt = lambda x: "patched!"
+
+print(math.sqrt(9))
+
+class LoggerMixin:
+    def log(self, msg):
+        print("LOG:", msg)
+
+class Service(LoggerMixin):
+    def run(self):
+        self.log("Service started")
+        
