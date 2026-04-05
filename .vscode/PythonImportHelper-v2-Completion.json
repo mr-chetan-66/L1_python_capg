@@ -320,6 +320,30 @@
         "documentation": {}
     },
     {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -541,6 +565,22 @@
         "description": "dateutil",
         "isExtraImport": true,
         "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "relativedelta",
+        "importPath": "dateutil.relativedelta",
+        "description": "dateutil.relativedelta",
+        "isExtraImport": true,
+        "detail": "dateutil.relativedelta",
         "documentation": {}
     },
     {
@@ -824,6 +864,30 @@
         "importPath": "calendar",
         "description": "calendar",
         "detail": "calendar",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "namedtuple",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
         "documentation": {}
     },
     {
@@ -2188,6 +2252,537 @@
         "description": "DBConProblem.ProblemLast_Library.utility",
         "peekOfCode": "def read_file(file_path):\n    # Write your code here\n    with open(file_path) as f:\n        record=[]\n        for line in f:\n            part=line.strip().split(\",\")\n            if part[7]=='Paid':\n                dd=convert_date(part[4])\n                dl=convert_date(part[2])\n                if ((dd-dl).days)<=365:",
         "detail": "DBConProblem.ProblemLast_Library.utility",
+        "documentation": {}
+    },
+    {
+        "label": "q1",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q1():\n    print(\"\\n\".join(\"FizzBuzz\" if i%15==0 else \"Buzz\"if i%5==0 else \"Fizz\" if i%3==0 else str(i) for i in range(1,101)))\ndef q2():\n    num=int(input(\"Enter number to check prime or not: \"))\n    if num<2: \n        print(\"Not a Prime Number\")\n        return \n    for i in range(2,int(num**0.5)+1):\n        if num%i==0:\n            print(\"Not a Prime Number\")",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q2",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q2():\n    num=int(input(\"Enter number to check prime or not: \"))\n    if num<2: \n        print(\"Not a Prime Number\")\n        return \n    for i in range(2,int(num**0.5)+1):\n        if num%i==0:\n            print(\"Not a Prime Number\")\n            return \n    print(num,\"is prime number\")",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q3",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q3():\n    num=int(input(\"Enter the number: \"))\n    print(\"\\t\".join(str(num*i) for i in range(1,11)))\ndef q4():\n    num=int(input(\"Enter the number: \")) \n    i,j=0,1\n    if num<0:\n        print(\"Invalid Number\")\n    elif(num==1):\n        print(i)",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q4",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q4():\n    num=int(input(\"Enter the number: \")) \n    i,j=0,1\n    if num<0:\n        print(\"Invalid Number\")\n    elif(num==1):\n        print(i)\n    fib=[0,1]    \n    for i in range(2,num):\n        fib.append(fib[i-1]+fib[i-2])",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q5",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q5():\n    num=abs(int(input(\"Enter the number: \")))\n    sum=0\n    while(num>0):\n        sum+=(num%10)\n        num//=10\n    print(sum)\ndef q6():\n    num=int(input(\"Enter the number: \"))\n    flag=False",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q6",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q6():\n    num=int(input(\"Enter the number: \"))\n    flag=False\n    if num<0:\n        flag=True\n        num=abs(num)\n    sum=0\n    while(num>0):\n        sum=(sum*10)+(num%10)\n        num//=10",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q7",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q7():\n    num=int(input(\"Enter the number: \"))\n    # \n    for i in range(num):\n        print(f\"{\" \"*(num-i)}{\"*\"*((i*2)+1)}\")\ndef q8():\n    s=input(\"Enter String: \")\n    v,cn=0,0\n    for c in s:\n        c=str(c)",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q8",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q8():\n    s=input(\"Enter String: \")\n    v,cn=0,0\n    for c in s:\n        c=str(c)\n        if c.isalpha():\n            if \"aeiouAEIOU\".find(c)!=-1:\n                v+=1\n            else:\n                cn+=1",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q9",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q9():\n    a,b=map(int,input(\"Enter two number: \").split())\n    while(b!=0):\n        a,b=b,a%b\n    print(a)\ndef q10():\n    num=int(input(\"Enter the number: \"))\n    n=num\n    sum=0\n    while(n>0):",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q10",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q10():\n    num=int(input(\"Enter the number: \"))\n    n=num\n    sum=0\n    while(n>0):\n        sum+=((n%10)**3)\n        n//=10\n    if sum==num:\n        print(\"Armstrong number\")\n    else:",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q11",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q11():\n    num=int(input(\"Enter the number: \"))    \n    li=[False]*num # false means prime and true means non-prime\n    for i in range(2,num+1):\n        for j in range(2,int(i**0.5)+1):\n            if i%j==0:\n                li[i-1]=True\n                break\n    print(\" \".join(str(i+1) for i,flag in enumerate(li) if not flag))\ndef q12():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q12",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q12():\n    ans=[]\n    for i in range(1,51):\n        if i>20:\n            break\n        if i%3!=0:\n            ans.append(i)\n    print(ans)\ndef q13():\n    num=int(input(\"Enter the number: \"))",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q13",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q13():\n    num=int(input(\"Enter the number: \"))\n    for i in range(1,num+1):\n        print(\" \".join(str(j) for j in range(1,i+1)))\ndef q14():\n    num=int(input(\"Enter the number: \"))\n    ans=[]\n    while(num!=1):\n        if num%2==0:\n            num/=2",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q14",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q14():\n    num=int(input(\"Enter the number: \"))\n    ans=[]\n    while(num!=1):\n        if num%2==0:\n            num/=2\n        else:\n            num=(3*num)+1\n        ans.append(int(num))\n    print(str(ans))",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q15",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q15():\n    s=input(\"Enter string: \")\n    print(s[::-1])\ndef q16():\n    s=input(\"Enter string: \")\n    if s==s[::-1]:\n        print(\"Pallindrome\")\n    else:\n        print('Not a Pallindrome String')\ndef q17():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q16",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q16():\n    s=input(\"Enter string: \")\n    if s==s[::-1]:\n        print(\"Pallindrome\")\n    else:\n        print('Not a Pallindrome String')\ndef q17():\n    s=input(\"Enter string: \")\n    print(dict(Counter(s.split())))\ndef q18():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q17",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q17():\n    s=input(\"Enter string: \")\n    print(dict(Counter(s.split())))\ndef q18():\n    s=input(\"Enter string: \").split()\n    print(max(s,key=len))\ndef q19():\n    str1,str2=input(\"Enter two string: \").lower().split()\n    if sorted(str1)==sorted(str2):\n        print(\"Anagram\")",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q18",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q18():\n    s=input(\"Enter string: \").split()\n    print(max(s,key=len))\ndef q19():\n    str1,str2=input(\"Enter two string: \").lower().split()\n    if sorted(str1)==sorted(str2):\n        print(\"Anagram\")\n    else:\n        print('Not a anagram')\ndef q20():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q19",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q19():\n    str1,str2=input(\"Enter two string: \").lower().split()\n    if sorted(str1)==sorted(str2):\n        print(\"Anagram\")\n    else:\n        print('Not a anagram')\ndef q20():\n    s=input(\"Enter string: \")\n    ans=''\n    for c in s:",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q20",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q20():\n    s=input(\"Enter string: \")\n    ans=''\n    for c in s:\n        if not ans.__contains__(c):\n            ans=ans+str(c)\n    print(ans)\ndef q21():\n    s_list=input(\"Enter string: \").split()\n    ans=[]",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q21",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q21():\n    s_list=input(\"Enter string: \").split()\n    ans=[]\n    for s in s_list:\n        ans.append(f\"{s[:1].upper()}{s[1:]}\")\n    ans=\" \".join(ans)    \n    print(ans)\ndef q22():\n    s,sub=input(\"Enter string: \").split()\n    print(s.count(sub)) #non overlapping that is aaaa - aa ==2 ",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q22",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q22():\n    s,sub=input(\"Enter string: \").split()\n    print(s.count(sub)) #non overlapping that is aaaa - aa ==2 \n    #for overlapping aaaa- aa== 3\n    count=0\n    for i in range(len(s)):\n        if s.startswith(sub,i):\n            count+=1\n    print(count)\ndef q23():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q23",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q23():\n    s=set(input(\"Enter string: \").lower())\n    if len(s)==26:\n        print(\"Pangram\")\n    else:\n        print(\"Not a Pangram\")\ndef q24():\n    s=list(input(\"Enter string: \"))\n    count=1\n    ans=''",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q24",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q24():\n    s=list(input(\"Enter string: \"))\n    count=1\n    ans=''\n    for i in range(1,len(s)):\n        if s[i]==s[i-1]:\n            count+=1\n        else:\n            ans+=s[i-1]+ (str(count) if count>1 else \"\")\n            count=1",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q25",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q25():\n    s=input(\"Enter string: \")\n    ans=''\n    for c in s:\n        if c.islower():\n            ascii=(ord(c)-ord('a'))+3\n            if (ascii+3)>ord('z'):\n                ascii%=26\n            ans+=(chr(ord('a')+ascii))\n        elif c.isupper():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q26",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q26():\n    s=input(\"Enter string: \")\n    print(\" \".join(re.findall(r\"\\d+\",s)))\ndef q27():\n    s=input(\"Enter string: \")\n    b=[]\n    for c in s:\n        if c in \"{[(\":\n            b.append(c)\n        elif c in \")]}\":",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q27",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q27():\n    s=input(\"Enter string: \")\n    b=[]\n    for c in s:\n        if c in \"{[(\":\n            b.append(c)\n        elif c in \")]}\":\n            if not b:\n                print(False)\n                return ",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q28",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q28():\n    s=input(\"Enter string: \")\n    r=int(input(\"Enter rotate number: \"))\n    s2=s+s\n    print(s2[r:(r+len(s))])\ndef q29():\n    s=input(\"Enter string: \")\n    ans=[]\n    used=[False]*len(s)\n    def backstrack(cur):",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q29",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q29():\n    s=input(\"Enter string: \")\n    ans=[]\n    used=[False]*len(s)\n    def backstrack(cur):\n        if len(cur)==len(s):\n            ans.append(\"\".join(cur))\n            return\n        for i in range(len(s)):\n            if not used[i]:",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q30",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q30():\n    print(date.today().strftime(\"%d-%B-%Y\"))\ndef q31():\n    d1=datetime.strptime(input(\"Enter first date :\"),\"%Y-%m-%d\")\n    d2=datetime.strptime(input(\"Enter second date :\"),\"%Y-%m-%d\")\n    print((d2-d1).days)\ndef q32():\n    d=datetime.strptime(input(\"Enter first date :\"),\"%Y-%m-%d\")\n    print(d.strftime(\"%A\")) #d.weekday() m=0 and d.isoweekday() m=1\ndef q33():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q31",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q31():\n    d1=datetime.strptime(input(\"Enter first date :\"),\"%Y-%m-%d\")\n    d2=datetime.strptime(input(\"Enter second date :\"),\"%Y-%m-%d\")\n    print((d2-d1).days)\ndef q32():\n    d=datetime.strptime(input(\"Enter first date :\"),\"%Y-%m-%d\")\n    print(d.strftime(\"%A\")) #d.weekday() m=0 and d.isoweekday() m=1\ndef q33():\n    d=datetime.strptime(input(\"Enter first date :\"),\"%Y-%m-%d\")\n    d_add=int(input(\"Dates to be added: \"))",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q32",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q32():\n    d=datetime.strptime(input(\"Enter first date :\"),\"%Y-%m-%d\")\n    print(d.strftime(\"%A\")) #d.weekday() m=0 and d.isoweekday() m=1\ndef q33():\n    d=datetime.strptime(input(\"Enter first date :\"),\"%Y-%m-%d\")\n    d_add=int(input(\"Dates to be added: \"))\n    print((d+timedelta(days=d_add)).strftime(\"%d-%B-%Y\"))\ndef q34():\n    d=int(input(\"Enter year :\"))\n    print(calendar.isleap(d))",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q33",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q33():\n    d=datetime.strptime(input(\"Enter first date :\"),\"%Y-%m-%d\")\n    d_add=int(input(\"Dates to be added: \"))\n    print((d+timedelta(days=d_add)).strftime(\"%d-%B-%Y\"))\ndef q34():\n    d=int(input(\"Enter year :\"))\n    print(calendar.isleap(d))\n    print(calendar.month(2026,4))\ndef q35():\n    print(f\"First date: {date.today().replace(day=1):%d-%m-%Y}\")",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q34",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q34():\n    d=int(input(\"Enter year :\"))\n    print(calendar.isleap(d))\n    print(calendar.month(2026,4))\ndef q35():\n    print(f\"First date: {date.today().replace(day=1):%d-%m-%Y}\")\n    info=calendar.monthrange(2026,4)\n    print(f\"Last date: {date.today().replace(day=info[1]):%d-%m-%Y}\")\ndef q36():\n    sec=int(input(\"Enter the seconds: \"))",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q35",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q35():\n    print(f\"First date: {date.today().replace(day=1):%d-%m-%Y}\")\n    info=calendar.monthrange(2026,4)\n    print(f\"Last date: {date.today().replace(day=info[1]):%d-%m-%Y}\")\ndef q36():\n    sec=int(input(\"Enter the seconds: \"))\n    print(date.fromtimestamp(sec).strftime(\"%d-%m-%Y\"))\ndef q37():\n    d=parser.parse(input(\"Enter first date :\"))\n    dob=relativedelta(date.today(),d)",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q36",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q36():\n    sec=int(input(\"Enter the seconds: \"))\n    print(date.fromtimestamp(sec).strftime(\"%d-%m-%Y\"))\ndef q37():\n    d=parser.parse(input(\"Enter first date :\"))\n    dob=relativedelta(date.today(),d)\n    print(f\"{dob.years}Y-{dob.months}M-{dob.days}D\")\ndef q38():\n    l=[1,1,1,2,3,4,3,2,1,2]\n    print(\" \".join(str(x) for x in set(l)))",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q37",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q37():\n    d=parser.parse(input(\"Enter first date :\"))\n    dob=relativedelta(date.today(),d)\n    print(f\"{dob.years}Y-{dob.months}M-{dob.days}D\")\ndef q38():\n    l=[1,1,1,2,3,4,3,2,1,2]\n    print(\" \".join(str(x) for x in set(l)))\ndef q39():\n    l=[1,[2,[3,4]],5,9]\n    ans=[]",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q38",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q38():\n    l=[1,1,1,2,3,4,3,2,1,2]\n    print(\" \".join(str(x) for x in set(l)))\ndef q39():\n    l=[1,[2,[3,4]],5,9]\n    ans=[]\n    def helper(arr):\n        for x in arr:\n            if isinstance(x,list):\n                helper(x)",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q39",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q39():\n    l=[1,[2,[3,4]],5,9]\n    ans=[]\n    def helper(arr):\n        for x in arr:\n            if isinstance(x,list):\n                helper(x)\n            else:\n                ans.append(x)\n    helper(l)",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q40",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q40():\n    l=[i*i for i in range(1,11) if i%2==0]\n    print(\" \".join(str(x) for x in l))\ndef q41():\n    l=[3,1,4,1,5,9,2]\n    s=sorted(set(l),reverse=True)\n    print(s[1])\ndef q42():\n    l=[3,1,4,1,5,9,2]\n    r=int(input(\"Enter rotate: \"))",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q41",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q41():\n    l=[3,1,4,1,5,9,2]\n    s=sorted(set(l),reverse=True)\n    print(s[1])\ndef q42():\n    l=[3,1,4,1,5,9,2]\n    r=int(input(\"Enter rotate: \"))\n    l=l[r:]+l[:r]\n    print(l)\ndef q43():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q42",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q42():\n    l=[3,1,4,1,5,9,2]\n    r=int(input(\"Enter rotate: \"))\n    l=l[r:]+l[:r]\n    print(l)\ndef q43():\n    l1=[1,3,5]\n    l2=[2,4,6]\n    print(sorted(l1+l2))\ndef q44():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q43",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q43():\n    l1=[1,3,5]\n    l2=[2,4,6]\n    print(sorted(l1+l2))\ndef q44():\n    a,b=10,20\n    a,b=b,a\n    print(a,b)\ndef q45():\n    student=namedtuple('student',['name','age','grade'])",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q44",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q44():\n    a,b=10,20\n    a,b=b,a\n    print(a,b)\ndef q45():\n    student=namedtuple('student',['name','age','grade'])\n    print(student('Chetan',22,'A'))\ndef q46():\n    l1=['a','b','c']\n    l2=[1,2,3]",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q45",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q45():\n    student=namedtuple('student',['name','age','grade'])\n    print(student('Chetan',22,'A'))\ndef q46():\n    l1=['a','b','c']\n    l2=[1,2,3]\n    print(dict(zip(l1,l2)))\ndef q47():\n    s1={1,2,3}\n    s2={2,3,4}",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q46",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q46():\n    l1=['a','b','c']\n    l2=[1,2,3]\n    print(dict(zip(l1,l2)))\ndef q47():\n    s1={1,2,3}\n    s2={2,3,4}\n    d={}\n    d['Union']=s1.union(s2)\n    d['Intersection']=s1.intersection(s2)",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q47",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q47():\n    s1={1,2,3}\n    s2={2,3,4}\n    d={}\n    d['Union']=s1.union(s2)\n    d['Intersection']=s1.intersection(s2)\n    d['Difference']=s1-s2\n    d['Symmentric Difference']=s1^s2\n    print(d)\ndef q48():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q48",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q48():\n    l1=set([1,2,3,4])\n    l2=set([3,4,5,6])\n    print(l1&l2)\ndef q49():\n    s=input(\"Enter string: \").split()\n    print(dict(Counter(s)))\ndef q50():\n    l=[1,'a',2,'b',3.0]\n    d={}",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q49",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q49():\n    s=input(\"Enter string: \").split()\n    print(dict(Counter(s)))\ndef q50():\n    l=[1,'a',2,'b',3.0]\n    d={}\n    for x in l:\n        key=type(x).__name__\n        if key in d:\n            d[key].append(x)",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q50",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q50():\n    l=[1,'a',2,'b',3.0]\n    d={}\n    for x in l:\n        key=type(x).__name__\n        if key in d:\n            d[key].append(x)\n        else:\n            d[key]=[x]\n    print(d)",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q51",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q51():\n    d={'a':1,'b':2,'c':3}\n    ans={}\n    for k,v in d.items():\n        ans[v]=k\n    print(ans)\ndef q52():\n    d1={'a':1}\n    d2={'b':2,'a':10}\n    print(d1|d2)",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q52",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q52():\n    d1={'a':1}\n    d2={'b':2,'a':10}\n    print(d1|d2)\ndef q53():\n    d={'b':3,'a':1,'c':2}\n    d=sorted(d.items(),key=lambda x:x[1])\n    print(d)\ndef q54():\n    l=[]",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q53",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q53():\n    d={'b':3,'a':1,'c':2}\n    d=sorted(d.items(),key=lambda x:x[1])\n    print(d)\ndef q54():\n    l=[]\n    l.extend([10,20,30])\n    t=l.pop(),l\n    print(t)\ndef q55():",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q54",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q54():\n    l=[]\n    l.extend([10,20,30])\n    t=l.pop(),l\n    print(t)\ndef q55():\n    q=deque()\n    q.append('A')\n    q.append('B')\n    q.append('C')",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q55",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q55():\n    q=deque()\n    q.append('A')\n    q.append('B')\n    q.append('C')\n    print((q.popleft(),list(q)))\ndef q56():\n    q=[1,3,-1,-3,5,3,6,7]\n    ans=[]\n    for i in range(0,len(q)-2):",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q56",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q56():\n    q=[1,3,-1,-3,5,3,6,7]\n    ans=[]\n    for i in range(0,len(q)-2):\n        ans.append(max(q[i:(i+3)]))\n    print(ans)\ndef q57():\n    l1=[1,2,3]\n    l2=[4,5,6]\n    ans=[[x,y] for x,y in zip(l1,l2)]",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q57",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q57():\n    l1=[1,2,3]\n    l2=[4,5,6]\n    ans=[[x,y] for x,y in zip(l1,l2)]\n    print(ans)\ndef q58():\n    pass\ndef main():\n    # q1()\n    # q2()",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "q58",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def q58():\n    pass\ndef main():\n    # q1()\n    # q2()\n    # q3()\n    # q4()\n    # q5()\n    # q6()\n    # q7()",
+        "detail": "Interview.answer",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Interview.answer",
+        "description": "Interview.answer",
+        "peekOfCode": "def main():\n    # q1()\n    # q2()\n    # q3()\n    # q4()\n    # q5()\n    # q6()\n    # q7()\n    # q8()\n    # q9()",
+        "detail": "Interview.answer",
         "documentation": {}
     },
     {
